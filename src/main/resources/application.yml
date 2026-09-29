@@ -9,7 +9,7 @@ spring:
   # DATABASE  (fill these in, or supply DB_URL / DB_USERNAME / DB_PASSWORD)
   # ------------------------------------------------------------------
   datasource:
-    url: jdbc:mysql://localhost:3306/Perfromance_Platform
+    url: jdbc:mysql://localhost:3306/payment_arrangement
     username: root
     password: Root@12345
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -50,7 +50,9 @@ app:
     # Claims used to find the Associate record for the signed-in user (first match wins)
     identity-claims: [preferred_username, email, upn]
     cors-allowed-origins: [http://localhost:3000, http://localhost:5173, http://localhost:4200]
-
+    auth: # 2 spaces, same level as security / jira
+      jwt-secret: ${APP_JWT_SECRET:perf-insight-hackathon-secret-change-me-please-32+chars}
+      token-minutes: 480
   # Secrets are referenced by name from each project's tool config (credentialRef) — never stored in the DB
   credentials:
     jira:

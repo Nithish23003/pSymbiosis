@@ -1,5 +1,6 @@
 package com.psiog.perfinsight.dashboard;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,4 +28,8 @@ public class DashUser {
     private String role;
 
     private Boolean active = true;
+
+    @JsonIgnore
+    @Column(name = "password", length = 255)
+    private String password;
 }

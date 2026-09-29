@@ -16,3 +16,8 @@ interface JiraStoryRepository extends JpaRepository<JiraStory, Long> {
 
 interface GithubActivityRepository extends JpaRepository<GithubActivity, Long> {
 }
+
+interface DashProjectRepository extends JpaRepository<DashProject, Long> {
+    Optional<DashProject> findByProjectCodeIgnoreCase(String projectCode);
+    boolean existsByProjectCodeIgnoreCase(String projectCode);
+}

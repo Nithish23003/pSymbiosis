@@ -1,0 +1,14 @@
+# Local PostgreSQL for development. Matches DB_URL=jdbc:postgresql://localhost:5432/perfinsight
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: perfinsight
+      POSTGRES_USER: perfinsight
+      POSTGRES_PASSWORD: perfinsight
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

@@ -1,0 +1,4969 @@
+{
+ "repo": "psiog/insights-lakehouse",
+ "pull_requests": [
+  {
+   "pr": {
+    "number": 1,
+    "title": "INS-501: chore: lineage graph",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/1",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-02T07:53:00Z",
+    "updated_at": "2026-06-04T05:05:22Z",
+    "closed_at": "2026-06-04T05:05:22Z",
+    "merged_at": "2026-06-04T05:05:22Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 41,
+    "deletions": 30,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-501-rate-limiter"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900567,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-06-02T17:48:44Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/1#pullrequestreview-900567"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 2,
+    "title": "INS-502: fix: SLA timer",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/2",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-03T13:20:00Z",
+    "updated_at": "2026-06-03T19:56:01Z",
+    "closed_at": "2026-06-03T19:56:01Z",
+    "merged_at": "2026-06-03T19:56:01Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 23,
+    "deletions": 8,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-502-refund-flow"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900568,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-06-04T08:32:29Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/2#pullrequestreview-900568"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 3,
+    "title": "INS-504: chore: webhook signing",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/3",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-05T09:13:00Z",
+    "updated_at": "2026-06-06T22:44:16Z",
+    "closed_at": "2026-06-06T22:44:16Z",
+    "merged_at": "2026-06-06T22:44:16Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 128,
+    "deletions": 65,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/INS-504-cost-dashboard"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 4,
+    "title": "INS-505: cost dashboard",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/4",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-08T08:16:00Z",
+    "updated_at": "2026-06-10T04:04:44Z",
+    "closed_at": "2026-06-10T04:04:44Z",
+    "merged_at": "2026-06-10T04:04:44Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 224,
+    "deletions": 152,
+    "changed_files": 9,
+    "head": {
+     "ref": "feature/INS-505-ledger-export"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900569,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-06-09T03:03:44Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/4#pullrequestreview-900569"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 5,
+    "title": "INS-506: fix: claim intake form",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/5",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-09T12:38:00Z",
+    "updated_at": "2026-06-11T05:06:07Z",
+    "closed_at": "2026-06-11T05:06:07Z",
+    "merged_at": "2026-06-11T05:06:07Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 85,
+    "deletions": 57,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/INS-506-rate-limiter"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900570,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-06-09T21:26:46Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/5#pullrequestreview-900570"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 6,
+    "title": "INS-507: chore: regression pack",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/6",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-09T08:21:00Z",
+    "updated_at": "2026-06-10T11:07:31Z",
+    "closed_at": "2026-06-10T11:07:31Z",
+    "merged_at": "2026-06-10T11:07:31Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 23,
+    "deletions": 9,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-507-dbt-model"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 7,
+    "title": "chore: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/7",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-11T10:41:00Z",
+    "updated_at": "2026-06-13T11:44:27Z",
+    "closed_at": "2026-06-13T11:44:27Z",
+    "merged_at": "2026-06-13T11:44:27Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 113,
+    "deletions": 23,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-document-upload"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 8,
+    "title": "INS-509: chore: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/8",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-18T09:34:00Z",
+    "updated_at": "2026-06-18T19:31:09Z",
+    "closed_at": "2026-06-18T19:31:09Z",
+    "merged_at": "2026-06-18T19:31:09Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 104,
+    "deletions": 35,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/INS-509-SLA-timer"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900571,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-06-19T00:32:54Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/8#pullrequestreview-900571"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 9,
+    "title": "INS-510: fix: regression pack",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/9",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-22T13:00:00Z",
+    "updated_at": "2026-06-24T00:53:54Z",
+    "closed_at": "2026-06-24T00:53:54Z",
+    "merged_at": "2026-06-24T00:53:54Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 29,
+    "deletions": 21,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-510-retry-policy"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900572,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-06-23T06:34:49Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/9#pullrequestreview-900572"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 10,
+    "title": "INS-511: fix: dbt model",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/10",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-23T05:43:00Z",
+    "updated_at": "2026-06-24T20:29:33Z",
+    "closed_at": "2026-06-24T20:29:33Z",
+    "merged_at": "2026-06-24T20:29:33Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 160,
+    "deletions": 90,
+    "changed_files": 6,
+    "head": {
+     "ref": "feature/INS-511-fraud-score-API"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 11,
+    "title": "INS-512: flaky test triage",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/11",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-26T07:35:00Z",
+    "updated_at": "2026-06-27T12:35:17Z",
+    "closed_at": "2026-06-27T12:35:17Z",
+    "merged_at": "2026-06-27T12:35:17Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 31,
+    "deletions": 14,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-512-lineage-graph"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900573,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-06-26T23:12:58Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/11#pullrequestreview-900573"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 12,
+    "title": "INS-513: load profile",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/12",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-29T04:37:00Z",
+    "updated_at": "2026-06-30T12:52:05Z",
+    "closed_at": "2026-06-30T12:52:05Z",
+    "merged_at": "2026-06-30T12:52:05Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 169,
+    "deletions": 48,
+    "changed_files": 5,
+    "head": {
+     "ref": "feature/INS-513-search-filters"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900574,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-06-29T14:49:39Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/12#pullrequestreview-900574"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 13,
+    "title": "INS-514: chore: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/13",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-06-30T07:39:00Z",
+    "updated_at": "2026-07-02T12:33:48Z",
+    "closed_at": "2026-07-02T12:33:48Z",
+    "merged_at": "2026-07-02T12:33:48Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 44,
+    "deletions": 37,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-514-refund-flow"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900575,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-07-01T03:27:38Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/13#pullrequestreview-900575"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 14,
+    "title": "INS-515: retry policy",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/14",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-07-01T10:53:00Z",
+    "updated_at": "2026-07-03T16:39:14Z",
+    "closed_at": "2026-07-03T16:39:14Z",
+    "merged_at": "2026-07-03T16:39:14Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 61,
+    "deletions": 34,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-515-fraud-score-API"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900576,
+     "user": {
+      "login": "adityarao"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-07-01T23:27:42Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/14#pullrequestreview-900576"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 15,
+    "title": "INS-516: chore: regression pack",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/15",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-07-01T10:45:00Z",
+    "updated_at": "2026-07-04T00:50:05Z",
+    "closed_at": "2026-07-04T00:50:05Z",
+    "merged_at": "2026-07-04T00:50:05Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 67,
+    "deletions": 29,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-516-cost-dashboard"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 16,
+    "title": "INS-517: ingestion job",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/16",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-01T12:52:00Z",
+    "updated_at": "2026-07-01T21:22:30Z",
+    "closed_at": "2026-07-01T21:22:30Z",
+    "merged_at": "2026-07-01T21:22:30Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 183,
+    "deletions": 88,
+    "changed_files": 6,
+    "head": {
+     "ref": "feature/INS-517-regression-pack"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900577,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-01T20:35:29Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/16#pullrequestreview-900577"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 17,
+    "title": "INS-518: fix: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/17",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-07T08:37:00Z",
+    "updated_at": "2026-07-09T03:06:44Z",
+    "closed_at": "2026-07-09T03:06:44Z",
+    "merged_at": "2026-07-09T03:06:44Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 1241,
+    "deletions": 921,
+    "changed_files": 54,
+    "head": {
+     "ref": "feature/INS-518-contract-tests"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900578,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-07-08T04:23:09Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/17#pullrequestreview-900578"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 18,
+    "title": "INS-519: chore: dbt model",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/18",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-07T12:49:00Z",
+    "updated_at": "2026-07-07T16:15:33Z",
+    "closed_at": "2026-07-07T16:15:33Z",
+    "merged_at": "2026-07-07T16:15:33Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 431,
+    "deletions": 176,
+    "changed_files": 15,
+    "head": {
+     "ref": "feature/INS-519-load-profile"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900579,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-07-08T01:57:38Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/18#pullrequestreview-900579"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 19,
+    "title": "INS-520: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/19",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-09T10:59:00Z",
+    "updated_at": "2026-07-10T05:51:48Z",
+    "closed_at": "2026-07-10T05:51:48Z",
+    "merged_at": "2026-07-10T05:51:48Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 46,
+    "deletions": 30,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-520-lineage-graph"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 20,
+    "title": "INS-521: chore: rate limiter",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/20",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-07-10T10:18:00Z",
+    "updated_at": "2026-07-10T18:18:55Z",
+    "closed_at": "2026-07-10T18:18:55Z",
+    "merged_at": "2026-07-10T18:18:55Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 126,
+    "deletions": 35,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/INS-521-retry-policy"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 21,
+    "title": "INS-524: load profile",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/21",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-17T13:11:00Z",
+    "updated_at": "2026-07-18T07:40:31Z",
+    "closed_at": "2026-07-18T07:40:31Z",
+    "merged_at": "2026-07-18T07:40:31Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 33,
+    "deletions": 27,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-524-search-filters"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900580,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-07-17T14:12:14Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/21#pullrequestreview-900580"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 22,
+    "title": "INS-525: chore: schema migration",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/22",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-07-20T12:19:00Z",
+    "updated_at": "2026-07-22T00:29:48Z",
+    "closed_at": "2026-07-22T00:29:48Z",
+    "merged_at": "2026-07-22T00:29:48Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 69,
+    "deletions": 30,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-525-load-profile"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 23,
+    "title": "chore: search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/23",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-20T04:37:00Z",
+    "updated_at": "2026-07-20T13:51:55Z",
+    "closed_at": "2026-07-20T13:51:55Z",
+    "merged_at": "2026-07-20T13:51:55Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 66,
+    "deletions": 28,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/misc-audit-trail"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 24,
+    "title": "INS-527: search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/24",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-24T09:08:00Z",
+    "updated_at": "2026-07-26T18:14:45Z",
+    "closed_at": "2026-07-26T18:14:45Z",
+    "merged_at": "2026-07-26T18:14:45Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 84,
+    "deletions": 20,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-527-cost-dashboard"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900581,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-07-25T02:07:20Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/24#pullrequestreview-900581"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 25,
+    "title": "INS-528: fix: webhook signing",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/25",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-07-28T13:04:00Z",
+    "updated_at": "2026-07-30T13:24:13Z",
+    "closed_at": "2026-07-30T13:24:13Z",
+    "merged_at": "2026-07-30T13:24:13Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 288,
+    "deletions": 203,
+    "changed_files": 12,
+    "head": {
+     "ref": "feature/INS-528-claim-intake-form"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900582,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-29T00:46:24Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/25#pullrequestreview-900582"
+    },
+    {
+     "id": 900583,
+     "user": {
+      "login": "adityarao"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-28T23:01:07Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/25#pullrequestreview-900583"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 26,
+    "title": "INS-529: ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/26",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-30T11:16:00Z",
+    "updated_at": "2026-08-01T05:34:25Z",
+    "closed_at": "2026-08-01T05:34:25Z",
+    "merged_at": "2026-08-01T05:34:25Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 133,
+    "deletions": 64,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/INS-529-SLA-timer"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900584,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-30T18:07:59Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/26#pullrequestreview-900584"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 27,
+    "title": "INS-530: chore: search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/27",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-07-31T13:28:00Z",
+    "updated_at": "2026-08-02T02:13:56Z",
+    "closed_at": "2026-08-02T02:13:56Z",
+    "merged_at": "2026-08-02T02:13:56Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 133,
+    "deletions": 56,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/INS-530-ledger-export"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900585,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-01T04:48:15Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/27#pullrequestreview-900585"
+    },
+    {
+     "id": 900586,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-31T20:32:48Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/27#pullrequestreview-900586"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 28,
+    "title": "INS-531: fix: search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/28",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-03T12:39:00Z",
+    "updated_at": "2026-08-05T03:07:54Z",
+    "closed_at": "2026-08-05T03:07:54Z",
+    "merged_at": "2026-08-05T03:07:54Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 37,
+    "deletions": 27,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-531-claim-intake-form"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900587,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-03T18:17:56Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/28#pullrequestreview-900587"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 29,
+    "title": "INS-532: chore: search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/29",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-03T12:37:00Z",
+    "updated_at": "2026-08-03T20:30:37Z",
+    "closed_at": "2026-08-03T20:30:37Z",
+    "merged_at": "2026-08-03T20:30:37Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 46,
+    "deletions": 11,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-532-document-upload"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900588,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-04T03:20:43Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/29#pullrequestreview-900588"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 30,
+    "title": "chore: contract tests",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/30",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-08-05T13:00:00Z",
+    "updated_at": "2026-08-06T02:09:23Z",
+    "closed_at": "2026-08-06T02:09:23Z",
+    "merged_at": "2026-08-06T02:09:23Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 124,
+    "deletions": 41,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/misc-FX-rates-cache"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900589,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-05T23:07:50Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/30#pullrequestreview-900589"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 31,
+    "title": "INS-533: flaky test triage",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/31",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-06T06:42:00Z",
+    "updated_at": "2026-08-07T01:59:26Z",
+    "closed_at": "2026-08-07T01:59:26Z",
+    "merged_at": "2026-08-07T01:59:26Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 41,
+    "deletions": 25,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-533-dbt-model"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900590,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-06T15:21:15Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/31#pullrequestreview-900590"
+    },
+    {
+     "id": 900591,
+     "user": {
+      "login": "adityarao"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-06T19:54:09Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/31#pullrequestreview-900591"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 32,
+    "title": "INS-534: fix: flaky test triage",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/32",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-08-10T08:44:00Z",
+    "updated_at": "2026-08-11T02:21:14Z",
+    "closed_at": "2026-08-11T02:21:14Z",
+    "merged_at": "2026-08-11T02:21:14Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 55,
+    "deletions": 40,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-534-search-filters"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 33,
+    "title": "chore: data quality checks",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/33",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-10T12:21:00Z",
+    "updated_at": "2026-08-11T20:26:06Z",
+    "closed_at": "2026-08-11T20:26:06Z",
+    "merged_at": "2026-08-11T20:26:06Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 42,
+    "deletions": 11,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-flaky-test-triage"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 34,
+    "title": "INS-535: ingestion job",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/34",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-11T12:36:00Z",
+    "updated_at": "2026-08-14T18:45:43Z",
+    "closed_at": "2026-08-14T18:45:43Z",
+    "merged_at": "2026-08-14T18:45:43Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 128,
+    "deletions": 34,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/INS-535-claim-intake-form"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 35,
+    "title": "chore: flaky test triage",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/35",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-11T11:03:00Z",
+    "updated_at": "2026-08-13T07:33:59Z",
+    "closed_at": "2026-08-13T07:33:59Z",
+    "merged_at": "2026-08-13T07:33:59Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 152,
+    "deletions": 94,
+    "changed_files": 6,
+    "head": {
+     "ref": "feature/misc-audit-trail"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900592,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-11T12:29:40Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/35#pullrequestreview-900592"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 36,
+    "title": "INS-536: fix: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/36",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-12T08:36:00Z",
+    "updated_at": "2026-08-13T23:01:11Z",
+    "closed_at": "2026-08-13T23:01:11Z",
+    "merged_at": "2026-08-13T23:01:11Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 192,
+    "deletions": 47,
+    "changed_files": 5,
+    "head": {
+     "ref": "feature/INS-536-SLA-timer"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900593,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-12T13:46:52Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/36#pullrequestreview-900593"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 37,
+    "title": "INS-537: fix: ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/37",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-13T09:27:00Z",
+    "updated_at": "2026-08-15T10:49:02Z",
+    "closed_at": "2026-08-15T10:49:02Z",
+    "merged_at": "2026-08-15T10:49:02Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 38,
+    "deletions": 10,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-537-search-filters"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 38,
+    "title": "INS-538: chore: dbt model",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/38",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-08-14T07:57:00Z",
+    "updated_at": "2026-08-16T11:15:10Z",
+    "closed_at": "2026-08-16T11:15:10Z",
+    "merged_at": "2026-08-16T11:15:10Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 35,
+    "deletions": 14,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-538-search-filters"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 39,
+    "title": "INS-539: chore: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/39",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-14T11:52:00Z",
+    "updated_at": "2026-08-15T15:14:01Z",
+    "closed_at": "2026-08-15T15:14:01Z",
+    "merged_at": "2026-08-15T15:14:01Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 99,
+    "deletions": 29,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/INS-539-FX-rates-cache"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900594,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-15T03:21:43Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/39#pullrequestreview-900594"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 40,
+    "title": "INS-540: fix: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/40",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-17T12:24:00Z",
+    "updated_at": "2026-08-19T07:23:52Z",
+    "closed_at": "2026-08-19T07:23:52Z",
+    "merged_at": "2026-08-19T07:23:52Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 85,
+    "deletions": 52,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/INS-540-adjuster-dashboard"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 41,
+    "title": "fix: ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/41",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-18T08:47:00Z",
+    "updated_at": "2026-08-20T00:38:35Z",
+    "closed_at": "2026-08-20T00:38:35Z",
+    "merged_at": "2026-08-20T00:38:35Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 84,
+    "deletions": 49,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-SLA-timer"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900595,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-18T15:06:50Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/41#pullrequestreview-900595"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 42,
+    "title": "fix: search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/42",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-08-19T09:57:00Z",
+    "updated_at": "2026-08-20T20:48:42Z",
+    "closed_at": "2026-08-20T20:48:42Z",
+    "merged_at": "2026-08-20T20:48:42Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 51,
+    "deletions": 41,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/misc-refund-flow"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900596,
+     "user": {
+      "login": "adityarao"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-20T01:58:48Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/42#pullrequestreview-900596"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 43,
+    "title": "INS-542: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/43",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-19T05:56:00Z",
+    "updated_at": "2026-08-19T14:43:43Z",
+    "closed_at": "2026-08-19T14:43:43Z",
+    "merged_at": "2026-08-19T14:43:43Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 165,
+    "deletions": 39,
+    "changed_files": 5,
+    "head": {
+     "ref": "feature/INS-542-load-profile"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900597,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-20T01:43:16Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/43#pullrequestreview-900597"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 44,
+    "title": "INS-543: claim intake form",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/44",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-19T06:28:00Z",
+    "updated_at": "2026-08-21T00:32:47Z",
+    "closed_at": "2026-08-21T00:32:47Z",
+    "merged_at": "2026-08-21T00:32:47Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 71,
+    "deletions": 21,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-543-webhook-signing"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900598,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-08-19T18:32:49Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/44#pullrequestreview-900598"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 45,
+    "title": "lineage graph",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/45",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-19T04:56:00Z",
+    "updated_at": "2026-08-20T12:55:37Z",
+    "closed_at": "2026-08-20T12:55:37Z",
+    "merged_at": "2026-08-20T12:55:37Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 12,
+    "deletions": 4,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-access-policies"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900599,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-19T15:37:19Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/45#pullrequestreview-900599"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 46,
+    "title": "access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/46",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-20T07:38:00Z",
+    "updated_at": "2026-08-22T03:46:45Z",
+    "closed_at": "2026-08-22T03:46:45Z",
+    "merged_at": "2026-08-22T03:46:45Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 38,
+    "deletions": 13,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-webhook-signing"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900600,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-20T17:03:21Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/46#pullrequestreview-900600"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 47,
+    "title": "INS-544: SLA timer",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/47",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-21T10:52:00Z",
+    "updated_at": "2026-08-21T22:22:01Z",
+    "closed_at": "2026-08-21T22:22:01Z",
+    "merged_at": "2026-08-21T22:22:01Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 53,
+    "deletions": 28,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-544-refund-flow"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 48,
+    "title": "fix: schema migration",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/48",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-21T12:14:00Z",
+    "updated_at": "2026-08-22T00:44:54Z",
+    "closed_at": "2026-08-22T00:44:54Z",
+    "merged_at": "2026-08-22T00:44:54Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 114,
+    "deletions": 46,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/misc-ledger-export"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900601,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-21T20:49:01Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/48#pullrequestreview-900601"
+    },
+    {
+     "id": 900602,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-22T07:00:38Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/48#pullrequestreview-900602"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 49,
+    "title": "INS-545: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/49",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-24T10:31:00Z",
+    "updated_at": "2026-08-27T02:50:01Z",
+    "closed_at": "2026-08-27T02:50:01Z",
+    "merged_at": "2026-08-27T02:50:01Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 1321,
+    "deletions": 297,
+    "changed_files": 40,
+    "head": {
+     "ref": "feature/INS-545-audit-trail"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 50,
+    "title": "ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/50",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-26T04:45:00Z",
+    "updated_at": "2026-08-28T21:39:38Z",
+    "closed_at": "2026-08-28T21:39:38Z",
+    "merged_at": "2026-08-28T21:39:38Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 28,
+    "deletions": 19,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-refund-flow"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900603,
+     "user": {
+      "login": "adityarao"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-26T20:44:35Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/50#pullrequestreview-900603"
+    },
+    {
+     "id": 900604,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-26T20:38:55Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/50#pullrequestreview-900604"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 51,
+    "title": "INS-548: chore: ingestion job",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/51",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-08-27T04:00:00Z",
+    "updated_at": "2026-08-29T22:41:15Z",
+    "closed_at": "2026-08-29T22:41:15Z",
+    "merged_at": "2026-08-29T22:41:15Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 30,
+    "deletions": 17,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-548-FX-rates-cache"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900605,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-27T20:43:22Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/51#pullrequestreview-900605"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 52,
+    "title": "INS-549: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/52",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-28T06:34:00Z",
+    "updated_at": "2026-08-29T19:02:30Z",
+    "closed_at": "2026-08-29T19:02:30Z",
+    "merged_at": "2026-08-29T19:02:30Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 389,
+    "deletions": 94,
+    "changed_files": 12,
+    "head": {
+     "ref": "feature/INS-549-refund-flow"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 53,
+    "title": "INS-550: retry policy",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/53",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-31T08:07:00Z",
+    "updated_at": "2026-09-01T11:29:45Z",
+    "closed_at": "2026-09-01T11:29:45Z",
+    "merged_at": "2026-09-01T11:29:45Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 24,
+    "deletions": 17,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-550-audit-trail"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900606,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-31T20:15:11Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/53#pullrequestreview-900606"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 54,
+    "title": "INS-551: chore: schema migration",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/54",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-31T05:44:00Z",
+    "updated_at": "2026-08-31T21:00:26Z",
+    "closed_at": "2026-08-31T21:00:26Z",
+    "merged_at": "2026-08-31T21:00:26Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 48,
+    "deletions": 12,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-551-webhook-signing"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900607,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-31T17:14:44Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/54#pullrequestreview-900607"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 55,
+    "title": "fix: dbt model",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/55",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-08-31T13:06:00Z",
+    "updated_at": "2026-09-01T15:17:54Z",
+    "closed_at": "2026-09-01T15:17:54Z",
+    "merged_at": "2026-09-01T15:17:54Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 26,
+    "deletions": 7,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-schema-migration"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900608,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-08-31T22:43:41Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/55#pullrequestreview-900608"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 56,
+    "title": "load profile",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/56",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-09-01T08:07:00Z",
+    "updated_at": "2026-09-02T06:26:46Z",
+    "closed_at": "2026-09-02T06:26:46Z",
+    "merged_at": "2026-09-02T06:26:46Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 102,
+    "deletions": 27,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-document-upload"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900609,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-01T17:51:40Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/56#pullrequestreview-900609"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 57,
+    "title": "INS-552: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/57",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-02T11:05:00Z",
+    "updated_at": "2026-09-04T16:32:34Z",
+    "closed_at": "2026-09-04T16:32:34Z",
+    "merged_at": "2026-09-04T16:32:34Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 263,
+    "deletions": 179,
+    "changed_files": 11,
+    "head": {
+     "ref": "feature/INS-552-SLA-timer"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900610,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-02T18:48:55Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/57#pullrequestreview-900610"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 58,
+    "title": "INS-553: fix: ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/58",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-07T09:43:00Z",
+    "updated_at": "2026-09-08T20:24:16Z",
+    "closed_at": "2026-09-08T20:24:16Z",
+    "merged_at": "2026-09-08T20:24:16Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 25,
+    "deletions": 11,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-553-rate-limiter"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900611,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-08T01:16:10Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/58#pullrequestreview-900611"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 59,
+    "title": "INS-554: FX rates cache",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/59",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-07T04:12:00Z",
+    "updated_at": "2026-09-09T05:51:06Z",
+    "closed_at": "2026-09-09T05:51:06Z",
+    "merged_at": "2026-09-09T05:51:06Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 49,
+    "deletions": 10,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-554-webhook-signing"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900612,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-07T21:14:20Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/59#pullrequestreview-900612"
+    },
+    {
+     "id": 900613,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-07T22:23:46Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/59#pullrequestreview-900613"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 60,
+    "title": "fix: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/60",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-08T10:54:00Z",
+    "updated_at": "2026-09-10T04:54:37Z",
+    "closed_at": "2026-09-10T04:54:37Z",
+    "merged_at": "2026-09-10T04:54:37Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 86,
+    "deletions": 62,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-schema-migration"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900614,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-09T00:44:04Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/60#pullrequestreview-900614"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 61,
+    "title": "INS-555: fix: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/61",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-09T12:35:00Z",
+    "updated_at": "2026-09-09T20:46:28Z",
+    "closed_at": "2026-09-09T20:46:28Z",
+    "merged_at": "2026-09-09T20:46:28Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 49,
+    "deletions": 10,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-555-search-filters"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900615,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-10T08:14:18Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/61#pullrequestreview-900615"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 62,
+    "title": "chore: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/62",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-09T12:31:00Z",
+    "updated_at": "2026-09-10T18:44:05Z",
+    "closed_at": "2026-09-10T18:44:05Z",
+    "merged_at": "2026-09-10T18:44:05Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 43,
+    "deletions": 12,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-fraud-score-API"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900616,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-09-09T22:42:04Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/62#pullrequestreview-900616"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 63,
+    "title": "INS-556: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/63",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-11T12:00:00Z",
+    "updated_at": "2026-09-12T23:44:43Z",
+    "closed_at": "2026-09-12T23:44:43Z",
+    "merged_at": "2026-09-12T23:44:43Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 21,
+    "deletions": 11,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-556-contract-tests"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 64,
+    "title": "INS-557: webhook signing",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/64",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-14T06:25:00Z",
+    "updated_at": "2026-09-15T01:14:04Z",
+    "closed_at": "2026-09-15T01:14:04Z",
+    "merged_at": "2026-09-15T01:14:04Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 110,
+    "deletions": 26,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/INS-557-flaky-test-triage"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900617,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-14T17:35:45Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/64#pullrequestreview-900617"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 65,
+    "title": "fix: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/65",
+    "user": {
+     "login": "kavya-r"
+    },
+    "created_at": "2026-09-15T11:29:00Z",
+    "updated_at": "2026-09-17T10:35:26Z",
+    "closed_at": "2026-09-17T10:35:26Z",
+    "merged_at": "2026-09-17T10:35:26Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 41,
+    "deletions": 17,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-claim-intake-form"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 66,
+    "title": "INS-558: chore: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/66",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-15T12:32:00Z",
+    "updated_at": "2026-09-16T09:59:25Z",
+    "closed_at": "2026-09-16T09:59:25Z",
+    "merged_at": "2026-09-16T09:59:25Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 48,
+    "deletions": 14,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-558-fraud-score-API"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900618,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-15T21:51:13Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/66#pullrequestreview-900618"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 67,
+    "title": "fix: FX rates cache",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/67",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-17T10:35:00Z",
+    "updated_at": "2026-09-19T14:42:48Z",
+    "closed_at": "2026-09-19T14:42:48Z",
+    "merged_at": "2026-09-19T14:42:48Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 95,
+    "deletions": 48,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-webhook-signing"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900619,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-17T23:43:14Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/67#pullrequestreview-900619"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 68,
+    "title": "INS-560: chore: FX rates cache",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/68",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-17T09:36:00Z",
+    "updated_at": "2026-09-19T03:38:00Z",
+    "closed_at": "2026-09-19T03:38:00Z",
+    "merged_at": "2026-09-19T03:38:00Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 38,
+    "deletions": 27,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-560-rate-limiter"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900620,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-17T15:36:16Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/68#pullrequestreview-900620"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 69,
+    "title": "INS-561: chore: claim intake form",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/69",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-18T07:21:00Z",
+    "updated_at": "2026-09-18T12:40:28Z",
+    "closed_at": "2026-09-18T12:40:28Z",
+    "merged_at": "2026-09-18T12:40:28Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 63,
+    "deletions": 41,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-561-search-filters"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900621,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-18T12:45:22Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/69#pullrequestreview-900621"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 70,
+    "title": "INS-562: chore: flaky test triage",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/70",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-18T07:08:00Z",
+    "updated_at": "2026-09-19T20:32:00Z",
+    "closed_at": "2026-09-19T20:32:00Z",
+    "merged_at": "2026-09-19T20:32:00Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 47,
+    "deletions": 10,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-562-regression-pack"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 71,
+    "title": "INS-563: chore: retry policy",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/71",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-18T05:20:00Z",
+    "updated_at": "2026-09-19T09:33:40Z",
+    "closed_at": "2026-09-19T09:33:40Z",
+    "merged_at": "2026-09-19T09:33:40Z",
+    "merged": true,
+    "merged_by": {
+     "login": "adityarao"
+    },
+    "additions": 32,
+    "deletions": 14,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-563-refund-flow"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 72,
+    "title": "INS-564: fix: load profile",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/72",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-18T07:12:00Z",
+    "updated_at": "2026-09-19T02:12:50Z",
+    "closed_at": "2026-09-19T02:12:50Z",
+    "merged_at": "2026-09-19T02:12:50Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 129,
+    "deletions": 35,
+    "changed_files": 4,
+    "head": {
+     "ref": "feature/INS-564-regression-pack"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900622,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-18T17:48:52Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/72#pullrequestreview-900622"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 73,
+    "title": "INS-565: document upload",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/73",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-21T05:07:00Z",
+    "updated_at": "2026-09-23T09:45:50Z",
+    "closed_at": "2026-09-23T09:45:50Z",
+    "merged_at": "2026-09-23T09:45:50Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 36,
+    "deletions": 7,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-565-schema-migration"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900623,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-21T14:43:25Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/73#pullrequestreview-900623"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 74,
+    "title": "INS-566: chore: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/74",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-21T08:18:00Z",
+    "updated_at": "2026-09-21T16:26:32Z",
+    "closed_at": "2026-09-21T16:26:32Z",
+    "merged_at": "2026-09-21T16:26:32Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 51,
+    "deletions": 37,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/INS-566-retry-policy"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900624,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-21T18:58:18Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/74#pullrequestreview-900624"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 75,
+    "title": "INS-567: chore: ingestion job",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/75",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-22T10:51:00Z",
+    "updated_at": "2026-09-24T19:09:49Z",
+    "closed_at": "2026-09-24T19:09:49Z",
+    "merged_at": "2026-09-24T19:09:49Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 53,
+    "deletions": 12,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-567-lineage-graph"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900625,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-22T22:28:30Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/75#pullrequestreview-900625"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 76,
+    "title": "INS-568: fix: claim intake form",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/76",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-22T06:01:00Z",
+    "updated_at": "2026-09-23T14:07:41Z",
+    "closed_at": "2026-09-23T14:07:41Z",
+    "merged_at": "2026-09-23T14:07:41Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 55,
+    "deletions": 14,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-568-ledger-export"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900626,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-22T14:09:32Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/76#pullrequestreview-900626"
+    },
+    {
+     "id": 900627,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-22T13:36:32Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/76#pullrequestreview-900627"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 77,
+    "title": "INS-569: document upload",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/77",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-23T10:25:00Z",
+    "updated_at": "2026-09-23T18:34:30Z",
+    "closed_at": "2026-09-23T18:34:30Z",
+    "merged_at": "2026-09-23T18:34:30Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 240,
+    "deletions": 80,
+    "changed_files": 8,
+    "head": {
+     "ref": "feature/INS-569-rate-limiter"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900628,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-23T20:16:52Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/77#pullrequestreview-900628"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 78,
+    "title": "chore: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/78",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-24T12:29:00Z",
+    "updated_at": "2026-09-25T01:18:43Z",
+    "closed_at": "2026-09-25T01:18:43Z",
+    "merged_at": "2026-09-25T01:18:43Z",
+    "merged": true,
+    "merged_by": {
+     "login": "meera-p"
+    },
+    "additions": 151,
+    "deletions": 115,
+    "changed_files": 6,
+    "head": {
+     "ref": "feature/misc-lineage-graph"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 79,
+    "title": "INS-570: fix: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/79",
+    "user": {
+     "login": "adityarao"
+    },
+    "created_at": "2026-09-24T05:42:00Z",
+    "updated_at": "2026-09-25T16:47:01Z",
+    "closed_at": "2026-09-25T16:47:01Z",
+    "merged_at": "2026-09-25T16:47:01Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 29,
+    "deletions": 8,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/INS-570-refund-flow"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900629,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-24T20:49:01Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/79#pullrequestreview-900629"
+    },
+    {
+     "id": 900630,
+     "user": {
+      "login": "meera-p"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-24T19:03:20Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/79#pullrequestreview-900630"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 80,
+    "title": "chore: retry policy",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/insights-lakehouse/pull/80",
+    "user": {
+     "login": "meera-p"
+    },
+    "created_at": "2026-09-25T11:06:00Z",
+    "updated_at": "2026-09-27T00:28:53Z",
+    "closed_at": "2026-09-27T00:28:53Z",
+    "merged_at": "2026-09-27T00:28:53Z",
+    "merged": true,
+    "merged_by": {
+     "login": "kavya-r"
+    },
+    "additions": 86,
+    "deletions": 44,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-schema-migration"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900631,
+     "user": {
+      "login": "kavya-r"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-25T18:29:48Z",
+     "html_url": "https://github.com/psiog/insights-lakehouse/pull/80#pullrequestreview-900631"
+    }
+   ]
+  }
+ ],
+ "commits": [
+  {
+   "sha": "73811b54b9ace500b8f9d852d426cf91bf983f33",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/73811b54b9ace500b8f9d852d426cf91bf983f33",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-01T20:53:00Z"
+    },
+    "message": "INS-501: chore: lineage graph"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "e5693bb57ff7a5fcfbcf5d7bc14318aae993a0e5",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/e5693bb57ff7a5fcfbcf5d7bc14318aae993a0e5",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-01T22:53:00Z"
+    },
+    "message": "INS-501: chore: lineage graph"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "8af7e6544d5ca14200151f29c78c1b731dc68494",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/8af7e6544d5ca14200151f29c78c1b731dc68494",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-03T04:20:00Z"
+    },
+    "message": "INS-502: fix: SLA timer"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "962e9b700b0e7258dbd959b888884491e59b9185",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/962e9b700b0e7258dbd959b888884491e59b9185",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-03T03:20:00Z"
+    },
+    "message": "INS-502: fix: SLA timer"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "cd4f66acb9b14f6d70547be4fbb43d04df8d0ac1",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/cd4f66acb9b14f6d70547be4fbb43d04df8d0ac1",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-05T02:13:00Z"
+    },
+    "message": "INS-504: chore: webhook signing"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "fda6d97117bd21248a9946961df8252ed7fc8bd6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/fda6d97117bd21248a9946961df8252ed7fc8bd6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-04T21:13:00Z"
+    },
+    "message": "INS-504: chore: webhook signing"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "d85a254f57458fc4db40076b050029626313871a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/d85a254f57458fc4db40076b050029626313871a",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-04T23:13:00Z"
+    },
+    "message": "INS-504: chore: webhook signing"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c78a112598276b5e747bcec80d2cc4dc7bd06794",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c78a112598276b5e747bcec80d2cc4dc7bd06794",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-07T13:16:00Z"
+    },
+    "message": "INS-505: cost dashboard"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "4c847125e3c80e02b7d6a62f94689f11d150190b",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4c847125e3c80e02b7d6a62f94689f11d150190b",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-08T20:38:00Z"
+    },
+    "message": "INS-506: fix: claim intake form"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "1b8549f81aed7b3b1e0bc3a2d4fb02df69ded796",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/1b8549f81aed7b3b1e0bc3a2d4fb02df69ded796",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-09T10:38:00Z"
+    },
+    "message": "INS-506: fix: claim intake form"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "64678700790003b9937d472efe44492ff40f9b9c",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/64678700790003b9937d472efe44492ff40f9b9c",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-08T22:21:00Z"
+    },
+    "message": "INS-507: chore: regression pack"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ac71c3d14a38da425cafca04731758c7e1909c43",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ac71c3d14a38da425cafca04731758c7e1909c43",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-08T20:21:00Z"
+    },
+    "message": "INS-507: chore: regression pack"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "90b5d26a83012292265d18f6761a082057675574",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/90b5d26a83012292265d18f6761a082057675574",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-10T19:41:00Z"
+    },
+    "message": "chore: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "939d0debaee12e2d632cb8db2a9a762526d5db2f",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/939d0debaee12e2d632cb8db2a9a762526d5db2f",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-11T03:41:00Z"
+    },
+    "message": "chore: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "fd2dd4e4f17a5c4e44b3725c567d8eb781c4d943",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/fd2dd4e4f17a5c4e44b3725c567d8eb781c4d943",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-18T08:34:00Z"
+    },
+    "message": "INS-509: chore: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9bdded0f02aaa83a9478ea2c34061068c21a2ab3",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9bdded0f02aaa83a9478ea2c34061068c21a2ab3",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-17T16:34:00Z"
+    },
+    "message": "INS-509: chore: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "dbb7ae2d8746d7c6615676b3af6e95c8f4e63ead",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/dbb7ae2d8746d7c6615676b3af6e95c8f4e63ead",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-22T01:00:00Z"
+    },
+    "message": "INS-510: fix: regression pack"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "6f125159d7c514e902eb9ecd6ab77dd4bddc50ba",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/6f125159d7c514e902eb9ecd6ab77dd4bddc50ba",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-22T00:00:00Z"
+    },
+    "message": "INS-510: fix: regression pack"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ec1343672e974f7a98f314cbba9a19989712f0a3",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ec1343672e974f7a98f314cbba9a19989712f0a3",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-22T15:43:00Z"
+    },
+    "message": "INS-511: fix: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ee75ff6421d8f57684f797c237ee8f0211536ed5",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ee75ff6421d8f57684f797c237ee8f0211536ed5",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-22T15:43:00Z"
+    },
+    "message": "INS-511: fix: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9ff29cff08a526c679f296268c40a4edc8233e35",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9ff29cff08a526c679f296268c40a4edc8233e35",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-22T14:43:00Z"
+    },
+    "message": "INS-511: fix: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "5fe4d158989cda707064754074ca8521e3ef54b7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/5fe4d158989cda707064754074ca8521e3ef54b7",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-25T16:35:00Z"
+    },
+    "message": "INS-512: flaky test triage"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "91caf4143482c8bfa77d38cec1c227fd0a77201e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/91caf4143482c8bfa77d38cec1c227fd0a77201e",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-25T12:35:00Z"
+    },
+    "message": "INS-512: flaky test triage"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "77eb69957f3b8cbb390ace156051d2a324f1d56e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/77eb69957f3b8cbb390ace156051d2a324f1d56e",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-28T09:37:00Z"
+    },
+    "message": "INS-513: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c240ab62ced257f8bed47280e11c8a452f096dc7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c240ab62ced257f8bed47280e11c8a452f096dc7",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-28T13:37:00Z"
+    },
+    "message": "INS-513: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "f244281a0e1fe43215dcb535c90b07d5ab8a5c06",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/f244281a0e1fe43215dcb535c90b07d5ab8a5c06",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-29T16:39:00Z"
+    },
+    "message": "INS-514: chore: audit trail"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "8dcc4d112148c1f41f8a36735b8b0b44fd04e5e7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/8dcc4d112148c1f41f8a36735b8b0b44fd04e5e7",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-06-30T14:53:00Z"
+    },
+    "message": "INS-515: retry policy"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "0850bdf6cb005473a922e7e92ffb80322c21d58c",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/0850bdf6cb005473a922e7e92ffb80322c21d58c",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-06-30T20:45:00Z"
+    },
+    "message": "INS-516: chore: regression pack"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "ea91c395a7355dabe6a857d1f7828ca18a25cb4a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ea91c395a7355dabe6a857d1f7828ca18a25cb4a",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-07-01T04:45:00Z"
+    },
+    "message": "INS-516: chore: regression pack"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "af358d31314dbbab3b59192729f9824433a3aced",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/af358d31314dbbab3b59192729f9824433a3aced",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-01T04:52:00Z"
+    },
+    "message": "INS-517: ingestion job"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9de576ca37367c3724a20a3ac9acd6350d486241",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9de576ca37367c3724a20a3ac9acd6350d486241",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-06-30T17:52:00Z"
+    },
+    "message": "INS-517: ingestion job"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c99979a605c656cc610bbab947a9087e409238d6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c99979a605c656cc610bbab947a9087e409238d6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-06T19:37:00Z"
+    },
+    "message": "INS-518: fix: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "f3b1dddad92144bdd5a30080070c33fbe3bca0e6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/f3b1dddad92144bdd5a30080070c33fbe3bca0e6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-06T23:49:00Z"
+    },
+    "message": "INS-519: chore: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "b52d00ee4232f4f6f96c7d29fc231b0c90e54bc6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b52d00ee4232f4f6f96c7d29fc231b0c90e54bc6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-07T04:49:00Z"
+    },
+    "message": "INS-519: chore: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9caa3398661980c80097223feac90c4dae17d199",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9caa3398661980c80097223feac90c4dae17d199",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-07T00:49:00Z"
+    },
+    "message": "INS-519: chore: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "89a5c5bb700991ec574d515030d3a0de21696a07",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/89a5c5bb700991ec574d515030d3a0de21696a07",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-08T21:59:00Z"
+    },
+    "message": "INS-520: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "4e3698a4994a04ce23fcb5bdc74d9c9452b7e822",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4e3698a4994a04ce23fcb5bdc74d9c9452b7e822",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-09T07:59:00Z"
+    },
+    "message": "INS-520: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "7b7e2f8d3e108df157f86ee9817f466722f44bda",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7b7e2f8d3e108df157f86ee9817f466722f44bda",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-09T08:59:00Z"
+    },
+    "message": "INS-520: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "43d08ed1f0b15398dc8a56ad61ee270fc9148dc1",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/43d08ed1f0b15398dc8a56ad61ee270fc9148dc1",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-07-10T01:18:00Z"
+    },
+    "message": "INS-521: chore: rate limiter"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "498a6c255619d6798e417853d3f9a489e2c28f4e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/498a6c255619d6798e417853d3f9a489e2c28f4e",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-16T19:11:00Z"
+    },
+    "message": "INS-524: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "3ed31eb357345c4df273f4a4c7a5b7557a97a5df",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3ed31eb357345c4df273f4a4c7a5b7557a97a5df",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-17T09:11:00Z"
+    },
+    "message": "INS-524: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c0e1ab61a1ba71ed9422e251f63b93bf1dcf87ba",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c0e1ab61a1ba71ed9422e251f63b93bf1dcf87ba",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-16T20:11:00Z"
+    },
+    "message": "INS-524: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "f68cc63e599dbe1a5cb33dab2aae11d341844e37",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/f68cc63e599dbe1a5cb33dab2aae11d341844e37",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-07-20T02:19:00Z"
+    },
+    "message": "INS-525: chore: schema migration"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "3f617ca852f094d301a77438cd5a708a87873c5e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3f617ca852f094d301a77438cd5a708a87873c5e",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-19T13:37:00Z"
+    },
+    "message": "chore: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "21cb8d1ff87abf424d7ca70dfe4cb3d1c2980d47",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/21cb8d1ff87abf424d7ca70dfe4cb3d1c2980d47",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-23T21:08:00Z"
+    },
+    "message": "INS-527: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "8ea020037acbbc8b07a523cbccfb9e475540e2e1",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/8ea020037acbbc8b07a523cbccfb9e475540e2e1",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-23T19:08:00Z"
+    },
+    "message": "INS-527: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "8b5af1d272565a3ef5e8ea6ea335edb887b04e72",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/8b5af1d272565a3ef5e8ea6ea335edb887b04e72",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-07-28T00:04:00Z"
+    },
+    "message": "INS-528: fix: webhook signing"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "3a8b17bd0ac358632e306a4aadc19d0707048a39",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3a8b17bd0ac358632e306a4aadc19d0707048a39",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-07-27T18:04:00Z"
+    },
+    "message": "INS-528: fix: webhook signing"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "3fc570791f51e3c62b356a41214bb3fef371cfac",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3fc570791f51e3c62b356a41214bb3fef371cfac",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-07-28T10:04:00Z"
+    },
+    "message": "INS-528: fix: webhook signing"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "9f162c7017d0d0fce63ab8e8e6e723a208c031d7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9f162c7017d0d0fce63ab8e8e6e723a208c031d7",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-30T00:16:00Z"
+    },
+    "message": "INS-529: ledger export"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ec2932eb6a2a26faf6e6b94966ba881e8f68216d",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ec2932eb6a2a26faf6e6b94966ba881e8f68216d",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-30T04:16:00Z"
+    },
+    "message": "INS-529: ledger export"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "8a39dfaf21b84e48a96de59593a1f127c6935901",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/8a39dfaf21b84e48a96de59593a1f127c6935901",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-30T21:28:00Z"
+    },
+    "message": "INS-530: chore: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "28d3a7097be9cb19c6d82f6286448c6290dc3842",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/28d3a7097be9cb19c6d82f6286448c6290dc3842",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-30T20:28:00Z"
+    },
+    "message": "INS-530: chore: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "b31d6e22cc2e4560d38cbef333f6ac677f3f85cc",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b31d6e22cc2e4560d38cbef333f6ac677f3f85cc",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-07-31T10:28:00Z"
+    },
+    "message": "INS-530: chore: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9140130f4f497e7ece398ee9285246aacd2b1777",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9140130f4f497e7ece398ee9285246aacd2b1777",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-03T00:39:00Z"
+    },
+    "message": "INS-531: fix: search filters"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "d1435d599386e7f12c765e0e68a0072bcc158832",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/d1435d599386e7f12c765e0e68a0072bcc158832",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-03T08:39:00Z"
+    },
+    "message": "INS-531: fix: search filters"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "4f491f7c646de4b593d2f0f6aaa1e87bea6c32b4",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4f491f7c646de4b593d2f0f6aaa1e87bea6c32b4",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-03T02:37:00Z"
+    },
+    "message": "INS-532: chore: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "31d7bc493c053a870222b3006d5719ab1d67278f",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/31d7bc493c053a870222b3006d5719ab1d67278f",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-03T06:37:00Z"
+    },
+    "message": "INS-532: chore: search filters"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "012632587893f0a701b2742981adcfe78e84687a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/012632587893f0a701b2742981adcfe78e84687a",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-05T12:00:00Z"
+    },
+    "message": "chore: contract tests"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "2dc5ab490a946f99b39aff5d141de08852fd8d5b",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/2dc5ab490a946f99b39aff5d141de08852fd8d5b",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-04T20:00:00Z"
+    },
+    "message": "chore: contract tests"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "144c3815af4d65d456a6526c4fed9d447cd7d303",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/144c3815af4d65d456a6526c4fed9d447cd7d303",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-05T08:00:00Z"
+    },
+    "message": "chore: contract tests"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "b40c034bbb0a13e528c20b8dae5cf00725aaf06d",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b40c034bbb0a13e528c20b8dae5cf00725aaf06d",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-06T05:42:00Z"
+    },
+    "message": "INS-533: flaky test triage"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "4c2cb9855c60d1307d358d1fe32fb9b9b920ea47",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4c2cb9855c60d1307d358d1fe32fb9b9b920ea47",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-09T20:44:00Z"
+    },
+    "message": "INS-534: fix: flaky test triage"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "7f8fe1c687a2c2ec46825e8265fa309f111b53e7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7f8fe1c687a2c2ec46825e8265fa309f111b53e7",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-09T16:21:00Z"
+    },
+    "message": "chore: data quality checks"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "11725478b2389847dd6952d9a896a2c123327bfd",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/11725478b2389847dd6952d9a896a2c123327bfd",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-10T10:21:00Z"
+    },
+    "message": "chore: data quality checks"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "776a6a9bdfdbb3e221b1107e6a40e03467e1e6e7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/776a6a9bdfdbb3e221b1107e6a40e03467e1e6e7",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-11T01:36:00Z"
+    },
+    "message": "INS-535: ingestion job"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "19013e36c7a8c4990495845bbd5e628ba675bb7b",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/19013e36c7a8c4990495845bbd5e628ba675bb7b",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-11T00:36:00Z"
+    },
+    "message": "INS-535: ingestion job"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "7283555d92370961ae384228ae52793567df7ad3",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7283555d92370961ae384228ae52793567df7ad3",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-11T02:03:00Z"
+    },
+    "message": "chore: flaky test triage"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "de22f95d3ad4f2040d0147b0d342b5872bba374c",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/de22f95d3ad4f2040d0147b0d342b5872bba374c",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-11T19:36:00Z"
+    },
+    "message": "INS-536: fix: refund flow"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c45a40ace896941f88d8845d7b3542fb0e2ed619",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c45a40ace896941f88d8845d7b3542fb0e2ed619",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-11T21:36:00Z"
+    },
+    "message": "INS-536: fix: refund flow"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ce151855f0588da7ee97d7258af8689bbc2552e8",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ce151855f0588da7ee97d7258af8689bbc2552e8",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-13T02:27:00Z"
+    },
+    "message": "INS-537: fix: ledger export"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "5f59bdecf7b453f592a74604036df96e33a032ee",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/5f59bdecf7b453f592a74604036df96e33a032ee",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-12T16:27:00Z"
+    },
+    "message": "INS-537: fix: ledger export"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "8e2e160ab054d5c83ce7845de6ef2a35244a4cc2",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/8e2e160ab054d5c83ce7845de6ef2a35244a4cc2",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-14T00:57:00Z"
+    },
+    "message": "INS-538: chore: dbt model"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "02ade14aa4ee7e8fb50c39ce88efc6f665dc8a7e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/02ade14aa4ee7e8fb50c39ce88efc6f665dc8a7e",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-13T17:57:00Z"
+    },
+    "message": "INS-538: chore: dbt model"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "55e81c6942762d24dd4b31a3168238e9cbadd0cc",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/55e81c6942762d24dd4b31a3168238e9cbadd0cc",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-13T20:52:00Z"
+    },
+    "message": "INS-539: chore: refund flow"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "7c44ea5966bdf3812273fa053aa79ba9274dafe5",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7c44ea5966bdf3812273fa053aa79ba9274dafe5",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-17T09:24:00Z"
+    },
+    "message": "INS-540: fix: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "579d16cc88120589a9e59b45bdd4b02d449482cb",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/579d16cc88120589a9e59b45bdd4b02d449482cb",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-16T19:24:00Z"
+    },
+    "message": "INS-540: fix: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "75d67196a25f60269ef7497f19877296b42557ec",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/75d67196a25f60269ef7497f19877296b42557ec",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-17T11:24:00Z"
+    },
+    "message": "INS-540: fix: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "90c45d251b5b0268b8ed09330b563fd85d6f7fb7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/90c45d251b5b0268b8ed09330b563fd85d6f7fb7",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-17T18:47:00Z"
+    },
+    "message": "fix: ledger export"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "7bbf4550f9b5dc89d8d68519fb3102279bfb5f8a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7bbf4550f9b5dc89d8d68519fb3102279bfb5f8a",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-19T04:57:00Z"
+    },
+    "message": "fix: search filters"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "12d85d3c59b3a79c210e70759e0f93750717ec47",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/12d85d3c59b3a79c210e70759e0f93750717ec47",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-18T14:57:00Z"
+    },
+    "message": "fix: search filters"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "279cdef78ff63d7ed92fcf511e8124950bd515dd",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/279cdef78ff63d7ed92fcf511e8124950bd515dd",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-18T11:56:00Z"
+    },
+    "message": "INS-542: refund flow"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "3a127eae3cff9604205705da5a532c6eb88af834",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3a127eae3cff9604205705da5a532c6eb88af834",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-19T01:28:00Z"
+    },
+    "message": "INS-543: claim intake form"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "00f5d0ccd77eb5b77330cb0e90aa870ef8333544",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/00f5d0ccd77eb5b77330cb0e90aa870ef8333544",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-18T21:28:00Z"
+    },
+    "message": "INS-543: claim intake form"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c102ec3b329cbd35d9daea9da5bef82e934a145f",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c102ec3b329cbd35d9daea9da5bef82e934a145f",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-18T14:28:00Z"
+    },
+    "message": "INS-543: claim intake form"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "e8d46a3597e864ca2959b9688169d0cf5728c50d",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/e8d46a3597e864ca2959b9688169d0cf5728c50d",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-19T00:56:00Z"
+    },
+    "message": "lineage graph"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "a1b2b008f01ac6cbf6f4627289183f4257fad2ab",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a1b2b008f01ac6cbf6f4627289183f4257fad2ab",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-18T16:56:00Z"
+    },
+    "message": "lineage graph"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "13cb97cc1ff8fc14cf80790b529d6142ea1bba42",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/13cb97cc1ff8fc14cf80790b529d6142ea1bba42",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-18T14:56:00Z"
+    },
+    "message": "lineage graph"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "1551f6cf7191d9b0a55b4de19ab734eccd549bfa",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/1551f6cf7191d9b0a55b4de19ab734eccd549bfa",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-19T21:38:00Z"
+    },
+    "message": "access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c99d67c8e76f04bc04f73813f93d8ee62a35295e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c99d67c8e76f04bc04f73813f93d8ee62a35295e",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-20T19:52:00Z"
+    },
+    "message": "INS-544: SLA timer"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "4d7e013075a12a1aefb2ad6bd49afd34559133ac",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4d7e013075a12a1aefb2ad6bd49afd34559133ac",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-21T06:52:00Z"
+    },
+    "message": "INS-544: SLA timer"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ea2c6b954f4d4844f6927421caadece3feb3034b",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ea2c6b954f4d4844f6927421caadece3feb3034b",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-21T04:52:00Z"
+    },
+    "message": "INS-544: SLA timer"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "3cfc3cd4d3a44e2f77be1204cf8a360c8fb098f9",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3cfc3cd4d3a44e2f77be1204cf8a360c8fb098f9",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-20T17:14:00Z"
+    },
+    "message": "fix: schema migration"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "58881ed9215a6d3a62aebdb62890440c697bcee7",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/58881ed9215a6d3a62aebdb62890440c697bcee7",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-20T16:14:00Z"
+    },
+    "message": "fix: schema migration"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "b16f0ae53cdc2cd98ba039dfecf91c938462ba57",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b16f0ae53cdc2cd98ba039dfecf91c938462ba57",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-24T07:31:00Z"
+    },
+    "message": "INS-545: audit trail"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "fa0b14f4f3d50d58933a10eea733dfe64ce5a613",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/fa0b14f4f3d50d58933a10eea733dfe64ce5a613",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-25T12:45:00Z"
+    },
+    "message": "ledger export"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "a550cb22ec8b8b37c27d55713c5289ca7314834e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a550cb22ec8b8b37c27d55713c5289ca7314834e",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-26T14:00:00Z"
+    },
+    "message": "INS-548: chore: ingestion job"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "2bfe6eb67ae25bd27609dca4ca165cd7b551d776",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/2bfe6eb67ae25bd27609dca4ca165cd7b551d776",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-26T19:00:00Z"
+    },
+    "message": "INS-548: chore: ingestion job"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "3292d4d14e437186a2a6b74730f707234c0c94ed",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3292d4d14e437186a2a6b74730f707234c0c94ed",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-08-26T17:00:00Z"
+    },
+    "message": "INS-548: chore: ingestion job"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "7ed3046284d61ba3766274f1e59079069f6510f5",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7ed3046284d61ba3766274f1e59079069f6510f5",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-28T00:34:00Z"
+    },
+    "message": "INS-549: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "5ca5af97605b35b8ddf4576bf977ee479a859d27",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/5ca5af97605b35b8ddf4576bf977ee479a859d27",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-27T14:34:00Z"
+    },
+    "message": "INS-549: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "b6045b36c0afdaf567f63583e76cc750566a3ae3",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b6045b36c0afdaf567f63583e76cc750566a3ae3",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-30T22:07:00Z"
+    },
+    "message": "INS-550: retry policy"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "a5c86c04ad2534edddd6279584be35c1e4f29f67",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a5c86c04ad2534edddd6279584be35c1e4f29f67",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-31T03:44:00Z"
+    },
+    "message": "INS-551: chore: schema migration"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "c34d5cbe0c0004329244479fea712e4e9d06b0ab",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/c34d5cbe0c0004329244479fea712e4e9d06b0ab",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-08-31T05:06:00Z"
+    },
+    "message": "fix: dbt model"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "a40566ac04cda3eaa5b3c11588b05aafed97af62",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a40566ac04cda3eaa5b3c11588b05aafed97af62",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-31T22:07:00Z"
+    },
+    "message": "load profile"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "dd388a7494c85e22788cec344b02cd012017a988",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/dd388a7494c85e22788cec344b02cd012017a988",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-08-31T18:07:00Z"
+    },
+    "message": "load profile"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "914fd1040cc244a5b89320a007d38350a061450c",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/914fd1040cc244a5b89320a007d38350a061450c",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-02T01:05:00Z"
+    },
+    "message": "INS-552: refund flow"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "5ab5cea8b2f1c6db6b40521810d9493e99f5d74f",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/5ab5cea8b2f1c6db6b40521810d9493e99f5d74f",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-06T17:43:00Z"
+    },
+    "message": "INS-553: fix: ledger export"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "e104e84c49b94f8420a038fc6a4a86767a567dd0",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/e104e84c49b94f8420a038fc6a4a86767a567dd0",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-06T22:12:00Z"
+    },
+    "message": "INS-554: FX rates cache"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "b1a191c7f810be73c77a0940b1cc3f7c61c7041e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b1a191c7f810be73c77a0940b1cc3f7c61c7041e",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-08T05:54:00Z"
+    },
+    "message": "fix: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "275ec3539809c9e542feb5895db00973203a604d",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/275ec3539809c9e542feb5895db00973203a604d",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-08T08:54:00Z"
+    },
+    "message": "fix: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "0d94c5c93b1e27d9997f14d6c829f373699f96c9",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/0d94c5c93b1e27d9997f14d6c829f373699f96c9",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-08T16:35:00Z"
+    },
+    "message": "INS-555: fix: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "d486f3b8ec469e8344b7d54bf51c6ebcb7c3dd6c",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/d486f3b8ec469e8344b7d54bf51c6ebcb7c3dd6c",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-09T10:31:00Z"
+    },
+    "message": "chore: audit trail"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "3de1cef6777da5d025f78b6f5503b3e2adc3dd66",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/3de1cef6777da5d025f78b6f5503b3e2adc3dd66",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-11T08:00:00Z"
+    },
+    "message": "INS-556: access policies"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "d1d0cc642f3157fa75ca15dcc08c62fc1d1817f6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/d1d0cc642f3157fa75ca15dcc08c62fc1d1817f6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-14T00:25:00Z"
+    },
+    "message": "INS-557: webhook signing"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "423539de10da782be9544e994f8c99466560624f",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/423539de10da782be9544e994f8c99466560624f",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-13T14:25:00Z"
+    },
+    "message": "INS-557: webhook signing"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9252ed846bcd7ba35408c506ddc4c146f5c2aa4a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9252ed846bcd7ba35408c506ddc4c146f5c2aa4a",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-14T05:25:00Z"
+    },
+    "message": "INS-557: webhook signing"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "203942864411b5a6858e59fb10d6a6f8a256a20a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/203942864411b5a6858e59fb10d6a6f8a256a20a",
+   "commit": {
+    "author": {
+     "name": "Kavya Reddy",
+     "email": "kavya.reddy@psiog.com",
+     "date": "2026-09-14T15:29:00Z"
+    },
+    "message": "fix: access policies"
+   },
+   "author": {
+    "login": "kavya-r"
+   }
+  },
+  {
+   "sha": "870977149c5ea99f547833abfa98a0fe37a95691",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/870977149c5ea99f547833abfa98a0fe37a95691",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-15T03:32:00Z"
+    },
+    "message": "INS-558: chore: fraud score API"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "9340de4b286d17da29e0a2924e617940cd16aeab",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9340de4b286d17da29e0a2924e617940cd16aeab",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-16T16:35:00Z"
+    },
+    "message": "fix: FX rates cache"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "f67bd794cb3f5768d58539af3e0b1d6ba32ac6b9",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/f67bd794cb3f5768d58539af3e0b1d6ba32ac6b9",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-16T23:35:00Z"
+    },
+    "message": "fix: FX rates cache"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "b18bcf04e95e35f56a5a2d72af344e9d6ad14f02",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b18bcf04e95e35f56a5a2d72af344e9d6ad14f02",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-16T17:36:00Z"
+    },
+    "message": "INS-560: chore: FX rates cache"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "151979a1ef2a4dcacc18998d7a06cd74c99ab08f",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/151979a1ef2a4dcacc18998d7a06cd74c99ab08f",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-16T21:36:00Z"
+    },
+    "message": "INS-560: chore: FX rates cache"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "ca261add0516cbbc985a570fdcf07d7d3fcb545c",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/ca261add0516cbbc985a570fdcf07d7d3fcb545c",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-17T03:36:00Z"
+    },
+    "message": "INS-560: chore: FX rates cache"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "bde394b129dcd31ee9ababc8c4e6e27c6e681e0b",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/bde394b129dcd31ee9ababc8c4e6e27c6e681e0b",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-17T21:21:00Z"
+    },
+    "message": "INS-561: chore: claim intake form"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "530ef98a67164d373c7cb085c784f38bba85241b",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/530ef98a67164d373c7cb085c784f38bba85241b",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-18T06:08:00Z"
+    },
+    "message": "INS-562: chore: flaky test triage"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "9ae8be7a24ac006033ea336cb83e73210aeec8d4",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9ae8be7a24ac006033ea336cb83e73210aeec8d4",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-17T12:08:00Z"
+    },
+    "message": "INS-562: chore: flaky test triage"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "a2db0d35f8acffb4b40303c409b6258c931c387a",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a2db0d35f8acffb4b40303c409b6258c931c387a",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-18T03:20:00Z"
+    },
+    "message": "INS-563: chore: retry policy"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "114b32aa681593bd740a5464d7a949924cf509eb",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/114b32aa681593bd740a5464d7a949924cf509eb",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-17T21:12:00Z"
+    },
+    "message": "INS-564: fix: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "7d27edc080d436f6739cb832254940714d1548c6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/7d27edc080d436f6739cb832254940714d1548c6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-17T23:12:00Z"
+    },
+    "message": "INS-564: fix: load profile"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "a89ddb8c4282c052516eeddc532bbb65b4a6747e",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a89ddb8c4282c052516eeddc532bbb65b4a6747e",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-21T03:07:00Z"
+    },
+    "message": "INS-565: document upload"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "a42c150f2d10b3d548bd6976ebcbb289b6e2d344",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/a42c150f2d10b3d548bd6976ebcbb289b6e2d344",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-20T21:07:00Z"
+    },
+    "message": "INS-565: document upload"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "9943d04b7e22329a9e86b8f8668a99421ffc2123",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/9943d04b7e22329a9e86b8f8668a99421ffc2123",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-21T00:07:00Z"
+    },
+    "message": "INS-565: document upload"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "6ed06ef9bc15c81e0fa88502bffb163bb49078bd",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/6ed06ef9bc15c81e0fa88502bffb163bb49078bd",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-20T17:18:00Z"
+    },
+    "message": "INS-566: chore: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "4484051ddcf2d920cfb988f65d1a71a6f34b1820",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4484051ddcf2d920cfb988f65d1a71a6f34b1820",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-20T13:18:00Z"
+    },
+    "message": "INS-566: chore: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "f4b9a6d84e47671d324abcf29f399c2439819a9d",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/f4b9a6d84e47671d324abcf29f399c2439819a9d",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-21T00:18:00Z"
+    },
+    "message": "INS-566: chore: access policies"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "46f50bca04ebe955966539d066767d759316ed5d",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/46f50bca04ebe955966539d066767d759316ed5d",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-21T23:51:00Z"
+    },
+    "message": "INS-567: chore: ingestion job"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "abff9892c722acc4bd457fdb364665abda8a3993",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/abff9892c722acc4bd457fdb364665abda8a3993",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-21T15:51:00Z"
+    },
+    "message": "INS-567: chore: ingestion job"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "b05b1220fdc89a97ca8b116c2ee7d061dd78ecff",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/b05b1220fdc89a97ca8b116c2ee7d061dd78ecff",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-21T22:51:00Z"
+    },
+    "message": "INS-567: chore: ingestion job"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "38f14f3db1a44be98ed4e35b7803ec73836d24e6",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/38f14f3db1a44be98ed4e35b7803ec73836d24e6",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-21T19:01:00Z"
+    },
+    "message": "INS-568: fix: claim intake form"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "d3746f76cc5322e3d3c5b45d3f84ca5232b88480",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/d3746f76cc5322e3d3c5b45d3f84ca5232b88480",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-22T17:25:00Z"
+    },
+    "message": "INS-569: document upload"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "050aa77b3f0bc49b38a81aaae455f625193e5f90",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/050aa77b3f0bc49b38a81aaae455f625193e5f90",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-22T18:25:00Z"
+    },
+    "message": "INS-569: document upload"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "e5ece8fba10ad0f73fa11c73572398eb46f8d203",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/e5ece8fba10ad0f73fa11c73572398eb46f8d203",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-24T05:29:00Z"
+    },
+    "message": "chore: refund flow"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  },
+  {
+   "sha": "4f6afb496c50520b3ae17621fc5ac9062e4827e2",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/4f6afb496c50520b3ae17621fc5ac9062e4827e2",
+   "commit": {
+    "author": {
+     "name": "Aditya Rao",
+     "email": "aditya.rao@psiog.com",
+     "date": "2026-09-24T01:42:00Z"
+    },
+    "message": "INS-570: fix: refund flow"
+   },
+   "author": {
+    "login": "adityarao"
+   }
+  },
+  {
+   "sha": "eef39b6679c466f8c21650554b09edf3270c0302",
+   "html_url": "https://github.com/psiog/insights-lakehouse/commit/eef39b6679c466f8c21650554b09edf3270c0302",
+   "commit": {
+    "author": {
+     "name": "Meera Pillai",
+     "email": "meera.pillai@psiog.com",
+     "date": "2026-09-25T02:06:00Z"
+    },
+    "message": "chore: retry policy"
+   },
+   "author": {
+    "login": "meera-p"
+   }
+  }
+ ]
+}

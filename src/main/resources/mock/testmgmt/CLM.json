@@ -1,0 +1,1033 @@
+{
+ "offset": 0,
+ "limit": 250,
+ "size": 54,
+ "results": [
+  {
+   "id": 70002,
+   "test_id": 5002,
+   "status_id": 1,
+   "created_by": 107,
+   "created_on": 1780318620,
+   "elapsed": "24m",
+   "defects": "",
+   "run": {
+    "id": 923,
+    "name": "CLM sprint 23 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/823"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70040,
+   "test_id": 5040,
+   "status_id": 1,
+   "created_by": 107,
+   "created_on": 1780996500,
+   "elapsed": "23m",
+   "defects": "",
+   "run": {
+    "id": 924,
+    "name": "CLM sprint 24 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/824"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70041,
+   "test_id": 5041,
+   "status_id": 5,
+   "created_by": 107,
+   "created_on": 1780983120,
+   "elapsed": "10m",
+   "defects": "CLM-4123",
+   "run": {
+    "id": 924,
+    "name": "CLM sprint 24 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/824"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70047,
+   "test_id": 5047,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1780995900,
+   "elapsed": "20m",
+   "defects": "",
+   "run": {
+    "id": 924,
+    "name": "CLM sprint 24 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/824"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70069,
+   "test_id": 5069,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1781507640,
+   "elapsed": "9m",
+   "defects": "",
+   "run": {
+    "id": 925,
+    "name": "CLM sprint 25 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/825"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70078,
+   "test_id": 5078,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1781504220,
+   "elapsed": "25m",
+   "defects": "",
+   "run": {
+    "id": 925,
+    "name": "CLM sprint 25 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/825"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70090,
+   "test_id": 5090,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1781694600,
+   "elapsed": "3m",
+   "defects": "",
+   "run": {
+    "id": 925,
+    "name": "CLM sprint 25 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/825"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70096,
+   "test_id": 5096,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1781675640,
+   "elapsed": "20m",
+   "defects": "",
+   "run": {
+    "id": 925,
+    "name": "CLM sprint 25 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/825"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70099,
+   "test_id": 5099,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1781767020,
+   "elapsed": "23m",
+   "defects": "",
+   "run": {
+    "id": 925,
+    "name": "CLM sprint 25 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/825"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70104,
+   "test_id": 5104,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1781861280,
+   "elapsed": "16m",
+   "defects": "",
+   "run": {
+    "id": 925,
+    "name": "CLM sprint 25 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/825"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70120,
+   "test_id": 5120,
+   "status_id": 5,
+   "created_by": 112,
+   "created_on": 1782127140,
+   "elapsed": "4m",
+   "defects": "",
+   "run": {
+    "id": 926,
+    "name": "CLM sprint 26 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/826"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70127,
+   "test_id": 5127,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1782300240,
+   "elapsed": "11m",
+   "defects": "",
+   "run": {
+    "id": 926,
+    "name": "CLM sprint 26 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/826"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70174,
+   "test_id": 5174,
+   "status_id": 5,
+   "created_by": 107,
+   "created_on": 1782998820,
+   "elapsed": "23m",
+   "defects": "CLM-4131",
+   "run": {
+    "id": 927,
+    "name": "CLM sprint 27 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/827"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70225,
+   "test_id": 5225,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1783677180,
+   "elapsed": "16m",
+   "defects": "",
+   "run": {
+    "id": 928,
+    "name": "CLM sprint 28 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/828"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70226,
+   "test_id": 5226,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1783945080,
+   "elapsed": "25m",
+   "defects": "",
+   "run": {
+    "id": 929,
+    "name": "CLM sprint 29 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/829"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70233,
+   "test_id": 5233,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1783936680,
+   "elapsed": "11m",
+   "defects": "",
+   "run": {
+    "id": 929,
+    "name": "CLM sprint 29 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/829"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70242,
+   "test_id": 5242,
+   "status_id": 1,
+   "created_by": 107,
+   "created_on": 1784108760,
+   "elapsed": "12m",
+   "defects": "",
+   "run": {
+    "id": 929,
+    "name": "CLM sprint 29 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/829"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70256,
+   "test_id": 5256,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1784269380,
+   "elapsed": "16m",
+   "defects": "",
+   "run": {
+    "id": 929,
+    "name": "CLM sprint 29 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/829"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70269,
+   "test_id": 5269,
+   "status_id": 5,
+   "created_by": 112,
+   "created_on": 1784534700,
+   "elapsed": "4m",
+   "defects": "CLM-4165",
+   "run": {
+    "id": 930,
+    "name": "CLM sprint 30 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/830"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70277,
+   "test_id": 5277,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1784636640,
+   "elapsed": "13m",
+   "defects": "",
+   "run": {
+    "id": 930,
+    "name": "CLM sprint 30 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/830"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70290,
+   "test_id": 5290,
+   "status_id": 1,
+   "created_by": 107,
+   "created_on": 1784872020,
+   "elapsed": "14m",
+   "defects": "",
+   "run": {
+    "id": 930,
+    "name": "CLM sprint 30 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/830"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70313,
+   "test_id": 5313,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1785317460,
+   "elapsed": "8m",
+   "defects": "",
+   "run": {
+    "id": 931,
+    "name": "CLM sprint 31 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/831"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70314,
+   "test_id": 5314,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1785302700,
+   "elapsed": "6m",
+   "defects": "",
+   "run": {
+    "id": 931,
+    "name": "CLM sprint 31 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/831"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70323,
+   "test_id": 5323,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1785385200,
+   "elapsed": "17m",
+   "defects": "",
+   "run": {
+    "id": 931,
+    "name": "CLM sprint 31 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/831"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70337,
+   "test_id": 5337,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1785493140,
+   "elapsed": "21m",
+   "defects": "",
+   "run": {
+    "id": 931,
+    "name": "CLM sprint 31 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/831"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70339,
+   "test_id": 5339,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1785748800,
+   "elapsed": "21m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70347,
+   "test_id": 5347,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1785849600,
+   "elapsed": "5m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70348,
+   "test_id": 5348,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1785831240,
+   "elapsed": "9m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70357,
+   "test_id": 5357,
+   "status_id": 1,
+   "created_by": 103,
+   "created_on": 1785910380,
+   "elapsed": "14m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 103,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@psiog.com"
+   }
+  },
+  {
+   "id": 70358,
+   "test_id": 5358,
+   "status_id": 1,
+   "created_by": 105,
+   "created_on": 1785909120,
+   "elapsed": "8m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70364,
+   "test_id": 5364,
+   "status_id": 5,
+   "created_by": 105,
+   "created_on": 1786008600,
+   "elapsed": "1m",
+   "defects": "CLM-4172",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70365,
+   "test_id": 5365,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1786015560,
+   "elapsed": "14m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70371,
+   "test_id": 5371,
+   "status_id": 1,
+   "created_by": 107,
+   "created_on": 1786108680,
+   "elapsed": "4m",
+   "defects": "",
+   "run": {
+    "id": 932,
+    "name": "CLM sprint 32 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/832"
+   },
+   "user": {
+    "id": 107,
+    "name": "Karthik Subramanian",
+    "email": "karthik.subramanian@psiog.com"
+   }
+  },
+  {
+   "id": 70381,
+   "test_id": 5381,
+   "status_id": 1,
+   "created_by": 105,
+   "created_on": 1786367280,
+   "elapsed": "24m",
+   "defects": "",
+   "run": {
+    "id": 933,
+    "name": "CLM sprint 33 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/833"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70390,
+   "test_id": 5390,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1786422060,
+   "elapsed": "14m",
+   "defects": "",
+   "run": {
+    "id": 933,
+    "name": "CLM sprint 33 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/833"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70397,
+   "test_id": 5397,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1786526160,
+   "elapsed": "5m",
+   "defects": "",
+   "run": {
+    "id": 933,
+    "name": "CLM sprint 33 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/833"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70451,
+   "test_id": 5451,
+   "status_id": 5,
+   "created_by": 103,
+   "created_on": 1787569500,
+   "elapsed": "3m",
+   "defects": "CLM-4219",
+   "run": {
+    "id": 935,
+    "name": "CLM sprint 35 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/835"
+   },
+   "user": {
+    "id": 103,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@psiog.com"
+   }
+  },
+  {
+   "id": 70459,
+   "test_id": 5459,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1787651280,
+   "elapsed": "22m",
+   "defects": "",
+   "run": {
+    "id": 935,
+    "name": "CLM sprint 35 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/835"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70470,
+   "test_id": 5470,
+   "status_id": 5,
+   "created_by": 112,
+   "created_on": 1787655360,
+   "elapsed": "22m",
+   "defects": "",
+   "run": {
+    "id": 935,
+    "name": "CLM sprint 35 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/835"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70471,
+   "test_id": 5471,
+   "status_id": 1,
+   "created_by": 105,
+   "created_on": 1787740080,
+   "elapsed": "18m",
+   "defects": "",
+   "run": {
+    "id": 935,
+    "name": "CLM sprint 35 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/835"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70479,
+   "test_id": 5479,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1787826240,
+   "elapsed": "22m",
+   "defects": "",
+   "run": {
+    "id": 935,
+    "name": "CLM sprint 35 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/835"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70495,
+   "test_id": 5495,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1787912220,
+   "elapsed": "12m",
+   "defects": "",
+   "run": {
+    "id": 935,
+    "name": "CLM sprint 35 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/835"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70498,
+   "test_id": 5498,
+   "status_id": 1,
+   "created_by": 103,
+   "created_on": 1788178440,
+   "elapsed": "23m",
+   "defects": "",
+   "run": {
+    "id": 936,
+    "name": "CLM sprint 36 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/836"
+   },
+   "user": {
+    "id": 103,
+    "name": "Rahul Verma",
+    "email": "rahul.verma@psiog.com"
+   }
+  },
+  {
+   "id": 70505,
+   "test_id": 5505,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1788150840,
+   "elapsed": "14m",
+   "defects": "",
+   "run": {
+    "id": 936,
+    "name": "CLM sprint 36 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/836"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70526,
+   "test_id": 5526,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1788513240,
+   "elapsed": "8m",
+   "defects": "",
+   "run": {
+    "id": 936,
+    "name": "CLM sprint 36 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/836"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70537,
+   "test_id": 5537,
+   "status_id": 1,
+   "created_by": 105,
+   "created_on": 1788850860,
+   "elapsed": "11m",
+   "defects": "",
+   "run": {
+    "id": 937,
+    "name": "CLM sprint 37 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/837"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70554,
+   "test_id": 5554,
+   "status_id": 1,
+   "created_by": 105,
+   "created_on": 1789019940,
+   "elapsed": "5m",
+   "defects": "",
+   "run": {
+    "id": 937,
+    "name": "CLM sprint 37 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/837"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70577,
+   "test_id": 5577,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1789452600,
+   "elapsed": "1m",
+   "defects": "",
+   "run": {
+    "id": 938,
+    "name": "CLM sprint 38 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/838"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70578,
+   "test_id": 5578,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1789548900,
+   "elapsed": "25m",
+   "defects": "",
+   "run": {
+    "id": 938,
+    "name": "CLM sprint 38 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/838"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70585,
+   "test_id": 5585,
+   "status_id": 5,
+   "created_by": 105,
+   "created_on": 1789623660,
+   "elapsed": "1m",
+   "defects": "CLM-4241",
+   "run": {
+    "id": 938,
+    "name": "CLM sprint 38 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/838"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  },
+  {
+   "id": 70601,
+   "test_id": 5601,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1789708920,
+   "elapsed": "15m",
+   "defects": "",
+   "run": {
+    "id": 938,
+    "name": "CLM sprint 38 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/838"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70621,
+   "test_id": 5621,
+   "status_id": 1,
+   "created_by": 106,
+   "created_on": 1790236380,
+   "elapsed": "14m",
+   "defects": "",
+   "run": {
+    "id": 939,
+    "name": "CLM sprint 39 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/839"
+   },
+   "user": {
+    "id": 106,
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@psiog.com"
+   }
+  },
+  {
+   "id": 70627,
+   "test_id": 5627,
+   "status_id": 1,
+   "created_by": 112,
+   "created_on": 1790252100,
+   "elapsed": "3m",
+   "defects": "",
+   "run": {
+    "id": 939,
+    "name": "CLM sprint 39 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/839"
+   },
+   "user": {
+    "id": 112,
+    "name": "Lakshmi Narayanan",
+    "email": "lakshmi.narayanan@psiog.com"
+   }
+  },
+  {
+   "id": 70630,
+   "test_id": 5630,
+   "status_id": 5,
+   "created_by": 105,
+   "created_on": 1790308500,
+   "elapsed": "11m",
+   "defects": "",
+   "run": {
+    "id": 939,
+    "name": "CLM sprint 39 regression",
+    "url": "https://psiog.testrail.io/index.php?/runs/view/839"
+   },
+   "user": {
+    "id": 105,
+    "name": "Vikram Nair",
+    "email": "vikram.nair@psiog.com"
+   }
+  }
+ ]
+}

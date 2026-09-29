@@ -1,0 +1,3754 @@
+{
+ "issues": [
+  {
+   "key": "QAX-301",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-301",
+   "fields": {
+    "summary": "Harden lineage graph",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-05-28T09:46:00.000+0530",
+    "updated": "2026-06-01T17:58:00.000+0530",
+    "resolutiondate": "2026-06-01T17:58:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-05-29T15:46:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-01T17:58:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-302",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-302",
+   "fields": {
+    "summary": "Add flaky test triage",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-05-28T18:30:00.000+0530",
+    "updated": "2026-06-02T12:06:00.000+0530",
+    "resolutiondate": "2026-06-02T12:06:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-05-29T03:30:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-02T12:06:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-303",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-303",
+   "fields": {
+    "summary": "Fix search filters",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-05-28T10:04:00.000+0530",
+    "updated": "2026-06-02T11:59:00.000+0530",
+    "resolutiondate": "2026-06-02T11:59:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-05-29T05:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-05-31T08:31:30.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-05-31T11:31:30.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-02T11:59:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-304",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-304",
+   "fields": {
+    "summary": "Fix cost dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-05-30T10:56:00.000+0530",
+    "updated": "2026-06-02T13:18:00.000+0530",
+    "resolutiondate": "2026-06-02T13:18:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-05-30T15:56:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-02T13:18:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-305",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-305",
+   "fields": {
+    "summary": "Refactor ingestion job",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-05-31T18:20:00.000+0530",
+    "updated": "2026-06-03T17:19:00.000+0530",
+    "resolutiondate": "2026-06-03T17:19:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-01T17:20:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-03T17:19:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-306",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-306",
+   "fields": {
+    "summary": "Harden cost dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-05-28T15:46:00.000+0530",
+    "updated": "2026-06-03T18:34:00.000+0530",
+    "resolutiondate": "2026-06-03T18:34:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-05-28T22:46:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-03T18:34:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-307",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-307",
+   "fields": {
+    "summary": "Fix contract tests",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-02T09:15:00.000+0530",
+    "updated": "2026-06-03T12:08:00.000+0530",
+    "resolutiondate": "2026-06-03T12:08:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-02T17:15:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-03T12:08:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-308",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-308",
+   "fields": {
+    "summary": "Implement load profile",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-05-31T17:41:00.000+0530",
+    "updated": "2026-06-04T18:27:00.000+0530",
+    "resolutiondate": "2026-06-04T18:27:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-01T09:41:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-04T18:27:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-309",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-309",
+   "fields": {
+    "summary": "Add ingestion job",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-01T14:42:00.000+0530",
+    "updated": "2026-06-04T15:44:00.000+0530",
+    "resolutiondate": "2026-06-04T15:44:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-01T19:42:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-04T15:44:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-310",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-310",
+   "fields": {
+    "summary": "Refactor search filters",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-06-03T14:14:00.000+0530",
+    "updated": "2026-06-09T17:40:00.000+0530",
+    "resolutiondate": "2026-06-09T17:40:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-04T02:14:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-09T17:40:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-311",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-311",
+   "fields": {
+    "summary": "Add FX rates cache",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-04T11:21:00.000+0530",
+    "updated": "2026-06-09T14:19:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-04T15:21:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-312",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-312",
+   "fields": {
+    "summary": "Add access policies",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-06-08T17:46:00.000+0530",
+    "updated": "2026-06-10T13:15:00.000+0530",
+    "resolutiondate": "2026-06-10T13:15:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-09T14:46:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-10T02:00:30.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-10T05:00:30.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-10T13:15:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-313",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-313",
+   "fields": {
+    "summary": "Harden ingestion job",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-06-09T18:22:00.000+0530",
+    "updated": "2026-06-10T10:33:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-10T03:22:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-314",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-314",
+   "fields": {
+    "summary": "Add load profile",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-05T16:06:00.000+0530",
+    "updated": "2026-06-11T17:59:00.000+0530",
+    "resolutiondate": "2026-06-11T17:59:00.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-06T15:06:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-11T17:59:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-315",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-315",
+   "fields": {
+    "summary": "Add lineage graph",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-11T09:51:00.000+0530",
+    "updated": "2026-06-15T17:33:02.000+0530",
+    "resolutiondate": "2026-06-15T17:33:02.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-12T08:51:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-15T17:33:02.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-316",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-316",
+   "fields": {
+    "summary": "Refactor adjuster dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-10T14:10:00.000+0530",
+    "updated": "2026-06-16T14:50:00.000+0530",
+    "resolutiondate": "2026-06-16T14:50:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-11T12:10:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-14T01:30:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-14T04:30:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-16T14:50:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-317",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-317",
+   "fields": {
+    "summary": "Add SLA timer",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-10T11:22:00.000+0530",
+    "updated": "2026-06-16T17:30:00.000+0530",
+    "resolutiondate": "2026-06-16T17:30:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-10T22:22:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-16T17:30:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-318",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-318",
+   "fields": {
+    "summary": "Harden search filters",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-14T12:46:00.000+0530",
+    "updated": "2026-06-18T11:00:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-15T18:46:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-319",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-319",
+   "fields": {
+    "summary": "Add data quality checks",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-19T12:53:00.000+0530",
+    "updated": "2026-06-22T10:05:00.000+0530",
+    "resolutiondate": "2026-06-22T10:05:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-19T22:53:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-22T10:05:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-320",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-320",
+   "fields": {
+    "summary": "Refactor SLA timer",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-20T12:08:00.000+0530",
+    "updated": "2026-06-22T12:52:00.000+0530",
+    "resolutiondate": "2026-06-22T12:52:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-20T15:08:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-22T12:52:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-321",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-321",
+   "fields": {
+    "summary": "Add SLA timer",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-19T13:56:00.000+0530",
+    "updated": "2026-06-24T14:23:00.000+0530",
+    "resolutiondate": "2026-06-24T14:23:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-20T07:56:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-24T14:23:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-322",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-322",
+   "fields": {
+    "summary": "Refactor search filters",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-19T18:30:00.000+0530",
+    "updated": "2026-06-24T10:06:00.000+0530",
+    "resolutiondate": "2026-06-24T10:06:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-20T18:30:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-24T10:06:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-323",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-323",
+   "fields": {
+    "summary": "Implement schema migration",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-06-21T11:03:00.000+0530",
+    "updated": "2026-06-25T11:18:00.000+0530",
+    "resolutiondate": "2026-06-25T11:18:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-22T10:03:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-25T11:18:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-324",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-324",
+   "fields": {
+    "summary": "Fix cost dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-25T16:57:00.000+0530",
+    "updated": "2026-06-29T10:16:00.000+0530",
+    "resolutiondate": "2026-06-29T10:16:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-26T12:57:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-06-29T10:16:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-325",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-325",
+   "fields": {
+    "summary": "Refactor webhook signing",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-06-26T18:17:00.000+0530",
+    "updated": "2026-07-02T10:24:00.000+0530",
+    "resolutiondate": "2026-07-02T10:24:00.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-26T21:17:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-02T10:24:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-326",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-326",
+   "fields": {
+    "summary": "Refactor adjuster dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-06-27T13:21:00.000+0530",
+    "updated": "2026-07-02T09:22:00.000+0530",
+    "resolutiondate": "2026-07-02T09:22:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-06-28T06:21:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-02T09:22:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-327",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-327",
+   "fields": {
+    "summary": "Add rate limiter",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-07-05T12:58:00.000+0530",
+    "updated": "2026-07-06T16:57:00.000+0530",
+    "resolutiondate": "2026-07-06T16:57:00.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-05T16:58:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-06T16:57:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-328",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-328",
+   "fields": {
+    "summary": "Implement schema migration",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-07-04T17:02:00.000+0530",
+    "updated": "2026-07-10T10:28:00.000+0530",
+    "resolutiondate": "2026-07-10T10:28:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-05T08:02:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-10T10:28:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-329",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-329",
+   "fields": {
+    "summary": "Implement ledger export",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-07-12T10:50:00.000+0530",
+    "updated": "2026-07-13T18:57:00.000+0530",
+    "resolutiondate": "2026-07-13T18:57:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-12T15:50:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-13T18:57:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-330",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-330",
+   "fields": {
+    "summary": "Implement claim intake form",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-07-08T09:46:00.000+0530",
+    "updated": "2026-07-13T14:44:00.000+0530",
+    "resolutiondate": "2026-07-13T14:44:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-08T14:46:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-13T14:44:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-331",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-331",
+   "fields": {
+    "summary": "Add schema migration",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-07-09T10:20:00.000+0530",
+    "updated": "2026-07-15T13:56:00.000+0530",
+    "resolutiondate": "2026-07-15T13:56:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-10T05:20:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-15T13:56:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-332",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-332",
+   "fields": {
+    "summary": "Refactor access policies",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-07-16T13:41:00.000+0530",
+    "updated": "2026-07-21T13:38:00.000+0530",
+    "resolutiondate": "2026-07-21T13:38:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-16T20:41:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-21T13:38:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-333",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-333",
+   "fields": {
+    "summary": "Refactor contract tests",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-07-18T15:36:00.000+0530",
+    "updated": "2026-07-22T13:35:00.000+0530",
+    "resolutiondate": "2026-07-22T13:35:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-18T22:36:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-22T13:35:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-334",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-334",
+   "fields": {
+    "summary": "Fix SLA timer",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-07-17T17:41:00.000+0530",
+    "updated": "2026-07-22T10:07:00.000+0530",
+    "resolutiondate": "2026-07-22T10:07:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-17T21:41:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-20T03:54:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-20T06:54:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-22T10:07:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-335",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-335",
+   "fields": {
+    "summary": "Add document upload",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-07-21T11:21:00.000+0530",
+    "updated": "2026-07-23T15:13:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-22T07:21:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-336",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-336",
+   "fields": {
+    "summary": "Refactor access policies",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-07-21T09:25:00.000+0530",
+    "updated": "2026-07-23T12:29:00.000+0530",
+    "resolutiondate": "2026-07-23T12:29:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-22T07:25:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-23T12:29:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-337",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-337",
+   "fields": {
+    "summary": "Implement rate limiter",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-07-22T12:31:00.000+0530",
+    "updated": "2026-07-24T16:36:00.000+0530",
+    "resolutiondate": "2026-07-24T16:36:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-22T19:31:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-24T16:36:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-338",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-338",
+   "fields": {
+    "summary": "Fix audit trail",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-07-26T15:15:00.000+0530",
+    "updated": "2026-07-29T09:00:00.000+0530",
+    "resolutiondate": "2026-07-29T09:00:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-27T03:15:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-29T09:00:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-339",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-339",
+   "fields": {
+    "summary": "Implement audit trail",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-07-28T14:41:00.000+0530",
+    "updated": "2026-07-30T10:31:00.000+0530",
+    "resolutiondate": "2026-07-30T10:31:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-29T01:41:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-30T10:31:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-340",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-340",
+   "fields": {
+    "summary": "Implement schema migration",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-07-27T18:55:00.000+0530",
+    "updated": "2026-07-31T11:43:00.000+0530",
+    "resolutiondate": "2026-07-31T11:43:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-07-28T23:55:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-07-31T11:43:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-341",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-341",
+   "fields": {
+    "summary": "Fix refund flow",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-01T17:18:00.000+0530",
+    "updated": "2026-08-03T13:53:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-02T03:18:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-342",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-342",
+   "fields": {
+    "summary": "Refactor ledger export",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-01T11:29:00.000+0530",
+    "updated": "2026-08-05T18:35:00.000+0530",
+    "resolutiondate": "2026-08-05T18:35:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-02T10:29:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-05T18:35:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-343",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-343",
+   "fields": {
+    "summary": "Refactor audit trail",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-08-01T14:15:00.000+0530",
+    "updated": "2026-08-05T15:25:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-02T17:15:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-344",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-344",
+   "fields": {
+    "summary": "Harden dbt model",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-04T16:24:00.000+0530",
+    "updated": "2026-08-10T10:14:00.000+0530",
+    "resolutiondate": "2026-08-10T10:14:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-05T04:24:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-10T10:14:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-345",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-345",
+   "fields": {
+    "summary": "Add document upload",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-06T12:10:00.000+0530",
+    "updated": "2026-08-11T13:51:00.000+0530",
+    "resolutiondate": "2026-08-11T13:51:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-07T16:10:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-11T13:51:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-346",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-346",
+   "fields": {
+    "summary": "Refactor audit trail",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-09T09:02:00.000+0530",
+    "updated": "2026-08-11T17:25:00.000+0530",
+    "resolutiondate": "2026-08-11T17:25:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-10T14:02:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-11T03:43:30.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-11T06:43:30.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-11T17:25:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-347",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-347",
+   "fields": {
+    "summary": "Fix data quality checks",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Bug"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-08-14T11:37:00.000+0530",
+    "updated": "2026-08-17T16:39:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-14T13:37:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-348",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-348",
+   "fields": {
+    "summary": "Refactor adjuster dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-18T09:34:00.000+0530",
+    "updated": "2026-08-19T11:34:00.000+0530",
+    "resolutiondate": "2026-08-19T11:34:00.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-19T06:34:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-19T09:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-19T12:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-19T11:34:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-349",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-349",
+   "fields": {
+    "summary": "Add webhook signing",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-17T13:10:00.000+0530",
+    "updated": "2026-08-19T12:49:00.000+0530",
+    "resolutiondate": "2026-08-19T12:49:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-18T04:10:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-19T12:49:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-350",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-350",
+   "fields": {
+    "summary": "Refactor load profile",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-08-13T18:22:00.000+0530",
+    "updated": "2026-08-19T12:13:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-14T19:22:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-351",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-351",
+   "fields": {
+    "summary": "Add dbt model",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-08-23T18:33:00.000+0530",
+    "updated": "2026-08-25T17:20:00.000+0530",
+    "resolutiondate": "2026-08-25T17:20:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-24T05:33:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-25T17:20:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-352",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-352",
+   "fields": {
+    "summary": "Add SLA timer",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-08-21T11:17:00.000+0530",
+    "updated": "2026-08-26T15:36:00.000+0530",
+    "resolutiondate": "2026-08-26T15:36:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-22T12:17:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-26T15:36:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-353",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-353",
+   "fields": {
+    "summary": "Refactor document upload",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-08-23T13:17:00.000+0530",
+    "updated": "2026-08-28T11:53:00.000+0530",
+    "resolutiondate": "2026-08-28T11:53:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-24T08:17:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-28T11:53:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-354",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-354",
+   "fields": {
+    "summary": "Implement load profile",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-08-27T17:49:00.000+0530",
+    "updated": "2026-08-31T16:01:00.000+0530",
+    "resolutiondate": "2026-08-31T16:01:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-27T22:49:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-08-31T16:01:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-355",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-355",
+   "fields": {
+    "summary": "Harden FX rates cache",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-08-30T14:33:00.000+0530",
+    "updated": "2026-09-01T18:27:00.000+0530",
+    "resolutiondate": "2026-09-01T18:27:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-31T13:33:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-01T18:27:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-356",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-356",
+   "fields": {
+    "summary": "Harden fraud score API",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-08-30T10:08:00.000+0530",
+    "updated": "2026-09-02T09:54:00.000+0530",
+    "resolutiondate": "2026-09-02T09:54:00.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-30T17:08:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-02T09:54:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-357",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-357",
+   "fields": {
+    "summary": "Implement search filters",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-08-30T15:04:00.000+0530",
+    "updated": "2026-09-03T09:59:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-08-31T12:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-358",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-358",
+   "fields": {
+    "summary": "Refactor schema migration",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-02T17:38:00.000+0530",
+    "updated": "2026-09-04T11:26:00.000+0530",
+    "resolutiondate": "2026-09-04T11:26:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-03T10:38:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-03T23:02:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-04T02:02:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "Done",
+        "toString": "Reopened"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-04T11:26:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-359",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-359",
+   "fields": {
+    "summary": "Harden ledger export",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-07T12:58:00.000+0530",
+    "updated": "2026-09-09T12:34:00.000+0530",
+    "resolutiondate": "2026-09-09T12:34:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-07T15:58:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-09T12:34:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-360",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-360",
+   "fields": {
+    "summary": "Implement ledger export",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-09-07T12:53:00.000+0530",
+    "updated": "2026-09-10T10:25:00.000+0530",
+    "resolutiondate": "2026-09-10T10:25:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-08T06:53:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-10T10:25:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-361",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-361",
+   "fields": {
+    "summary": "Implement fraud score API",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-08T16:46:00.000+0530",
+    "updated": "2026-09-14T09:10:00.000+0530",
+    "resolutiondate": "2026-09-14T09:10:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-09T14:46:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-14T09:10:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-362",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-362",
+   "fields": {
+    "summary": "Refactor search filters",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-09T17:16:00.000+0530",
+    "updated": "2026-09-14T12:29:00.000+0530",
+    "resolutiondate": "2026-09-14T12:29:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-09T21:16:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-14T12:29:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-363",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-363",
+   "fields": {
+    "summary": "Implement search filters",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-09-14T15:55:00.000+0530",
+    "updated": "2026-09-15T17:49:00.000+0530",
+    "resolutiondate": "2026-09-15T17:49:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-15T08:55:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-15T17:49:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-364",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-364",
+   "fields": {
+    "summary": "Harden contract tests",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:divya-1008",
+     "displayName": "Divya Menon",
+     "active": true,
+     "emailAddress": "divya.menon@psiog.com"
+    },
+    "created": "2026-09-12T18:28:00.000+0530",
+    "updated": "2026-09-17T16:04:00.000+0530",
+    "resolutiondate": "2026-09-17T16:04:00.000+0530",
+    "customfield_10016": 2
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-12T20:28:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-17T16:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-365",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-365",
+   "fields": {
+    "summary": "Refactor cost dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-13T18:51:00.000+0530",
+    "updated": "2026-09-17T14:43:00.000+0530",
+    "resolutiondate": "2026-09-17T14:43:00.000+0530",
+    "customfield_10016": 8
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-14T17:51:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-17T14:43:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-366",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-366",
+   "fields": {
+    "summary": "Fix regression pack",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Medium"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-15T12:40:00.000+0530",
+    "updated": "2026-09-17T09:12:00.000+0530",
+    "resolutiondate": "2026-09-17T09:12:00.000+0530",
+    "customfield_10016": 1
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-16T07:40:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-17T09:12:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-367",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-367",
+   "fields": {
+    "summary": "Implement rate limiter",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-09-14T11:01:00.000+0530",
+    "updated": "2026-09-18T14:22:00.000+0530",
+    "resolutiondate": "2026-09-18T14:22:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-15T15:01:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-18T14:22:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-368",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-368",
+   "fields": {
+    "summary": "Refactor data quality checks",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Task"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-18T11:04:00.000+0530",
+    "updated": "2026-09-21T10:24:00.000+0530",
+    "resolutiondate": "2026-09-21T10:24:00.000+0530",
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-19T03:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-21T10:24:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-369",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-369",
+   "fields": {
+    "summary": "Implement search filters",
+    "status": {
+     "name": "In Progress",
+     "statusCategory": {
+      "key": "indeterminate"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "Low"
+    },
+    "assignee": {
+     "accountId": "712020:arjun-1001",
+     "displayName": "Arjun Mehta",
+     "active": true,
+     "emailAddress": "arjun.mehta@psiog.com"
+    },
+    "created": "2026-09-20T09:54:00.000+0530",
+    "updated": "2026-09-22T12:44:00.000+0530",
+    "resolutiondate": null,
+    "customfield_10016": 5
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-21T08:54:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "key": "QAX-370",
+   "self": "https://psiog.atlassian.net/rest/api/3/issue/QAX-370",
+   "fields": {
+    "summary": "Implement adjuster dashboard",
+    "status": {
+     "name": "Done",
+     "statusCategory": {
+      "key": "done"
+     }
+    },
+    "issuetype": {
+     "name": "Story"
+    },
+    "priority": {
+     "name": "High"
+    },
+    "assignee": {
+     "accountId": "712020:suresh-1009",
+     "displayName": "Suresh Babu",
+     "active": true,
+     "emailAddress": "suresh.babu@psiog.com"
+    },
+    "created": "2026-09-23T09:56:00.000+0530",
+    "updated": "2026-09-25T10:04:00.000+0530",
+    "resolutiondate": "2026-09-25T10:04:00.000+0530",
+    "customfield_10016": 3
+   },
+   "changelog": {
+    "histories": [
+     {
+      "created": "2026-09-23T17:56:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "To Do",
+        "toString": "In Progress"
+       }
+      ]
+     },
+     {
+      "created": "2026-09-25T10:04:00.000+0530",
+      "items": [
+       {
+        "field": "status",
+        "fromString": "In Progress",
+        "toString": "Done"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

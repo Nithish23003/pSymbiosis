@@ -1,0 +1,71 @@
+Issue key,Summary,Issue Type,Status,Status Category,Assignee,Assignee Id,Created,Updated,Resolved,Custom field (Story Points)
+INS-501,Fix flaky test triage,Story,Done,Done,Aditya Rao,712020:aditya-1011,27/May/26 03:35 PM,02/Jun/26 05:02 PM,02/Jun/26 05:02 PM,2
+INS-502,Harden webhook signing,Story,Done,Done,Aditya Rao,712020:aditya-1011,01/Jun/26 10:37 AM,03/Jun/26 10:44 AM,03/Jun/26 10:44 AM,3
+INS-503,Fix access policies,Story,In Progress,In Progress,Kavya Reddy,712020:kavya-1002,02/Jun/26 02:11 PM,04/Jun/26 01:02 PM,,2
+INS-504,Refactor ingestion job,Story,Done,Done,Aditya Rao,712020:aditya-1011,03/Jun/26 12:55 PM,05/Jun/26 05:23 PM,05/Jun/26 05:23 PM,5
+INS-505,Add SLA timer,Story,Done,Done,Aditya Rao,712020:aditya-1011,03/Jun/26 03:04 PM,08/Jun/26 10:47 AM,08/Jun/26 10:47 AM,1
+INS-506,Harden retry policy,Story,Done,Done,Aditya Rao,712020:aditya-1011,05/Jun/26 12:14 PM,09/Jun/26 10:32 AM,09/Jun/26 10:32 AM,3
+INS-507,Add adjuster dashboard,Story,Done,Done,Aditya Rao,712020:aditya-1011,05/Jun/26 09:26 AM,09/Jun/26 04:39 PM,09/Jun/26 04:39 PM,3
+INS-508,Add dbt model,Story,Done,Done,Aditya Rao,712020:aditya-1011,15/Jun/26 06:06 PM,22/Jun/26 11:32 PM,22/Jun/26 11:32 PM,2
+INS-509,Implement dbt model,Story,In Progress,In Progress,Aditya Rao,712020:aditya-1011,12/Jun/26 01:05 PM,18/Jun/26 02:29 PM,,5
+INS-510,Add access policies,Story,Done,Done,Aditya Rao,712020:aditya-1011,21/Jun/26 10:36 AM,22/Jun/26 05:56 PM,22/Jun/26 05:56 PM,3
+INS-511,Implement ingestion job,Story,Done,Done,Aditya Rao,712020:aditya-1011,22/Jun/26 06:03 PM,25/Jun/26 10:44 AM,25/Jun/26 10:44 AM,1
+INS-512,Implement rate limiter,Story,Done,Done,Aditya Rao,712020:aditya-1011,25/Jun/26 06:09 PM,26/Jun/26 05:25 PM,26/Jun/26 05:25 PM,2
+INS-513,Harden search filters,Story,Done,Done,Aditya Rao,712020:aditya-1011,27/Jun/26 12:31 PM,29/Jun/26 01:13 PM,29/Jun/26 01:13 PM,3
+INS-514,Add audit trail,Story,Done,Done,Aditya Rao,712020:aditya-1011,25/Jun/26 03:33 PM,30/Jun/26 02:30 PM,30/Jun/26 02:30 PM,3
+INS-515,Fix SLA timer,Story,Done,Done,Kavya Reddy,712020:kavya-1002,29/Jun/26 10:18 AM,01/Jul/26 09:14 AM,01/Jul/26 09:14 AM,8
+INS-516,Fix regression pack,Story,Done,Done,Kavya Reddy,712020:kavya-1002,27/Jun/26 10:34 AM,01/Jul/26 03:53 PM,01/Jul/26 03:53 PM,3
+INS-517,Harden flaky test triage,Story,In Progress,In Progress,Aditya Rao,712020:aditya-1011,26/Jun/26 03:12 PM,01/Jul/26 06:40 PM,,3
+INS-518,Implement data quality checks,Story,Done,Done,Aditya Rao,712020:aditya-1011,02/Jul/26 04:54 PM,07/Jul/26 03:59 PM,07/Jul/26 03:59 PM,3
+INS-519,Implement cost dashboard,Story,Done,Done,Aditya Rao,712020:aditya-1011,02/Jul/26 10:33 AM,07/Jul/26 04:40 PM,07/Jul/26 04:40 PM,3
+INS-520,Implement fraud score API,Story,Done,Done,Aditya Rao,712020:aditya-1011,07/Jul/26 04:46 PM,09/Jul/26 12:21 PM,09/Jul/26 12:21 PM,3
+INS-521,Refactor dbt model,Story,Done,Done,Kavya Reddy,712020:kavya-1002,08/Jul/26 03:11 PM,10/Jul/26 09:55 AM,10/Jul/26 09:55 AM,8
+INS-522,Add document upload,Story,Done,Done,Aditya Rao,712020:aditya-1011,09/Jul/26 01:29 PM,13/Jul/26 12:35 PM,13/Jul/26 12:35 PM,8
+INS-523,Harden cost dashboard,Story,Done,Done,Aditya Rao,712020:aditya-1011,13/Jul/26 03:54 PM,17/Jul/26 09:31 AM,17/Jul/26 09:31 AM,3
+INS-524,Add load profile,Story,Done,Done,Aditya Rao,712020:aditya-1011,13/Jul/26 12:45 PM,17/Jul/26 06:20 PM,17/Jul/26 06:20 PM,5
+INS-525,Harden regression pack,Story,Done,Done,Meera Pillai,712020:meera-1010,16/Jul/26 10:05 AM,20/Jul/26 04:13 PM,20/Jul/26 04:13 PM,2
+INS-526,Harden search filters,Story,Done,Done,Aditya Rao,712020:aditya-1011,16/Jul/26 04:08 PM,20/Jul/26 12:29 PM,20/Jul/26 12:29 PM,2
+INS-527,Refactor load profile,Story,Done,Done,Aditya Rao,712020:aditya-1011,23/Jul/26 06:50 PM,24/Jul/26 03:38 PM,24/Jul/26 03:38 PM,1
+INS-528,Harden load profile,Story,Done,Done,Kavya Reddy,712020:kavya-1002,22/Jul/26 05:11 PM,28/Jul/26 03:35 PM,28/Jul/26 03:35 PM,1
+INS-529,Fix SLA timer,Story,In Progress,In Progress,Aditya Rao,712020:aditya-1011,27/Jul/26 04:42 PM,30/Jul/26 09:55 AM,,2
+INS-530,Refactor regression pack,Story,Done,Done,Aditya Rao,712020:aditya-1011,28/Jul/26 04:16 PM,31/Jul/26 10:36 AM,31/Jul/26 10:36 AM,2
+INS-531,Implement refund flow,Story,In Progress,In Progress,Meera Pillai,712020:meera-1010,29/Jul/26 10:40 AM,03/Aug/26 05:10 PM,,3
+INS-532,Harden webhook signing,Story,Done,Done,Aditya Rao,712020:aditya-1011,01/Aug/26 03:49 PM,03/Aug/26 10:59 AM,03/Aug/26 10:59 AM,3
+INS-533,Fix access policies,Story,Done,Done,Meera Pillai,712020:meera-1010,05/Aug/26 04:48 PM,06/Aug/26 11:20 AM,06/Aug/26 11:20 AM,1
+INS-534,Fix SLA timer,Story,Done,Done,Kavya Reddy,712020:kavya-1002,09/Aug/26 06:30 PM,15/Aug/26 06:15 AM,15/Aug/26 06:15 AM,8
+INS-535,Fix contract tests,Story,In Progress,In Progress,Meera Pillai,712020:meera-1010,07/Aug/26 02:48 PM,11/Aug/26 12:36 PM,,8
+INS-536,Add access policies,Story,Done,Done,Aditya Rao,712020:aditya-1011,06/Aug/26 11:45 AM,12/Aug/26 10:26 AM,12/Aug/26 10:26 AM,2
+INS-537,Refactor FX rates cache,Story,In Progress,In Progress,Meera Pillai,712020:meera-1010,09/Aug/26 12:58 PM,13/Aug/26 12:48 PM,,8
+INS-538,Add flaky test triage,Story,Done,Done,Kavya Reddy,712020:kavya-1002,13/Aug/26 11:20 AM,14/Aug/26 04:00 PM,14/Aug/26 04:00 PM,5
+INS-539,Harden ledger export,Story,Done,Done,Aditya Rao,712020:aditya-1011,12/Aug/26 04:54 PM,14/Aug/26 03:16 PM,14/Aug/26 03:16 PM,2
+INS-540,Implement fraud score API,Story,Done,Done,Aditya Rao,712020:aditya-1011,12/Aug/26 12:47 PM,17/Aug/26 03:40 PM,17/Aug/26 03:40 PM,1
+INS-541,Refactor webhook signing,Story,Done,Done,Kavya Reddy,712020:kavya-1002,16/Aug/26 04:00 PM,18/Aug/26 04:10 PM,18/Aug/26 04:10 PM,8
+INS-542,Refactor search filters,Story,Done,Done,Aditya Rao,712020:aditya-1011,14/Aug/26 09:08 AM,19/Aug/26 09:03 AM,19/Aug/26 09:03 AM,8
+INS-543,Implement load profile,Story,Done,Done,Aditya Rao,712020:aditya-1011,17/Aug/26 01:25 PM,19/Aug/26 06:20 PM,19/Aug/26 06:20 PM,3
+INS-544,Add document upload,Story,Done,Done,Aditya Rao,712020:aditya-1011,15/Aug/26 12:20 PM,21/Aug/26 03:20 PM,21/Aug/26 03:20 PM,2
+INS-545,Fix dbt model,Story,Done,Done,Meera Pillai,712020:meera-1010,22/Aug/26 05:13 PM,24/Aug/26 06:23 PM,24/Aug/26 06:23 PM,2
+INS-546,Implement retry policy,Story,Done,Done,Kavya Reddy,712020:kavya-1002,21/Aug/26 11:57 AM,25/Aug/26 12:31 PM,25/Aug/26 12:31 PM,2
+INS-547,Refactor dbt model,Story,Done,Done,Meera Pillai,712020:meera-1010,23/Aug/26 05:12 PM,26/Aug/26 04:58 PM,26/Aug/26 04:58 PM,2
+INS-548,Refactor schema migration,Story,Done,Done,Meera Pillai,712020:meera-1010,22/Aug/26 02:05 PM,27/Aug/26 10:28 AM,27/Aug/26 10:28 AM,3
+INS-549,Harden lineage graph,Story,Done,Done,Aditya Rao,712020:aditya-1011,22/Aug/26 03:46 PM,28/Aug/26 06:48 PM,28/Aug/26 06:48 PM,5
+INS-550,Harden access policies,Story,Done,Done,Aditya Rao,712020:aditya-1011,25/Aug/26 09:59 AM,31/Aug/26 04:17 PM,31/Aug/26 04:17 PM,2
+INS-551,Fix regression pack,Story,Done,Done,Aditya Rao,712020:aditya-1011,26/Aug/26 02:27 PM,31/Aug/26 12:30 PM,31/Aug/26 12:30 PM,2
+INS-552,Fix ingestion job,Story,Done,Done,Aditya Rao,712020:aditya-1011,31/Aug/26 12:01 PM,02/Sep/26 10:49 AM,02/Sep/26 10:49 AM,2
+INS-553,Add webhook signing,Story,Done,Done,Aditya Rao,712020:aditya-1011,01/Sep/26 05:12 PM,07/Sep/26 09:21 AM,07/Sep/26 09:21 AM,5
+INS-554,Fix refund flow,Story,Done,Done,Aditya Rao,712020:aditya-1011,05/Sep/26 04:35 PM,07/Sep/26 02:12 PM,07/Sep/26 02:12 PM,5
+INS-555,Refactor claim intake form,Story,Done,Done,Aditya Rao,712020:aditya-1011,06/Sep/26 09:02 AM,09/Sep/26 09:55 AM,09/Sep/26 09:55 AM,1
+INS-556,Add lineage graph,Story,Done,Done,Meera Pillai,712020:meera-1010,09/Sep/26 01:49 PM,11/Sep/26 03:36 PM,11/Sep/26 03:36 PM,5
+INS-557,Refactor fraud score API,Story,Done,Done,Aditya Rao,712020:aditya-1011,09/Sep/26 06:22 PM,14/Sep/26 04:04 PM,14/Sep/26 04:04 PM,3
+INS-558,Harden SLA timer,Story,In Progress,In Progress,Aditya Rao,712020:aditya-1011,13/Sep/26 02:03 PM,15/Sep/26 02:48 PM,,1
+INS-559,Harden flaky test triage,Story,Done,Done,Meera Pillai,712020:meera-1010,13/Sep/26 01:41 PM,17/Sep/26 09:39 AM,17/Sep/26 09:39 AM,3
+INS-560,Implement webhook signing,Story,Done,Done,Aditya Rao,712020:aditya-1011,11/Sep/26 04:26 PM,17/Sep/26 09:07 AM,17/Sep/26 09:07 AM,2
+INS-561,Harden fraud score API,Story,Done,Done,Meera Pillai,712020:meera-1010,16/Sep/26 09:29 AM,18/Sep/26 09:52 AM,18/Sep/26 09:52 AM,2
+INS-562,Harden refund flow,Story,Done,Done,Meera Pillai,712020:meera-1010,13/Sep/26 05:43 PM,18/Sep/26 06:16 PM,18/Sep/26 06:16 PM,5
+INS-563,Refactor access policies,Story,Done,Done,Aditya Rao,712020:aditya-1011,16/Sep/26 04:01 PM,18/Sep/26 03:26 PM,18/Sep/26 03:26 PM,3
+INS-564,Refactor data quality checks,Story,Done,Done,Aditya Rao,712020:aditya-1011,12/Sep/26 01:37 PM,18/Sep/26 06:48 PM,18/Sep/26 06:48 PM,2
+INS-565,Refactor ledger export,Story,Done,Done,Meera Pillai,712020:meera-1010,17/Sep/26 11:48 AM,21/Sep/26 03:01 PM,21/Sep/26 03:01 PM,2
+INS-566,Implement claim intake form,Story,Done,Done,Aditya Rao,712020:aditya-1011,20/Sep/26 02:11 PM,21/Sep/26 02:35 PM,21/Sep/26 02:35 PM,3
+INS-567,Refactor access policies,Story,Done,Done,Aditya Rao,712020:aditya-1011,20/Sep/26 05:20 PM,22/Sep/26 09:02 AM,22/Sep/26 09:02 AM,3
+INS-568,Fix adjuster dashboard,Story,In Progress,In Progress,Aditya Rao,712020:aditya-1011,16/Sep/26 04:43 PM,22/Sep/26 04:28 PM,,2
+INS-569,Fix document upload,Story,Done,Done,Aditya Rao,712020:aditya-1011,18/Sep/26 05:48 PM,23/Sep/26 03:50 PM,23/Sep/26 03:50 PM,3
+INS-570,Add retry policy,Story,In Progress,In Progress,Aditya Rao,712020:aditya-1011,18/Sep/26 10:20 AM,24/Sep/26 02:14 PM,,1

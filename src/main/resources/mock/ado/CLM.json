@@ -1,0 +1,3463 @@
+{
+ "count": 133,
+ "value": [
+  {
+   "id": 4101,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor dbt model",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-05-31T05:16:00Z",
+    "System.ChangedDate": "2026-06-01T06:12:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-05-31T22:16:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-01T06:12:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4101"
+    }
+   }
+  },
+  {
+   "id": 4102,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Harden ledger export",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-05-29T11:10:00Z",
+    "System.ChangedDate": "2026-06-03T07:45:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-05-29T20:10:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-03T07:45:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4102"
+    }
+   }
+  },
+  {
+   "id": 4103,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add flaky test triage",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-05-28T11:15:00Z",
+    "System.ChangedDate": "2026-06-03T13:21:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-05-28T17:15:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4103"
+    }
+   }
+  },
+  {
+   "id": 4104,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add ledger export",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-02T03:56:00Z",
+    "System.ChangedDate": "2026-06-04T07:32:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-02T19:56:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-04T07:32:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4104"
+    }
+   }
+  },
+  {
+   "id": 4105,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add fraud score API",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-06-01T13:17:00Z",
+    "System.ChangedDate": "2026-06-04T10:37:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-02T17:17:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-04T10:37:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4105"
+    }
+   }
+  },
+  {
+   "id": 4106,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix ledger export",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-05-31T11:00:00Z",
+    "System.ChangedDate": "2026-06-04T09:42:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-05-31T20:00:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4106"
+    }
+   }
+  },
+  {
+   "id": 4107,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor data quality checks",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-02T10:46:00Z",
+    "System.ChangedDate": "2026-06-05T08:13:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-03T09:46:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-05T08:13:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4107"
+    }
+   }
+  },
+  {
+   "id": 4108,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Harden rate limiter",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-08T03:53:00Z",
+    "System.ChangedDate": "2026-06-09T13:08:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-09T07:53:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-09T13:08:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4108"
+    }
+   }
+  },
+  {
+   "id": 4109,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add document upload",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-08T04:31:00Z",
+    "System.ChangedDate": "2026-06-10T11:37:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-09T05:31:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-10T11:37:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4109"
+    }
+   }
+  },
+  {
+   "id": 4110,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden audit trail",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-06-06T06:27:00Z",
+    "System.ChangedDate": "2026-06-10T09:12:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-07T06:27:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-10T09:12:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4110"
+    }
+   }
+  },
+  {
+   "id": 4111,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-06-08T09:03:00Z",
+    "System.ChangedDate": "2026-06-10T07:42:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-09T15:03:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-10T07:42:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4111"
+    }
+   }
+  },
+  {
+   "id": 4112,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor access policies",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-06-05T09:23:00Z",
+    "System.ChangedDate": "2026-06-10T04:32:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-06T05:23:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4112"
+    }
+   }
+  },
+  {
+   "id": 4113,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor cost dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-09T10:14:00Z",
+    "System.ChangedDate": "2026-06-11T04:15:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-09T18:14:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-11T04:15:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4113"
+    }
+   }
+  },
+  {
+   "id": 4114,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor audit trail",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-06-06T07:44:00Z",
+    "System.ChangedDate": "2026-06-11T10:50:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-06T18:44:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-11T10:50:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4114"
+    }
+   }
+  },
+  {
+   "id": 4115,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-06-05T08:15:00Z",
+    "System.ChangedDate": "2026-06-11T08:06:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-05T15:15:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-11T08:06:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4115"
+    }
+   }
+  },
+  {
+   "id": 4116,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix ledger export",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-13T12:11:00Z",
+    "System.ChangedDate": "2026-06-15T04:18:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-13T15:11:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-15T04:18:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4116"
+    }
+   }
+  },
+  {
+   "id": 4117,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor refund flow",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-11T03:30:00Z",
+    "System.ChangedDate": "2026-06-15T04:03:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-11T22:30:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-15T04:03:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4117"
+    }
+   }
+  },
+  {
+   "id": 4118,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-06-12T03:36:00Z",
+    "System.ChangedDate": "2026-06-15T09:08:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-12T18:36:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-15T09:08:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4118"
+    }
+   }
+  },
+  {
+   "id": 4119,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor contract tests",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-13T05:10:00Z",
+    "System.ChangedDate": "2026-06-17T10:02:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-14T08:10:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-17T10:02:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4119"
+    }
+   }
+  },
+  {
+   "id": 4120,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add fraud score API",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-12T07:40:00Z",
+    "System.ChangedDate": "2026-06-18T05:19:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-12T20:40:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-18T05:19:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4120"
+    }
+   }
+  },
+  {
+   "id": 4121,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add adjuster dashboard",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-06-16T04:00:00Z",
+    "System.ChangedDate": "2026-06-18T06:29:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-16T17:00:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4121"
+    }
+   }
+  },
+  {
+   "id": 4122,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix webhook signing",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-18T05:33:00Z",
+    "System.ChangedDate": "2026-06-22T08:22:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-18T18:33:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-22T08:22:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4122"
+    }
+   }
+  },
+  {
+   "id": 4123,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix load profile",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-21T09:10:00Z",
+    "System.ChangedDate": "2026-06-23T07:18:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-21T12:10:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-23T07:18:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4123"
+    }
+   }
+  },
+  {
+   "id": 4124,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Implement contract tests",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-06-21T06:51:00Z",
+    "System.ChangedDate": "2026-06-24T12:11:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-21T16:51:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-24T12:11:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4124"
+    }
+   }
+  },
+  {
+   "id": 4125,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix fraud score API",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-06-23T10:12:00Z",
+    "System.ChangedDate": "2026-06-24T12:26:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-24T07:12:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-24T12:26:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4125"
+    }
+   }
+  },
+  {
+   "id": 4126,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Harden cost dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-20T07:38:00Z",
+    "System.ChangedDate": "2026-06-26T09:53:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-20T23:38:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-26T09:53:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4126"
+    }
+   }
+  },
+  {
+   "id": 4127,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix lineage graph",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-27T10:58:00Z",
+    "System.ChangedDate": "2026-06-29T06:32:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-27T12:58:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-06-29T06:32:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4127"
+    }
+   }
+  },
+  {
+   "id": 4128,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add flaky test triage",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-06-26T11:45:00Z",
+    "System.ChangedDate": "2026-07-02T09:13:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-06-26T20:45:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4128"
+    }
+   }
+  },
+  {
+   "id": 4129,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor contract tests",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-06-30T04:37:00Z",
+    "System.ChangedDate": "2026-07-02T07:30:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-01T05:37:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-02T07:30:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4129"
+    }
+   }
+  },
+  {
+   "id": 4130,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix refund flow",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-02T09:49:00Z",
+    "System.ChangedDate": "2026-07-03T08:10:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-02T20:49:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-03T08:10:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4130"
+    }
+   }
+  },
+  {
+   "id": 4131,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor search filters",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-02T04:23:00Z",
+    "System.ChangedDate": "2026-07-06T12:04:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-02T22:23:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-06T12:04:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4131"
+    }
+   }
+  },
+  {
+   "id": 4132,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Implement ledger export",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-03T05:49:00Z",
+    "System.ChangedDate": "2026-07-07T13:19:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-03T19:49:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-07T13:19:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4132"
+    }
+   }
+  },
+  {
+   "id": 4133,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Implement data quality checks",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-04T08:06:00Z",
+    "System.ChangedDate": "2026-07-07T10:15:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-05T11:06:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4133"
+    }
+   }
+  },
+  {
+   "id": 4134,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix data quality checks",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-04T07:40:00Z",
+    "System.ChangedDate": "2026-07-07T12:46:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-04T10:40:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-07T12:46:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4134"
+    }
+   }
+  },
+  {
+   "id": 4135,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-05T09:45:00Z",
+    "System.ChangedDate": "2026-07-09T12:41:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-05T16:45:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-09T12:41:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4135"
+    }
+   }
+  },
+  {
+   "id": 4136,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix ingestion job",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-04T05:40:00Z",
+    "System.ChangedDate": "2026-07-10T12:38:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-04T14:40:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-10T12:38:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4136"
+    }
+   }
+  },
+  {
+   "id": 4137,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-12T06:39:00Z",
+    "System.ChangedDate": "2026-07-13T12:09:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-13T00:39:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-13T12:09:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4137"
+    }
+   }
+  },
+  {
+   "id": 4138,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement flaky test triage",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-07T04:44:00Z",
+    "System.ChangedDate": "2026-07-13T06:49:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-07T10:44:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-13T06:49:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4138"
+    }
+   }
+  },
+  {
+   "id": 4139,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Harden regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-12T11:10:00Z",
+    "System.ChangedDate": "2026-07-14T11:43:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-13T16:10:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-14T11:43:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4139"
+    }
+   }
+  },
+  {
+   "id": 4140,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix document upload",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-14T09:07:00Z",
+    "System.ChangedDate": "2026-07-17T13:21:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-15T10:07:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-17T13:21:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4140"
+    }
+   }
+  },
+  {
+   "id": 4141,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden audit trail",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-16T03:55:00Z",
+    "System.ChangedDate": "2026-07-20T12:33:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-17T05:55:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4141"
+    }
+   }
+  },
+  {
+   "id": 4142,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-15T11:14:00Z",
+    "System.ChangedDate": "2026-07-20T07:26:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-16T00:14:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-20T07:26:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4142"
+    }
+   }
+  },
+  {
+   "id": 4143,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement ingestion job",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-16T04:29:00Z",
+    "System.ChangedDate": "2026-07-20T06:41:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-17T10:29:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-20T06:41:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4143"
+    }
+   }
+  },
+  {
+   "id": 4144,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor ledger export",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-15T06:18:00Z",
+    "System.ChangedDate": "2026-07-20T11:12:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-15T12:18:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-20T11:12:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4144"
+    }
+   }
+  },
+  {
+   "id": 4145,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor fraud score API",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-18T05:10:00Z",
+    "System.ChangedDate": "2026-07-21T10:21:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-19T03:10:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-21T10:21:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4145"
+    }
+   }
+  },
+  {
+   "id": 4146,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement FX rates cache",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-20T11:07:00Z",
+    "System.ChangedDate": "2026-07-21T03:54:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-20T16:07:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-21T03:54:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4146"
+    }
+   }
+  },
+  {
+   "id": 4147,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden search filters",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-18T07:16:00Z",
+    "System.ChangedDate": "2026-07-22T06:02:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-18T11:16:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-22T06:02:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4147"
+    }
+   }
+  },
+  {
+   "id": 4148,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add retry policy",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-22T10:31:00Z",
+    "System.ChangedDate": "2026-07-23T09:51:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-22T14:31:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-23T09:51:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4148"
+    }
+   }
+  },
+  {
+   "id": 4149,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix audit trail",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-17T07:15:00Z",
+    "System.ChangedDate": "2026-07-23T05:40:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-17T23:15:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-23T05:40:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4149"
+    }
+   }
+  },
+  {
+   "id": 4150,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden contract tests",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-20T06:45:00Z",
+    "System.ChangedDate": "2026-07-24T04:14:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-20T23:45:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-24T04:14:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4150"
+    }
+   }
+  },
+  {
+   "id": 4151,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-22T07:45:00Z",
+    "System.ChangedDate": "2026-07-24T03:37:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-23T04:45:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-24T03:37:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4151"
+    }
+   }
+  },
+  {
+   "id": 4152,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-24T10:06:00Z",
+    "System.ChangedDate": "2026-07-27T13:04:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-25T11:06:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-27T13:04:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4152"
+    }
+   }
+  },
+  {
+   "id": 4153,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden regression pack",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-24T09:55:00Z",
+    "System.ChangedDate": "2026-07-27T08:14:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-24T13:55:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4153"
+    }
+   }
+  },
+  {
+   "id": 4154,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Harden rate limiter",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-25T03:36:00Z",
+    "System.ChangedDate": "2026-07-28T09:36:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-25T17:36:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-28T09:36:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4154"
+    }
+   }
+  },
+  {
+   "id": 4155,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-26T09:21:00Z",
+    "System.ChangedDate": "2026-07-28T11:07:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-27T10:21:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-28T11:07:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4155"
+    }
+   }
+  },
+  {
+   "id": 4156,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add ledger export",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-23T08:27:00Z",
+    "System.ChangedDate": "2026-07-29T08:58:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-24T14:27:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-29T08:58:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4156"
+    }
+   }
+  },
+  {
+   "id": 4157,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix contract tests",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-26T05:58:00Z",
+    "System.ChangedDate": "2026-07-30T08:39:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-26T14:58:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4157"
+    }
+   }
+  },
+  {
+   "id": 4158,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Implement rate limiter",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-26T12:42:00Z",
+    "System.ChangedDate": "2026-07-30T06:59:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-26T16:42:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4158"
+    }
+   }
+  },
+  {
+   "id": 4159,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-27T05:33:00Z",
+    "System.ChangedDate": "2026-07-31T06:47:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-28T08:33:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-31T06:47:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4159"
+    }
+   }
+  },
+  {
+   "id": 4160,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-07-30T13:20:00Z",
+    "System.ChangedDate": "2026-08-02T00:33:21Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-31T06:20:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-02T00:33:21Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4160"
+    }
+   }
+  },
+  {
+   "id": 4161,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add claim intake form",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-07-25T04:09:00Z",
+    "System.ChangedDate": "2026-07-31T11:30:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-26T02:09:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-07-31T11:30:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4161"
+    }
+   }
+  },
+  {
+   "id": 4162,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add flaky test triage",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-08-02T09:22:00Z",
+    "System.ChangedDate": "2026-08-03T12:22:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-02T22:22:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-03T12:22:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4162"
+    }
+   }
+  },
+  {
+   "id": 4163,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-07-31T06:05:00Z",
+    "System.ChangedDate": "2026-08-03T09:48:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-01T03:05:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-03T09:48:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4163"
+    }
+   }
+  },
+  {
+   "id": 4164,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix cost dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-08-02T07:13:00Z",
+    "System.ChangedDate": "2026-08-03T11:21:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-02T22:13:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-03T11:21:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4164"
+    }
+   }
+  },
+  {
+   "id": 4165,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Implement SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-08-02T11:31:00Z",
+    "System.ChangedDate": "2026-08-07T16:20:58Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-03T05:31:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-07T16:20:58Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4165"
+    }
+   }
+  },
+  {
+   "id": 4166,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add adjuster dashboard",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-07-30T04:31:00Z",
+    "System.ChangedDate": "2026-08-04T05:36:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-30T13:31:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4166"
+    }
+   }
+  },
+  {
+   "id": 4167,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden load profile",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-02T09:25:00Z",
+    "System.ChangedDate": "2026-08-04T11:12:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-02T15:25:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-04T11:12:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4167"
+    }
+   }
+  },
+  {
+   "id": 4168,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add dbt model",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-01T08:43:00Z",
+    "System.ChangedDate": "2026-08-05T04:47:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-02T09:43:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-05T04:47:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4168"
+    }
+   }
+  },
+  {
+   "id": 4169,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-08-01T04:45:00Z",
+    "System.ChangedDate": "2026-08-06T11:58:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-01T12:45:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-06T11:58:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4169"
+    }
+   }
+  },
+  {
+   "id": 4170,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add load profile",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-07-31T03:41:00Z",
+    "System.ChangedDate": "2026-08-06T06:02:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-07-31T09:41:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-06T06:02:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4170"
+    }
+   }
+  },
+  {
+   "id": 4171,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix search filters",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-03T12:24:00Z",
+    "System.ChangedDate": "2026-08-06T11:54:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-04T17:24:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-06T11:54:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4171"
+    }
+   }
+  },
+  {
+   "id": 4172,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden load profile",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-08-05T09:19:00Z",
+    "System.ChangedDate": "2026-08-06T08:41:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-06T00:19:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-06T08:41:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4172"
+    }
+   }
+  },
+  {
+   "id": 4173,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Implement retry policy",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-08-02T03:44:00Z",
+    "System.ChangedDate": "2026-08-07T04:25:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-02T18:44:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-07T04:25:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4173"
+    }
+   }
+  },
+  {
+   "id": 4174,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor data quality checks",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-05T03:45:00Z",
+    "System.ChangedDate": "2026-08-07T04:31:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-06T03:45:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-07T04:31:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4174"
+    }
+   }
+  },
+  {
+   "id": 4175,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden adjuster dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-08-06T12:44:00Z",
+    "System.ChangedDate": "2026-08-10T13:22:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-07T04:44:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-10T13:22:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4175"
+    }
+   }
+  },
+  {
+   "id": 4176,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add cost dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-05T04:52:00Z",
+    "System.ChangedDate": "2026-08-11T11:23:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-06T04:52:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-11T11:23:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4176"
+    }
+   }
+  },
+  {
+   "id": 4177,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-08T09:55:00Z",
+    "System.ChangedDate": "2026-08-11T08:28:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-09T12:55:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-11T08:28:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4177"
+    }
+   }
+  },
+  {
+   "id": 4178,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Implement FX rates cache",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-10T05:29:00Z",
+    "System.ChangedDate": "2026-08-12T06:00:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-11T08:29:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-12T06:00:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4178"
+    }
+   }
+  },
+  {
+   "id": 4179,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-08T10:52:00Z",
+    "System.ChangedDate": "2026-08-12T11:35:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-08T21:52:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-12T11:35:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4179"
+    }
+   }
+  },
+  {
+   "id": 4180,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden claim intake form",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-12T05:56:00Z",
+    "System.ChangedDate": "2026-08-13T06:28:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-12T22:56:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-13T06:28:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4180"
+    }
+   }
+  },
+  {
+   "id": 4181,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add adjuster dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-10T03:58:00Z",
+    "System.ChangedDate": "2026-08-14T12:37:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-10T15:58:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-14T12:37:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4181"
+    }
+   }
+  },
+  {
+   "id": 4182,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden rate limiter",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-09T07:28:00Z",
+    "System.ChangedDate": "2026-08-14T03:34:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-10T11:28:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-14T03:34:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4182"
+    }
+   }
+  },
+  {
+   "id": 4183,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Harden SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-13T07:13:00Z",
+    "System.ChangedDate": "2026-08-17T05:59:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-14T04:13:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-17T05:59:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4183"
+    }
+   }
+  },
+  {
+   "id": 4184,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-15T06:59:00Z",
+    "System.ChangedDate": "2026-08-17T04:13:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-16T07:59:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-17T04:13:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4184"
+    }
+   }
+  },
+  {
+   "id": 4185,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add flaky test triage",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-13T11:22:00Z",
+    "System.ChangedDate": "2026-08-17T03:53:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-14T12:22:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-17T03:53:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4185"
+    }
+   }
+  },
+  {
+   "id": 4186,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-15T10:43:00Z",
+    "System.ChangedDate": "2026-08-17T11:27:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-15T20:43:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-17T11:27:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4186"
+    }
+   }
+  },
+  {
+   "id": 4187,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add dbt model",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-16T10:58:00Z",
+    "System.ChangedDate": "2026-08-19T08:34:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-17T16:58:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-19T08:34:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4187"
+    }
+   }
+  },
+  {
+   "id": 4188,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix rate limiter",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-19T11:41:00Z",
+    "System.ChangedDate": "2026-08-20T06:23:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-20T01:41:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-20T06:23:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4188"
+    }
+   }
+  },
+  {
+   "id": 4189,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden data quality checks",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-19T13:01:00Z",
+    "System.ChangedDate": "2026-08-21T05:19:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-19T22:01:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-21T05:19:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4189"
+    }
+   }
+  },
+  {
+   "id": 4190,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden adjuster dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-08-21T07:20:00Z",
+    "System.ChangedDate": "2026-08-24T12:15:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-22T02:20:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-24T12:15:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4190"
+    }
+   }
+  },
+  {
+   "id": 4191,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor refund flow",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-21T08:44:00Z",
+    "System.ChangedDate": "2026-08-24T06:19:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-22T04:44:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-24T06:19:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4191"
+    }
+   }
+  },
+  {
+   "id": 4192,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Implement schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-21T08:23:00Z",
+    "System.ChangedDate": "2026-08-25T08:08:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-22T14:23:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-25T08:08:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4192"
+    }
+   }
+  },
+  {
+   "id": 4193,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden retry policy",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-24T04:55:00Z",
+    "System.ChangedDate": "2026-09-02T10:19:28Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-25T08:55:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-02T10:19:28Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4193"
+    }
+   }
+  },
+  {
+   "id": 4194,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add fraud score API",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-08-19T11:00:00Z",
+    "System.ChangedDate": "2026-08-25T06:39:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-20T17:00:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-25T06:39:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4194"
+    }
+   }
+  },
+  {
+   "id": 4195,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Refactor schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-08-24T05:56:00Z",
+    "System.ChangedDate": "2026-08-26T06:05:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-24T10:56:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-26T06:05:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4195"
+    }
+   }
+  },
+  {
+   "id": 4196,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Implement claim intake form",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-08-22T09:20:00Z",
+    "System.ChangedDate": "2026-08-26T04:15:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-23T08:20:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-26T04:15:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4196"
+    }
+   }
+  },
+  {
+   "id": 4197,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add contract tests",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-08-24T10:49:00Z",
+    "System.ChangedDate": "2026-08-27T07:07:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-25T12:49:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-27T07:07:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4197"
+    }
+   }
+  },
+  {
+   "id": 4198,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-23T10:39:00Z",
+    "System.ChangedDate": "2026-08-27T09:31:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-23T16:39:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-27T09:31:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4198"
+    }
+   }
+  },
+  {
+   "id": 4199,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add flaky test triage",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-08-25T13:08:00Z",
+    "System.ChangedDate": "2026-08-27T07:03:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-25T18:08:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-27T07:03:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4199"
+    }
+   }
+  },
+  {
+   "id": 4200,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix lineage graph",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-25T10:58:00Z",
+    "System.ChangedDate": "2026-08-31T03:51:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-26T12:58:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-31T03:51:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4200"
+    }
+   }
+  },
+  {
+   "id": 4201,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix rate limiter",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-27T05:02:00Z",
+    "System.ChangedDate": "2026-08-31T12:30:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-28T00:02:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-31T12:30:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4201"
+    }
+   }
+  },
+  {
+   "id": 4202,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Implement load profile",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-27T06:23:00Z",
+    "System.ChangedDate": "2026-08-31T04:27:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-28T06:23:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-08-31T04:27:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4202"
+    }
+   }
+  },
+  {
+   "id": 4203,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor flaky test triage",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-08-31T11:02:00Z",
+    "System.ChangedDate": "2026-09-01T10:23:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-31T15:02:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-01T10:23:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4203"
+    }
+   }
+  },
+  {
+   "id": 4204,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add contract tests",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-08-29T13:25:00Z",
+    "System.ChangedDate": "2026-09-02T06:44:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-30T10:25:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-02T06:44:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4204"
+    }
+   }
+  },
+  {
+   "id": 4205,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add document upload",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-29T12:43:00Z",
+    "System.ChangedDate": "2026-09-02T13:23:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-30T01:43:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-02T13:23:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4205"
+    }
+   }
+  },
+  {
+   "id": 4206,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor search filters",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-09-02T11:57:00Z",
+    "System.ChangedDate": "2026-09-04T03:30:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-03T04:57:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-04T03:30:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4206"
+    }
+   }
+  },
+  {
+   "id": 4207,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Refactor claim intake form",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-31T04:47:00Z",
+    "System.ChangedDate": "2026-09-04T12:48:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-01T00:47:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-04T12:48:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4207"
+    }
+   }
+  },
+  {
+   "id": 4208,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix audit trail",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-08-29T11:21:00Z",
+    "System.ChangedDate": "2026-09-04T08:11:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-08-30T03:21:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-04T08:11:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4208"
+    }
+   }
+  },
+  {
+   "id": 4209,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-08-31T05:29:00Z",
+    "System.ChangedDate": "2026-09-04T07:27:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-01T03:29:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-04T07:27:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4209"
+    }
+   }
+  },
+  {
+   "id": 4210,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Implement webhook signing",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-02T08:37:00Z",
+    "System.ChangedDate": "2026-09-07T06:49:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-03T05:37:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-07T06:49:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4210"
+    }
+   }
+  },
+  {
+   "id": 4211,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement FX rates cache",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-04T05:01:00Z",
+    "System.ChangedDate": "2026-09-07T03:31:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-04T16:01:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4211"
+    }
+   }
+  },
+  {
+   "id": 4212,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-06T11:48:00Z",
+    "System.ChangedDate": "2026-09-08T12:48:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-07T00:48:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-08T12:48:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4212"
+    }
+   }
+  },
+  {
+   "id": 4213,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Fix fraud score API",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-02T06:38:00Z",
+    "System.ChangedDate": "2026-09-08T04:16:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-03T06:38:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-08T04:16:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4213"
+    }
+   }
+  },
+  {
+   "id": 4214,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-06T12:24:00Z",
+    "System.ChangedDate": "2026-09-08T11:03:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-07T09:24:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-08T11:03:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4214"
+    }
+   }
+  },
+  {
+   "id": 4215,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix load profile",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-08T05:16:00Z",
+    "System.ChangedDate": "2026-09-11T06:45:58Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-09T06:16:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-11T06:45:58Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4215"
+    }
+   }
+  },
+  {
+   "id": 4216,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement rate limiter",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-09T07:14:00Z",
+    "System.ChangedDate": "2026-09-10T08:16:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-09T21:14:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-10T08:16:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4216"
+    }
+   }
+  },
+  {
+   "id": 4217,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Implement webhook signing",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-09T13:13:00Z",
+    "System.ChangedDate": "2026-09-10T06:26:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-09T21:13:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-10T06:26:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4217"
+    }
+   }
+  },
+  {
+   "id": 4218,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden document upload",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-09-06T05:57:00Z",
+    "System.ChangedDate": "2026-09-11T10:18:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-07T01:57:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-11T10:18:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4218"
+    }
+   }
+  },
+  {
+   "id": 4219,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Fix claim intake form",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-11T04:55:00Z",
+    "System.ChangedDate": "2026-09-14T11:17:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-11T21:55:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-14T11:17:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4219"
+    }
+   }
+  },
+  {
+   "id": 4220,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor access policies",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-09-12T04:08:00Z",
+    "System.ChangedDate": "2026-09-15T13:15:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-13T04:08:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-15T13:15:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4220"
+    }
+   }
+  },
+  {
+   "id": 4221,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Implement search filters",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-15T04:09:00Z",
+    "System.ChangedDate": "2026-09-16T04:48:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-15T14:09:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4221"
+    }
+   }
+  },
+  {
+   "id": 4222,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix FX rates cache",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Karthik Subramanian",
+     "uniqueName": "karthik.subramanian@psiog.com",
+     "id": "00000007-ado0-4000-8000-00000000kart"
+    },
+    "System.CreatedDate": "2026-09-12T09:33:00Z",
+    "System.ChangedDate": "2026-09-16T11:04:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-12T21:33:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-16T11:04:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4222"
+    }
+   }
+  },
+  {
+   "id": 4223,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Fix SLA timer",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-15T05:16:00Z",
+    "System.ChangedDate": "2026-09-17T07:45:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-15T20:16:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-17T07:45:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4223"
+    }
+   }
+  },
+  {
+   "id": 4224,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden regression pack",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Rahul Verma",
+     "uniqueName": "rahul.verma@psiog.com",
+     "id": "00000003-ado0-4000-8000-00000000rahu"
+    },
+    "System.CreatedDate": "2026-09-20T12:02:00Z",
+    "System.ChangedDate": "2026-09-25T12:29:11Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-21T10:02:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-25T12:29:11Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 3,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4224"
+    }
+   }
+  },
+  {
+   "id": 4225,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add cost dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-18T06:08:00Z",
+    "System.ChangedDate": "2026-09-21T11:16:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-19T05:08:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-21T11:16:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4225"
+    }
+   }
+  },
+  {
+   "id": 4226,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden ingestion job",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-17T10:24:00Z",
+    "System.ChangedDate": "2026-09-21T05:19:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-17T14:24:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-21T05:19:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4226"
+    }
+   }
+  },
+  {
+   "id": 4227,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Harden fraud score API",
+    "System.State": "Active",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-17T04:54:00Z",
+    "System.ChangedDate": "2026-09-22T08:15:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-17T06:54:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": null,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4227"
+    }
+   }
+  },
+  {
+   "id": 4228,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add lineage graph",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-21T13:20:00Z",
+    "System.ChangedDate": "2026-09-22T07:51:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-22T03:20:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-22T07:51:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 1,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4228"
+    }
+   }
+  },
+  {
+   "id": 4229,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Add adjuster dashboard",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-19T13:14:00Z",
+    "System.ChangedDate": "2026-09-23T08:23:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-19T19:14:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-23T08:23:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4229"
+    }
+   }
+  },
+  {
+   "id": 4230,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "User Story",
+    "System.Title": "Add search filters",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-20T04:27:00Z",
+    "System.ChangedDate": "2026-09-23T09:57:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-21T04:27:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-23T09:57:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 1
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4230"
+    }
+   }
+  },
+  {
+   "id": 4231,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Bug",
+    "System.Title": "Refactor schema migration",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Vikram Nair",
+     "uniqueName": "vikram.nair@psiog.com",
+     "id": "00000005-ado0-4000-8000-00000000vikr"
+    },
+    "System.CreatedDate": "2026-09-24T11:19:00Z",
+    "System.ChangedDate": "2026-09-25T13:13:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-25T05:19:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-25T13:13:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4231"
+    }
+   }
+  },
+  {
+   "id": 4232,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Harden search filters",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Ananya Gupta",
+     "uniqueName": "ananya.g@psiog.onmicrosoft.com",
+     "id": "00000006-ado0-4000-8000-00000000anan"
+    },
+    "System.CreatedDate": "2026-09-22T05:13:00Z",
+    "System.ChangedDate": "2026-09-25T05:41:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-22T12:13:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-25T05:41:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4232"
+    }
+   }
+  },
+  {
+   "id": 4233,
+   "rev": 5,
+   "fields": {
+    "System.TeamProject": "Claims",
+    "System.WorkItemType": "Task",
+    "System.Title": "Add claim intake form",
+    "System.State": "Closed",
+    "System.AssignedTo": {
+     "displayName": "Lakshmi Narayanan",
+     "uniqueName": "lakshmi.narayanan@psiog.com",
+     "id": "0000000c-ado0-4000-8000-00000000laks"
+    },
+    "System.CreatedDate": "2026-09-23T07:06:00Z",
+    "System.ChangedDate": "2026-09-25T06:31:00Z",
+    "Microsoft.VSTS.Common.ActivatedDate": "2026-09-24T12:06:00Z",
+    "Microsoft.VSTS.Common.ClosedDate": "2026-09-25T06:31:00Z",
+    "Microsoft.VSTS.Scheduling.StoryPoints": 5,
+    "Custom.ReopenCount": 0
+   },
+   "_links": {
+    "html": {
+     "href": "https://dev.azure.com/psiog/Claims/_workitems/edit/4233"
+    }
+   }
+  }
+ ]
+}

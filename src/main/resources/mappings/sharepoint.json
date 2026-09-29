@@ -1,0 +1,44 @@
+{
+  "description": "Default SharePoint (Graph driveItem) mapping: document created + subsequent edits.",
+  "activities": [
+    {
+      "when": { "kind": "driveItem" },
+      "type": "DOCUMENT",
+      "externalId": "sp-{$.id}-created",
+      "title": "$.name",
+      "url": "$.webUrl",
+      "occurredAt": "$.createdDateTime",
+      "actor": {
+        "externalId": ["$.createdBy.user.email", "$.createdBy.user.id"],
+        "email": "$.createdBy.user.email",
+        "displayName": "$.createdBy.user.displayName"
+      },
+      "attributes": {
+        "action": "=created",
+        "mimeType": "$.file.mimeType",
+        "sizeBytes": { "path": "$.size", "type": "number" },
+        "folder": "$.parentReference.path"
+      }
+    },
+    {
+      "when": { "kind": "driveItem" },
+      "type": "DOCUMENT",
+      "externalId": "sp-{$._derived.versionKey}",
+      "title": "$.name",
+      "url": "$.webUrl",
+      "occurredAt": "$.lastModifiedDateTime",
+      "actor": {
+        "externalId": ["$.lastModifiedBy.user.email", "$.lastModifiedBy.user.id"],
+        "email": "$.lastModifiedBy.user.email",
+        "displayName": "$.lastModifiedBy.user.displayName"
+      },
+      "attributes": {
+        "action": "=modified",
+        "mimeType": "$.file.mimeType",
+        "sizeBytes": { "path": "$.size", "type": "number" },
+        "folder": "$.parentReference.path"
+      },
+      "skipWhen": { "path": "$._derived.modifiedIsCreation", "equals": true }
+    }
+  ]
+}

@@ -1,0 +1,1750 @@
+{
+ "repo": "psiog/qa-automation",
+ "pull_requests": [
+  {
+   "pr": {
+    "number": 1,
+    "title": "QAX-302: adjuster dashboard",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/1",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-06-02T04:13:00Z",
+    "updated_at": "2026-06-04T00:43:29Z",
+    "closed_at": "2026-06-04T00:43:29Z",
+    "merged_at": "2026-06-04T00:43:29Z",
+    "merged": true,
+    "merged_by": {
+     "login": "sureshb"
+    },
+    "additions": 125,
+    "deletions": 95,
+    "changed_files": 5,
+    "head": {
+     "ref": "feature/QAX-302-document-upload"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900551,
+     "user": {
+      "login": "sureshb"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-06-02T16:26:08Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/1#pullrequestreview-900551"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 2,
+    "title": "QAX-305: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/2",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-06-03T10:12:00Z",
+    "updated_at": "2026-06-04T20:25:56Z",
+    "closed_at": "2026-06-04T20:25:56Z",
+    "merged_at": "2026-06-04T20:25:56Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 327,
+    "deletions": 184,
+    "changed_files": 12,
+    "head": {
+     "ref": "feature/QAX-305-audit-trail"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 3,
+    "title": "QAX-310: fix: ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/3",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-06-09T05:45:00Z",
+    "updated_at": "2026-06-09T17:27:48Z",
+    "closed_at": "2026-06-09T17:27:48Z",
+    "merged_at": "2026-06-09T17:27:48Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 34,
+    "deletions": 24,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/QAX-310-claim-intake-form"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 4,
+    "title": "QAX-312: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/4",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-06-10T10:34:00Z",
+    "updated_at": "2026-06-11T03:21:25Z",
+    "closed_at": "2026-06-11T03:21:25Z",
+    "merged_at": "2026-06-11T03:21:25Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 97,
+    "deletions": 42,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/QAX-312-flaky-test-triage"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 5,
+    "title": "QAX-313: chore: ledger export",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/5",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-06-10T12:05:00Z",
+    "updated_at": "2026-06-12T09:40:49Z",
+    "closed_at": "2026-06-12T09:40:49Z",
+    "merged_at": "2026-06-12T09:40:49Z",
+    "merged": true,
+    "merged_by": {
+     "login": "sureshb"
+    },
+    "additions": 28,
+    "deletions": 15,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/QAX-313-search-filters"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900552,
+     "user": {
+      "login": "sureshb"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-06-11T02:22:46Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/5#pullrequestreview-900552"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 6,
+    "title": "QAX-323: fix: rate limiter",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/6",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-06-25T07:18:00Z",
+    "updated_at": "2026-06-26T21:25:05Z",
+    "closed_at": "2026-06-26T21:25:05Z",
+    "merged_at": "2026-06-26T21:25:05Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 90,
+    "deletions": 42,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/QAX-323-ingestion-job"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 7,
+    "title": "search filters",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/7",
+    "user": {
+     "login": "sureshb"
+    },
+    "created_at": "2026-06-26T10:40:00Z",
+    "updated_at": "2026-06-26T23:30:54Z",
+    "closed_at": "2026-06-26T23:30:54Z",
+    "merged_at": "2026-06-26T23:30:54Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 35,
+    "deletions": 21,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-lineage-graph"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900553,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-06-26T22:54:23Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/7#pullrequestreview-900553"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 8,
+    "title": "fix: webhook signing",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/8",
+    "user": {
+     "login": "sureshb"
+    },
+    "created_at": "2026-07-06T06:50:00Z",
+    "updated_at": "2026-07-08T11:06:35Z",
+    "closed_at": "2026-07-08T11:06:35Z",
+    "merged_at": "2026-07-08T11:06:35Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 48,
+    "deletions": 20,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-fraud-score-API"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900554,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-07-06T19:56:09Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/8#pullrequestreview-900554"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 9,
+    "title": "lineage graph",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/9",
+    "user": {
+     "login": "divya-menon"
+    },
+    "created_at": "2026-07-08T05:13:00Z",
+    "updated_at": "2026-07-08T17:56:56Z",
+    "closed_at": "2026-07-08T17:56:56Z",
+    "merged_at": "2026-07-08T17:56:56Z",
+    "merged": true,
+    "merged_by": {
+     "login": "divya-menon"
+    },
+    "additions": 69,
+    "deletions": 41,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/misc-ledger-export"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 10,
+    "title": "QAX-328: fix: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/10",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-07-10T06:38:00Z",
+    "updated_at": "2026-07-10T10:32:28Z",
+    "closed_at": "2026-07-10T10:32:28Z",
+    "merged_at": "2026-07-10T10:32:28Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 79,
+    "deletions": 15,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/QAX-328-claim-intake-form"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 11,
+    "title": "chore: webhook signing",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/11",
+    "user": {
+     "login": "divya-menon"
+    },
+    "created_at": "2026-07-14T08:52:00Z",
+    "updated_at": "2026-07-15T19:59:17Z",
+    "closed_at": "2026-07-15T19:59:17Z",
+    "merged_at": "2026-07-15T19:59:17Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 262,
+    "deletions": 75,
+    "changed_files": 8,
+    "head": {
+     "ref": "feature/misc-flaky-test-triage"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900555,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-14T18:25:17Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/11#pullrequestreview-900555"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 12,
+    "title": "QAX-332: rate limiter",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/12",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-07-21T11:48:00Z",
+    "updated_at": "2026-07-21T21:48:34Z",
+    "closed_at": "2026-07-21T21:48:34Z",
+    "merged_at": "2026-07-21T21:48:34Z",
+    "merged": true,
+    "merged_by": {
+     "login": "divya-menon"
+    },
+    "additions": 91,
+    "deletions": 46,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/QAX-332-ingestion-job"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900556,
+     "user": {
+      "login": "divya-menon"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "LGTM, minor nit on naming",
+     "submitted_at": "2026-07-21T20:06:14Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/12#pullrequestreview-900556"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 13,
+    "title": "QAX-335: fix: lineage graph",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/13",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-07-23T09:06:00Z",
+    "updated_at": "2026-07-23T22:13:30Z",
+    "closed_at": "2026-07-23T22:13:30Z",
+    "merged_at": "2026-07-23T22:13:30Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 65,
+    "deletions": 22,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/QAX-335-load-profile"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 14,
+    "title": "chore: dbt model",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/14",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-07-23T09:48:00Z",
+    "updated_at": "2026-07-24T14:42:56Z",
+    "closed_at": "2026-07-24T14:42:56Z",
+    "merged_at": "2026-07-24T14:42:56Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 48,
+    "deletions": 20,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-refund-flow"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 15,
+    "title": "fix: claim intake form",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/15",
+    "user": {
+     "login": "sureshb"
+    },
+    "created_at": "2026-07-23T09:49:00Z",
+    "updated_at": "2026-07-25T10:16:37Z",
+    "closed_at": "2026-07-25T10:16:37Z",
+    "merged_at": "2026-07-25T10:16:37Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 214,
+    "deletions": 39,
+    "changed_files": 6,
+    "head": {
+     "ref": "feature/misc-fraud-score-API"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900557,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-07-23T16:59:00Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/15#pullrequestreview-900557"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 16,
+    "title": "fix: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/16",
+    "user": {
+     "login": "divya-menon"
+    },
+    "created_at": "2026-08-05T08:22:00Z",
+    "updated_at": "2026-08-06T09:23:32Z",
+    "closed_at": "2026-08-06T09:23:32Z",
+    "merged_at": "2026-08-06T09:23:32Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 89,
+    "deletions": 50,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/misc-retry-policy"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900558,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-05T13:01:47Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/16#pullrequestreview-900558"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 17,
+    "title": "contract tests",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/17",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-08-07T10:19:00Z",
+    "updated_at": "2026-08-08T20:38:26Z",
+    "closed_at": "2026-08-08T20:38:26Z",
+    "merged_at": "2026-08-08T20:38:26Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 76,
+    "deletions": 24,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/misc-webhook-signing"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 18,
+    "title": "fix: audit trail",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/18",
+    "user": {
+     "login": "sureshb"
+    },
+    "created_at": "2026-08-11T13:28:00Z",
+    "updated_at": "2026-08-12T05:06:16Z",
+    "closed_at": "2026-08-12T05:06:16Z",
+    "merged_at": "2026-08-12T05:06:16Z",
+    "merged": true,
+    "merged_by": {
+     "login": "divya-menon"
+    },
+    "additions": 14,
+    "deletions": 5,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-SLA-timer"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900559,
+     "user": {
+      "login": "divya-menon"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-12T01:22:16Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/18#pullrequestreview-900559"
+    },
+    {
+     "id": 900560,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-08-11T21:45:58Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/18#pullrequestreview-900560"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 19,
+    "title": "schema migration",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/19",
+    "user": {
+     "login": "divya-menon"
+    },
+    "created_at": "2026-08-18T03:56:00Z",
+    "updated_at": "2026-08-19T22:24:27Z",
+    "closed_at": "2026-08-19T22:24:27Z",
+    "merged_at": "2026-08-19T22:24:27Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 36,
+    "deletions": 7,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-document-upload"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900561,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-18T18:50:59Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/19#pullrequestreview-900561"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 20,
+    "title": "QAX-352: fix: access policies",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/20",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-08-26T06:18:00Z",
+    "updated_at": "2026-08-27T20:12:09Z",
+    "closed_at": "2026-08-27T20:12:09Z",
+    "merged_at": "2026-08-27T20:12:09Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 239,
+    "deletions": 49,
+    "changed_files": 7,
+    "head": {
+     "ref": "feature/QAX-352-retry-policy"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 21,
+    "title": "fix: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/21",
+    "user": {
+     "login": "sureshb"
+    },
+    "created_at": "2026-08-26T11:12:00Z",
+    "updated_at": "2026-08-29T04:29:20Z",
+    "closed_at": "2026-08-29T04:29:20Z",
+    "merged_at": "2026-08-29T04:29:20Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 19,
+    "deletions": 14,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-rate-limiter"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900562,
+     "user": {
+      "login": "arjunm"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-08-26T19:00:39Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/21#pullrequestreview-900562"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 22,
+    "title": "QAX-356: refund flow",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/22",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-02T05:29:00Z",
+    "updated_at": "2026-09-03T22:07:12Z",
+    "closed_at": "2026-09-03T22:07:12Z",
+    "merged_at": "2026-09-03T22:07:12Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 121,
+    "deletions": 95,
+    "changed_files": 5,
+    "head": {
+     "ref": "feature/QAX-356-webhook-signing"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 23,
+    "title": "QAX-357: fix: fraud score API",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/23",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-03T08:29:00Z",
+    "updated_at": "2026-09-05T05:54:38Z",
+    "closed_at": "2026-09-05T05:54:38Z",
+    "merged_at": "2026-09-05T05:54:38Z",
+    "merged": true,
+    "merged_by": {
+     "login": "sureshb"
+    },
+    "additions": 70,
+    "deletions": 52,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/QAX-357-retry-policy"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900563,
+     "user": {
+      "login": "sureshb"
+     },
+     "state": "CHANGES_REQUESTED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-03T17:57:54Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/23#pullrequestreview-900563"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 24,
+    "title": "fix: SLA timer",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/24",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-03T11:53:00Z",
+    "updated_at": "2026-09-04T17:07:11Z",
+    "closed_at": "2026-09-04T17:07:11Z",
+    "merged_at": "2026-09-04T17:07:11Z",
+    "merged": true,
+    "merged_by": {
+     "login": "divya-menon"
+    },
+    "additions": 31,
+    "deletions": 9,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-audit-trail"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900564,
+     "user": {
+      "login": "divya-menon"
+     },
+     "state": "APPROVED",
+     "body": "Approved after the retry change",
+     "submitted_at": "2026-09-03T14:14:16Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/24#pullrequestreview-900564"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 25,
+    "title": "flaky test triage",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/25",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-07T12:46:00Z",
+    "updated_at": "2026-09-08T05:23:18Z",
+    "closed_at": "2026-09-08T05:23:18Z",
+    "merged_at": "2026-09-08T05:23:18Z",
+    "merged": true,
+    "merged_by": {
+     "login": "divya-menon"
+    },
+    "additions": 59,
+    "deletions": 16,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/misc-retry-policy"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900565,
+     "user": {
+      "login": "divya-menon"
+     },
+     "state": "APPROVED",
+     "body": "Looks good - consider extracting the mapper",
+     "submitted_at": "2026-09-07T18:38:37Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/25#pullrequestreview-900565"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 26,
+    "title": "QAX-363: chore: SLA timer",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/26",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-15T10:04:00Z",
+    "updated_at": "2026-09-16T01:49:45Z",
+    "closed_at": "2026-09-16T01:49:45Z",
+    "merged_at": "2026-09-16T01:49:45Z",
+    "merged": true,
+    "merged_by": {
+     "login": "sureshb"
+    },
+    "additions": 16,
+    "deletions": 12,
+    "changed_files": 1,
+    "head": {
+     "ref": "feature/QAX-363-cost-dashboard"
+    }
+   },
+   "reviews": [
+    {
+     "id": 900566,
+     "user": {
+      "login": "sureshb"
+     },
+     "state": "APPROVED",
+     "body": "Please add a test for the null path",
+     "submitted_at": "2026-09-16T02:17:54Z",
+     "html_url": "https://github.com/psiog/qa-automation/pull/26#pullrequestreview-900566"
+    }
+   ]
+  },
+  {
+   "pr": {
+    "number": 27,
+    "title": "QAX-367: webhook signing",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/27",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-18T04:21:00Z",
+    "updated_at": "2026-09-19T16:36:25Z",
+    "closed_at": "2026-09-19T16:36:25Z",
+    "merged_at": "2026-09-19T16:36:25Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 109,
+    "deletions": 31,
+    "changed_files": 3,
+    "head": {
+     "ref": "feature/QAX-367-adjuster-dashboard"
+    }
+   },
+   "reviews": []
+  },
+  {
+   "pr": {
+    "number": 28,
+    "title": "QAX-369: fix: regression pack",
+    "state": "closed",
+    "html_url": "https://github.com/psiog/qa-automation/pull/28",
+    "user": {
+     "login": "arjunm"
+    },
+    "created_at": "2026-09-22T10:35:00Z",
+    "updated_at": "2026-09-23T23:33:20Z",
+    "closed_at": "2026-09-23T23:33:20Z",
+    "merged_at": "2026-09-23T23:33:20Z",
+    "merged": true,
+    "merged_by": {
+     "login": "arjunm"
+    },
+    "additions": 50,
+    "deletions": 32,
+    "changed_files": 2,
+    "head": {
+     "ref": "feature/QAX-369-document-upload"
+    }
+   },
+   "reviews": []
+  }
+ ],
+ "commits": [
+  {
+   "sha": "13127c2bf234d465072489f72a72b0332273c684",
+   "html_url": "https://github.com/psiog/qa-automation/commit/13127c2bf234d465072489f72a72b0332273c684",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-01T19:13:00Z"
+    },
+    "message": "QAX-302: adjuster dashboard"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "3e30ed5e32c582ac3e6ba66985b0b47da970b211",
+   "html_url": "https://github.com/psiog/qa-automation/commit/3e30ed5e32c582ac3e6ba66985b0b47da970b211",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-01T17:13:00Z"
+    },
+    "message": "QAX-302: adjuster dashboard"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "18f23779e63f174d0f4634eff98b05df4457af40",
+   "html_url": "https://github.com/psiog/qa-automation/commit/18f23779e63f174d0f4634eff98b05df4457af40",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-02T00:13:00Z"
+    },
+    "message": "QAX-302: adjuster dashboard"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "e952b5473501ce808aad06932b4288737162ef9f",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e952b5473501ce808aad06932b4288737162ef9f",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-02T21:12:00Z"
+    },
+    "message": "QAX-305: audit trail"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "e0e214947b4f99148216a806006a218f321284c4",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e0e214947b4f99148216a806006a218f321284c4",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-08T16:45:00Z"
+    },
+    "message": "QAX-310: fix: ledger export"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "bb78f7a70bd469167b9fa2dbe86e99ec77fd9050",
+   "html_url": "https://github.com/psiog/qa-automation/commit/bb78f7a70bd469167b9fa2dbe86e99ec77fd9050",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-09T15:34:00Z"
+    },
+    "message": "QAX-312: audit trail"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "aa3e3c23a95186d06bfa4a3efdcb613902b48699",
+   "html_url": "https://github.com/psiog/qa-automation/commit/aa3e3c23a95186d06bfa4a3efdcb613902b48699",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-09T18:34:00Z"
+    },
+    "message": "QAX-312: audit trail"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "c685d4ec3cbba6ad8b20658ef8a8b40f1bc095f0",
+   "html_url": "https://github.com/psiog/qa-automation/commit/c685d4ec3cbba6ad8b20658ef8a8b40f1bc095f0",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-09T21:05:00Z"
+    },
+    "message": "QAX-313: chore: ledger export"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "5f887f619a8c1761bd8ef50724f62acb609141dd",
+   "html_url": "https://github.com/psiog/qa-automation/commit/5f887f619a8c1761bd8ef50724f62acb609141dd",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-10T11:05:00Z"
+    },
+    "message": "QAX-313: chore: ledger export"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "d69d4bf7b0651d397b977dcea77a06376bcb1839",
+   "html_url": "https://github.com/psiog/qa-automation/commit/d69d4bf7b0651d397b977dcea77a06376bcb1839",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-25T04:18:00Z"
+    },
+    "message": "QAX-323: fix: rate limiter"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "1803e038f55db5792f7faa736a815581a2f23a9f",
+   "html_url": "https://github.com/psiog/qa-automation/commit/1803e038f55db5792f7faa736a815581a2f23a9f",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-06-24T15:18:00Z"
+    },
+    "message": "QAX-323: fix: rate limiter"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "d87652b586078b108bac739c482d26490ab32f56",
+   "html_url": "https://github.com/psiog/qa-automation/commit/d87652b586078b108bac739c482d26490ab32f56",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-06-25T17:40:00Z"
+    },
+    "message": "search filters"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "1a5cc4bd4cbffa9da8221fae0ca09c818f981207",
+   "html_url": "https://github.com/psiog/qa-automation/commit/1a5cc4bd4cbffa9da8221fae0ca09c818f981207",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-07-05T13:50:00Z"
+    },
+    "message": "fix: webhook signing"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "0b7283ce38ed435193058303d05d380263d2848e",
+   "html_url": "https://github.com/psiog/qa-automation/commit/0b7283ce38ed435193058303d05d380263d2848e",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-07-05T22:50:00Z"
+    },
+    "message": "fix: webhook signing"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "a782e9d24c20a369d84eaf52631a7806296e0975",
+   "html_url": "https://github.com/psiog/qa-automation/commit/a782e9d24c20a369d84eaf52631a7806296e0975",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-07-07T18:13:00Z"
+    },
+    "message": "lineage graph"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "6ded23f89d60cc7341b74316668e180ecbbc840a",
+   "html_url": "https://github.com/psiog/qa-automation/commit/6ded23f89d60cc7341b74316668e180ecbbc840a",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-07-07T14:13:00Z"
+    },
+    "message": "lineage graph"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "15541a3f9ce555f496bd0f631bf3c2e54c6b3119",
+   "html_url": "https://github.com/psiog/qa-automation/commit/15541a3f9ce555f496bd0f631bf3c2e54c6b3119",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-07-07T16:13:00Z"
+    },
+    "message": "lineage graph"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "c0b30303af479a0be7fd3482b7c9debe52a9a87f",
+   "html_url": "https://github.com/psiog/qa-automation/commit/c0b30303af479a0be7fd3482b7c9debe52a9a87f",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-07-09T22:38:00Z"
+    },
+    "message": "QAX-328: fix: audit trail"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "e966a932c8dd57fd630c1e84053b1b94ae85e861",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e966a932c8dd57fd630c1e84053b1b94ae85e861",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-07-13T23:52:00Z"
+    },
+    "message": "chore: webhook signing"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "f71b0645087f29de91b25d34cc2fc11fcbcc3488",
+   "html_url": "https://github.com/psiog/qa-automation/commit/f71b0645087f29de91b25d34cc2fc11fcbcc3488",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-07-13T13:52:00Z"
+    },
+    "message": "chore: webhook signing"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "a52a0d8d7c8e107bc02d24a8b5abf569b8253bbb",
+   "html_url": "https://github.com/psiog/qa-automation/commit/a52a0d8d7c8e107bc02d24a8b5abf569b8253bbb",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-07-14T07:52:00Z"
+    },
+    "message": "chore: webhook signing"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "a97912a9d0794a0456174d9e2174cb534c61d505",
+   "html_url": "https://github.com/psiog/qa-automation/commit/a97912a9d0794a0456174d9e2174cb534c61d505",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-07-21T07:48:00Z"
+    },
+    "message": "QAX-332: rate limiter"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "0d96abacaec3ec41735c64d4989f73caf61998ee",
+   "html_url": "https://github.com/psiog/qa-automation/commit/0d96abacaec3ec41735c64d4989f73caf61998ee",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-07-23T05:06:00Z"
+    },
+    "message": "QAX-335: fix: lineage graph"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "5faefa38dd063badbcc5c88611b3e6a98d644744",
+   "html_url": "https://github.com/psiog/qa-automation/commit/5faefa38dd063badbcc5c88611b3e6a98d644744",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-07-22T15:06:00Z"
+    },
+    "message": "QAX-335: fix: lineage graph"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "fe540e0f65a8bdc130158278198f2ed192e90654",
+   "html_url": "https://github.com/psiog/qa-automation/commit/fe540e0f65a8bdc130158278198f2ed192e90654",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-07-22T15:06:00Z"
+    },
+    "message": "QAX-335: fix: lineage graph"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "02c22093f4591b8676ec8b2364299af4945f2b79",
+   "html_url": "https://github.com/psiog/qa-automation/commit/02c22093f4591b8676ec8b2364299af4945f2b79",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-07-22T18:48:00Z"
+    },
+    "message": "chore: dbt model"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "ec1a1d25550569a3f5f21b991e2c723c2cd6bb1d",
+   "html_url": "https://github.com/psiog/qa-automation/commit/ec1a1d25550569a3f5f21b991e2c723c2cd6bb1d",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-07-23T01:49:00Z"
+    },
+    "message": "fix: claim intake form"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "e6bd7270a33ad2863fbc6187992e31ac1125e8c9",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e6bd7270a33ad2863fbc6187992e31ac1125e8c9",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-07-22T20:49:00Z"
+    },
+    "message": "fix: claim intake form"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "f3dda14457471072dfe7b319c7eceb5e2377d43c",
+   "html_url": "https://github.com/psiog/qa-automation/commit/f3dda14457471072dfe7b319c7eceb5e2377d43c",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-08-05T02:22:00Z"
+    },
+    "message": "fix: refund flow"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "2c9a7b9a23fe143100e1ebaecbbf77ab66ca9c9c",
+   "html_url": "https://github.com/psiog/qa-automation/commit/2c9a7b9a23fe143100e1ebaecbbf77ab66ca9c9c",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-08-05T04:22:00Z"
+    },
+    "message": "fix: refund flow"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "c1b923b6ede18254bc270701924667536c66ccf5",
+   "html_url": "https://github.com/psiog/qa-automation/commit/c1b923b6ede18254bc270701924667536c66ccf5",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-08-05T07:22:00Z"
+    },
+    "message": "fix: refund flow"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "caec3e305de91f0f749b5bee82923f7fb534efc5",
+   "html_url": "https://github.com/psiog/qa-automation/commit/caec3e305de91f0f749b5bee82923f7fb534efc5",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-08-07T01:19:00Z"
+    },
+    "message": "contract tests"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "d7d19fa2dd661ebb243d930002adcdde83afa815",
+   "html_url": "https://github.com/psiog/qa-automation/commit/d7d19fa2dd661ebb243d930002adcdde83afa815",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-08-06T14:19:00Z"
+    },
+    "message": "contract tests"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "5e38ff70fe602765c5cfd69632f0cc063b5e2089",
+   "html_url": "https://github.com/psiog/qa-automation/commit/5e38ff70fe602765c5cfd69632f0cc063b5e2089",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-08-06T16:19:00Z"
+    },
+    "message": "contract tests"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "312f0c124c4c83d0d3dab73b80e46e2bc18990d5",
+   "html_url": "https://github.com/psiog/qa-automation/commit/312f0c124c4c83d0d3dab73b80e46e2bc18990d5",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-08-10T17:28:00Z"
+    },
+    "message": "fix: audit trail"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "72d9b6455cb1c89e68834f5701174bf8152ab4d9",
+   "html_url": "https://github.com/psiog/qa-automation/commit/72d9b6455cb1c89e68834f5701174bf8152ab4d9",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-08-17T19:56:00Z"
+    },
+    "message": "schema migration"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "159f3cf1d9edaf6a53868606cdae0f08e2a8e2f8",
+   "html_url": "https://github.com/psiog/qa-automation/commit/159f3cf1d9edaf6a53868606cdae0f08e2a8e2f8",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-08-17T11:56:00Z"
+    },
+    "message": "schema migration"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "609c17ac40f3de91eb142767568be1db4fbe5bf9",
+   "html_url": "https://github.com/psiog/qa-automation/commit/609c17ac40f3de91eb142767568be1db4fbe5bf9",
+   "commit": {
+    "author": {
+     "name": "Divya Menon",
+     "email": "divya.menon@psiog.com",
+     "date": "2026-08-17T08:56:00Z"
+    },
+    "message": "schema migration"
+   },
+   "author": {
+    "login": "divya-menon"
+   }
+  },
+  {
+   "sha": "1f431bd3585c7b4fb4bd9fcab0b561e7c580424f",
+   "html_url": "https://github.com/psiog/qa-automation/commit/1f431bd3585c7b4fb4bd9fcab0b561e7c580424f",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-08-26T05:18:00Z"
+    },
+    "message": "QAX-352: fix: access policies"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "e847d6b70c0dc1864de3dd6614dc5cccbc01f14d",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e847d6b70c0dc1864de3dd6614dc5cccbc01f14d",
+   "commit": {
+    "author": {
+     "name": "Suresh Babu",
+     "email": "suresh.babu@psiog.com",
+     "date": "2026-08-26T08:12:00Z"
+    },
+    "message": "fix: refund flow"
+   },
+   "author": {
+    "login": "sureshb"
+   }
+  },
+  {
+   "sha": "1637401e307c68e03e9a66d68b07475ae92f924a",
+   "html_url": "https://github.com/psiog/qa-automation/commit/1637401e307c68e03e9a66d68b07475ae92f924a",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-01T10:29:00Z"
+    },
+    "message": "QAX-356: refund flow"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "95395f76a28155a2f396523a8362dbe65e1ddfb8",
+   "html_url": "https://github.com/psiog/qa-automation/commit/95395f76a28155a2f396523a8362dbe65e1ddfb8",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-02T16:29:00Z"
+    },
+    "message": "QAX-357: fix: fraud score API"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "3875c569ee85fb01030e22b394042b7f90f68142",
+   "html_url": "https://github.com/psiog/qa-automation/commit/3875c569ee85fb01030e22b394042b7f90f68142",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-02T21:29:00Z"
+    },
+    "message": "QAX-357: fix: fraud score API"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "7e3197b5edcf79dd7e26f4ae19976388742bf60d",
+   "html_url": "https://github.com/psiog/qa-automation/commit/7e3197b5edcf79dd7e26f4ae19976388742bf60d",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-03T08:53:00Z"
+    },
+    "message": "fix: SLA timer"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "313701b406de0c92b302a11e7c661196db65aeb8",
+   "html_url": "https://github.com/psiog/qa-automation/commit/313701b406de0c92b302a11e7c661196db65aeb8",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-03T09:53:00Z"
+    },
+    "message": "fix: SLA timer"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "e85580e473afccd98014c6d0692a8cc2586c1d23",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e85580e473afccd98014c6d0692a8cc2586c1d23",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-03T09:53:00Z"
+    },
+    "message": "fix: SLA timer"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "e8fabfb440ef2762212b770912dee9714dafde3f",
+   "html_url": "https://github.com/psiog/qa-automation/commit/e8fabfb440ef2762212b770912dee9714dafde3f",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-06T23:46:00Z"
+    },
+    "message": "flaky test triage"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "64649fe2f692b9be17dd70d054783b99013b67f3",
+   "html_url": "https://github.com/psiog/qa-automation/commit/64649fe2f692b9be17dd70d054783b99013b67f3",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-07T03:46:00Z"
+    },
+    "message": "flaky test triage"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "a274a5fac2c1925c3b5b1d47cf248b558a767f56",
+   "html_url": "https://github.com/psiog/qa-automation/commit/a274a5fac2c1925c3b5b1d47cf248b558a767f56",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-06T18:46:00Z"
+    },
+    "message": "flaky test triage"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "629b799772be6ac83d338c193576237c521d56b5",
+   "html_url": "https://github.com/psiog/qa-automation/commit/629b799772be6ac83d338c193576237c521d56b5",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-14T16:04:00Z"
+    },
+    "message": "QAX-363: chore: SLA timer"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "741b8f3d8eaea75fc18cc4131d84848442452602",
+   "html_url": "https://github.com/psiog/qa-automation/commit/741b8f3d8eaea75fc18cc4131d84848442452602",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-14T21:04:00Z"
+    },
+    "message": "QAX-363: chore: SLA timer"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "6f82614daacfa947dd9c829a76fc5c77751f0dda",
+   "html_url": "https://github.com/psiog/qa-automation/commit/6f82614daacfa947dd9c829a76fc5c77751f0dda",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-15T08:04:00Z"
+    },
+    "message": "QAX-363: chore: SLA timer"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "5318d0ae4f66e8803974f1d947a1fa036345239e",
+   "html_url": "https://github.com/psiog/qa-automation/commit/5318d0ae4f66e8803974f1d947a1fa036345239e",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-17T09:21:00Z"
+    },
+    "message": "QAX-367: webhook signing"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "d78f9cf5ab1579aaa290d3acad2375a1747dedaf",
+   "html_url": "https://github.com/psiog/qa-automation/commit/d78f9cf5ab1579aaa290d3acad2375a1747dedaf",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-22T02:35:00Z"
+    },
+    "message": "QAX-369: fix: regression pack"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "78f075adc3370882a398f60d147cc606d7bf0636",
+   "html_url": "https://github.com/psiog/qa-automation/commit/78f075adc3370882a398f60d147cc606d7bf0636",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-22T02:35:00Z"
+    },
+    "message": "QAX-369: fix: regression pack"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  },
+  {
+   "sha": "43a2647c2d52f50439cdea833a470c640b6b60bc",
+   "html_url": "https://github.com/psiog/qa-automation/commit/43a2647c2d52f50439cdea833a470c640b6b60bc",
+   "commit": {
+    "author": {
+     "name": "Arjun Mehta",
+     "email": "arjun.mehta@psiog.com",
+     "date": "2026-09-21T15:35:00Z"
+    },
+    "message": "QAX-369: fix: regression pack"
+   },
+   "author": {
+    "login": "arjunm"
+   }
+  }
+ ]
+}

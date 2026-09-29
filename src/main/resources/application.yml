@@ -1,0 +1,113 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: perf-insight
+
+  # ------------------------------------------------------------------
+  # DATABASE  (fill these in, or supply DB_URL / DB_USERNAME / DB_PASSWORD)
+  # ------------------------------------------------------------------
+  datasource:
+    url: jdbc:mysql://localhost:3306/Perfromance_Platform
+    username: root
+    password: Root@12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  # ------------------------------------------------------------------
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update          # hackathon speed; switch to Flyway + validate before production
+    properties:
+      hibernate:
+        jdbc.time_zone: UTC
+        format_sql: false
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  # Azure AD (Entra ID) — the API validates access tokens issued for your app registration
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://login.microsoftonline.com/${AZURE_TENANT_ID:common}/v2.0
+          audiences: ${AZURE_API_AUDIENCE:api://perf-insight}
+
+app:
+  security:
+    # Azure AD app-role *values* (as they appear in the token "roles" claim) -> internal roles
+    open-access: true
+    dev-auth: false
+    role-mapping:
+      Admin: ADMIN
+      ServiceHead: SERVICE_HEAD
+      Manager: MANAGER
+      Employee: EMPLOYEE
+    # Claims used to find the Associate record for the signed-in user (first match wins)
+    identity-claims: [preferred_username, email, upn]
+    cors-allowed-origins: [http://localhost:3000, http://localhost:5173, http://localhost:4200]
+
+  # Secrets are referenced by name from each project's tool config (credentialRef) — never stored in the DB
+  credentials:
+    jira:
+      username: pradeep.kumar@psiog.com
+      token: ${JIRA_API_TOKEN:ATATT3xFfGF0D7ccRASshd0LiaaAhZI6CFzCmDhYbe1tdEacfGlx8Yo5poC0hEqv_rHWwQ6WT1c3DYeum0eAFVe4Pd-DZ08sjmqymfGvDPtGAblPmIehpiACr6D6SOtrpgS6AXc4tTY2XKCiqrUYG8wYpxau3LqXmCOCgBN1caxhzT2wP7AVjWE=7A6CBBC8}
+    github:
+      token: ${GITHUB_TOKEN:}
+    ado:
+      token: ${ADO_PAT:}
+    testrail:
+      username: ${TESTRAIL_USER:}
+      token: ${TESTRAIL_API_KEY:}
+    sharepoint:
+      tenant-id: ${AZURE_TENANT_ID:}
+      client-id: ${SHAREPOINT_CLIENT_ID:}
+      token: ${SHAREPOINT_CLIENT_SECRET:}
+
+  # Live Jira Cloud lookups: GET /api/jira/users/{name}/summary
+  jira:
+    base-url: ${JIRA_BASE_URL:https://psiog-team-qsymlxmq.atlassian.net}           # e.g. https://psiog.atlassian.net
+    default-project-key: ${JIRA_PROJECT_KEY:SCRUM}
+    story-points-fields: ${JIRA_STORY_POINTS_FIELDS:}   # blank = auto-detect
+    include-dev-info: true
+    max-issues: 1000
+    max-dev-lookups: 200
+
+  sync:
+    enabled: true
+    cron: "0 0 */6 * * *"       # every 6 hours, incremental (watermark per tool config)
+    initial-lookback-days: 180
+
+  scoring:
+    snapshot-cron: "0 30 1 1 * *"   # 01:30 on the 1st: freeze last month's results for trends
+    working-days-per-normalised-period: 20
+    min-active-days: 5
+    min-cohort-size: 3
+    max-single-measure-weight: 0.40
+
+  ai:
+    provider: ${AI_PROVIDER:none}      # none | openai | azure-openai
+    api-key: ${AI_API_KEY:}
+    model: ${AI_MODEL:gpt-4o-mini}
+    base-url: ${AI_BASE_URL:https://api.openai.com/v1}
+    azure-endpoint: ${AZURE_OPENAI_ENDPOINT:}
+    azure-deployment: ${AZURE_OPENAI_DEPLOYMENT:}
+    azure-api-version: ${AZURE_OPENAI_API_VERSION:2024-10-21}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.psiog.perfinsight: INFO

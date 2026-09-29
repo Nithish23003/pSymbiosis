@@ -1,0 +1,8 @@
+# Local development: accepts X-Dev-User / X-Dev-Roles headers instead of an Azure AD token.
+# NEVER enable this profile in a shared environment.
+app:
+  security:
+    dev-auth: true
+logging:
+  level:
+    com.psiog.perfinsight: DEBUG

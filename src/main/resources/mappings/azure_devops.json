@@ -1,0 +1,51 @@
+{
+  "description": "Default Azure DevOps Boards mapping (work items) + CSV export from a query.",
+  "activities": [
+    {
+      "when": { "kind": "workitem" },
+      "type": "TICKET",
+      "externalId": "ado-{$.id}",
+      "title": "$.fields['System.Title']",
+      "url": "$._links.html.href",
+      "occurredAt": ["$.fields['Microsoft.VSTS.Common.ClosedDate']", "$.fields['System.ChangedDate']"],
+      "actor": {
+        "externalId": ["$.fields['System.AssignedTo'].id", "$.fields['System.AssignedTo'].uniqueName"],
+        "username": "$.fields['System.AssignedTo'].uniqueName",
+        "email": { "path": "$.fields['System.AssignedTo'].uniqueName", "type": "email" },
+        "displayName": "$.fields['System.AssignedTo'].displayName"
+      },
+      "attributes": {
+        "issueType": "$.fields['System.WorkItemType']",
+        "status": "$.fields['System.State']",
+        "completed": { "path": "$.fields['System.State']", "equalsAny": ["Closed", "Done", "Resolved"] },
+        "storyPoints": { "path": ["$.fields['Microsoft.VSTS.Scheduling.StoryPoints']", "$.fields['Microsoft.VSTS.Scheduling.Effort']"], "type": "number" },
+        "createdAt": { "path": "$.fields['System.CreatedDate']", "type": "date" },
+        "resolvedAt": { "path": "$.fields['Microsoft.VSTS.Common.ClosedDate']", "type": "date" },
+        "cycleTimeHours": { "type": "hoursBetween", "from": ["$.fields['Microsoft.VSTS.Common.ActivatedDate']", "$.fields['System.CreatedDate']"], "to": "$.fields['Microsoft.VSTS.Common.ClosedDate']" },
+        "reopenCount": { "path": "$.fields['Custom.ReopenCount']", "type": "number", "default": 0 }
+      },
+      "skipWhen": { "path": "$.fields['System.AssignedTo']", "isNull": true }
+    },
+    {
+      "description": "ADO query results exported to CSV",
+      "when": { "kind": "row" },
+      "type": "TICKET",
+      "externalId": "ado-{$['ID']}",
+      "title": "$['Title']",
+      "occurredAt": ["$['Closed Date']", "$['Changed Date']"],
+      "actor": {
+        "externalId": { "path": "$['Assigned To']", "type": "email" },
+        "email": { "path": "$['Assigned To']", "type": "email" },
+        "displayName": { "path": "$['Assigned To']", "type": "nameBeforeEmail" }
+      },
+      "attributes": {
+        "issueType": "$['Work Item Type']",
+        "status": "$['State']",
+        "completed": { "path": "$['State']", "equalsAny": ["Closed", "Done", "Resolved"] },
+        "storyPoints": { "path": ["$['Story Points']", "$['Effort']"], "type": "number" },
+        "cycleTimeHours": { "type": "hoursBetween", "from": ["$['Activated Date']", "$['Created Date']"], "to": "$['Closed Date']" }
+      },
+      "skipWhen": { "path": "$['Assigned To']", "isNull": true }
+    }
+  ]
+}

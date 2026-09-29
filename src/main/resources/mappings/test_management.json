@@ -1,0 +1,42 @@
+{
+  "description": "Default TestRail mapping: one TEST_RUN activity per recorded test result.",
+  "activities": [
+    {
+      "when": { "kind": "result" },
+      "type": "TEST_RUN",
+      "externalId": "tr-result-{$.id}",
+      "title": ["Run '{$.run.name}' - test {$.test_id}", "Test {$.test_id}"],
+      "url": "$.run.url",
+      "occurredAt": "$.created_on",
+      "actor": {
+        "externalId": "tr-user-{$.created_by}",
+        "email": "$.user.email",
+        "displayName": "$.user.name"
+      },
+      "attributes": {
+        "statusId": { "path": "$.status_id", "type": "number" },
+        "passed": { "path": "$._derived.passed", "type": "bool" },
+        "failed": { "path": "$._derived.failed", "type": "bool" },
+        "defectsLogged": { "path": "$._derived.defectsLogged", "type": "number" },
+        "defects": "$.defects",
+        "elapsed": "$.elapsed",
+        "runId": "$.run.id",
+        "runName": "$.run.name"
+      }
+    },
+    {
+      "description": "Generic test-results CSV export",
+      "when": { "kind": "row" },
+      "type": "TEST_RUN",
+      "externalId": "tr-csv-{$['Result ID']}",
+      "title": "$['Title']",
+      "occurredAt": "$['Tested On']",
+      "actor": { "externalId": { "path": "$['Tested By Email']", "type": "email" }, "email": { "path": "$['Tested By Email']", "type": "email" }, "displayName": "$['Tested By']" },
+      "attributes": {
+        "passed": { "path": "$['Status']", "equalsAny": ["Passed"] },
+        "failed": { "path": "$['Status']", "equalsAny": ["Failed"] },
+        "defects": "$['Defects']"
+      }
+    }
+  ]
+}

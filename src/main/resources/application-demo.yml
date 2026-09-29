@@ -1,0 +1,7 @@
+# Seeds offerings, teams, people, projects, role moves, MOCK tool configs, a published model,
+# then runs a sync + scoring so every screen has data (acceptance criterion 11).
+app:
+  demo:
+    seed: true
+    period-start: 2026-06-01
+    period-end: 2026-09-30

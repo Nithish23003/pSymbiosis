@@ -1,0 +1,69 @@
+{
+  "description": "Default GitHub mapping: authored PRs, reviews given on others' PRs, commits (drill-down only).",
+  "activities": [
+    {
+      "when": { "kind": "pull_request" },
+      "type": "PULL_REQUEST",
+      "externalId": "gh-pr-{$.repo}#{$.pr.number}",
+      "title": "$.pr.title",
+      "url": "$.pr.html_url",
+      "occurredAt": ["$.pr.merged_at", "$.pr.created_at"],
+      "actor": { "externalId": "$.pr.user.login", "username": "$.pr.user.login" },
+      "attributes": {
+        "repo": "$.repo",
+        "number": "$.pr.number",
+        "state": "$.pr.state",
+        "branch": "$.pr.head.ref",
+        "merged": { "path": "$._derived.merged", "type": "bool" },
+        "mergedBy": "$.pr.merged_by.login",
+        "selfMerged": { "path": "$._derived.selfMerged", "type": "bool" },
+        "linesChanged": { "path": "$._derived.linesChanged", "type": "number" },
+        "additions": { "path": "$.pr.additions", "type": "number" },
+        "deletions": { "path": "$.pr.deletions", "type": "number" },
+        "changedFiles": { "path": "$.pr.changed_files", "type": "number" },
+        "reviewCount": { "path": "$._derived.reviewCount", "type": "number" },
+        "createdAt": { "path": "$.pr.created_at", "type": "date" },
+        "mergedAt": { "path": "$.pr.merged_at", "type": "date" },
+        "openToMergeHours": { "type": "hoursBetween", "from": "$.pr.created_at", "to": "$.pr.merged_at" }
+      }
+    },
+    {
+      "when": { "kind": "pull_request" },
+      "type": "CODE_REVIEW",
+      "forEach": "$.reviews[*]",
+      "externalId": "gh-review-{$.id}",
+      "title": "Review: {^.pr.title}",
+      "url": "$.html_url",
+      "occurredAt": "$.submitted_at",
+      "actor": { "externalId": "$.user.login", "username": "$.user.login" },
+      "attributes": {
+        "state": "$.state",
+        "approved": { "path": "$.state", "equalsAny": ["APPROVED"] },
+        "prRef": "{^.repo}#{^.pr.number}",
+        "prAuthor": "$._derived.prAuthor",
+        "prLinesChanged": { "path": "$._derived.prLinesChanged", "type": "number" },
+        "minutesAfterPrOpened": { "path": "$._derived.minutesAfterPrOpened", "type": "number" },
+        "bodyLength": { "path": "$._derived.bodyLength", "type": "number" }
+      },
+      "skipWhen": [
+        { "path": "$._derived.selfReview", "equals": true },
+        { "path": "$.state", "in": ["PENDING", "DISMISSED"] }
+      ]
+    },
+    {
+      "when": { "kind": "commit" },
+      "type": "COMMIT",
+      "externalId": "gh-commit-{$.sha}",
+      "title": "$.commit.message",
+      "url": "$.html_url",
+      "occurredAt": "$.commit.author.date",
+      "actor": {
+        "externalId": ["$.author.login", "$.commit.author.email"],
+        "username": "$.author.login",
+        "email": "$.commit.author.email",
+        "displayName": "$.commit.author.name"
+      },
+      "attributes": { "repo": "$.repo", "sha": "$.sha" }
+    }
+  ]
+}

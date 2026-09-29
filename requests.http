@@ -1,0 +1,200 @@
+### Perf Insight - sample requests (IntelliJ HTTP client / VS Code REST Client)
+### With profile "dev" you can use headers instead of a real Azure AD token:
+@base = http://localhost:8080
+@admin = X-Dev-User: admin@psiog.com
+@from = 2026-06-01
+@to = 2026-09-30
+
+### Who am I?
+GET {{base}}/api/org/me
+X-Dev-User: priya.sharma@psiog.com
+X-Dev-Roles: MANAGER
+
+### ---------- ADMIN: connect a LIVE Jira project (uses JIRA_EMAIL / JIRA_API_TOKEN) ----------
+POST {{base}}/api/admin/tool-configs
+Content-Type: application/json
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+{
+  "projectId": 1,
+  "toolType": "JIRA",
+  "mode": "LIVE",
+  "name": "Jira Cloud - PAY (live)",
+  "baseUrl": "https://YOUR-DOMAIN.atlassian.net",
+  "credentialRef": "jira",
+  "settings": { "projectKey": "PAY", "authType": "BASIC", "browseUrl": "https://YOUR-DOMAIN.atlassian.net", "storyPointsField": "customfield_10016" }
+}
+
+### ---------- ADMIN: connect a LIVE GitHub repo (uses GITHUB_TOKEN) ----------
+POST {{base}}/api/admin/tool-configs
+Content-Type: application/json
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+{
+  "projectId": 1,
+  "toolType": "GIT",
+  "mode": "LIVE",
+  "name": "GitHub - payments-api (live)",
+  "credentialRef": "github",
+  "settings": { "owner": "YOUR-ORG", "repo": "YOUR-REPO", "includeCommits": true, "maxPrPages": 5 }
+}
+
+### Sync one tool config now (incremental)
+POST {{base}}/api/admin/tool-configs/1/sync
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### See / change a project's field mapping (no code change)
+GET {{base}}/api/admin/tool-configs/1/mapping
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### Upload an export (CSV or JSON) for a FILE-mode config
+POST {{base}}/api/admin/tool-configs/13/import
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+Content-Type: multipart/form-data; boundary=b
+
+--b
+Content-Disposition: form-data; name="file"; filename="INS_export.csv"
+Content-Type: text/csv
+
+< ./src/main/resources/mock/jira/INS_export.csv
+--b--
+
+### ---------- Identity ----------
+GET {{base}}/api/identity/unmatched
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### Link Karthik's GitHub account (id from the unmatched list) to his profile
+POST {{base}}/api/identity/accounts/REPLACE_ACCOUNT_ID/link
+Content-Type: application/json
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+{ "associateId": 8, "note": "ksubbu is Karthik's GitHub login", "addAlias": true }
+
+### ---------- Org: move someone mid-period ----------
+POST {{base}}/api/admin/org/assignments/move
+Content-Type: application/json
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+{ "associateId": 5, "toProjectId": 2, "persona": "SENIOR_ENGINEER", "effectiveFrom": "2026-09-15" }
+
+### ---------- Manual data ----------
+POST {{base}}/api/activities/manual
+Content-Type: application/json
+X-Dev-User: kavya.reddy@psiog.com
+X-Dev-Roles: MANAGER
+
+{ "associateId": 12, "projectId": 4, "type": "DOCUMENT", "title": "Data retention policy (client wiki)",
+  "occurredAt": "2026-09-10T10:00:00Z", "reason": "Client wiki cannot be integrated" }
+
+### Edit a field on top of source data (source value is preserved)
+POST {{base}}/api/activities/1/overrides
+Content-Type: application/json
+X-Dev-User: priya.sharma@psiog.com
+X-Dev-Roles: MANAGER
+
+{ "field": "attributes.storyPoints", "value": "5", "reason": "Re-estimated in refinement" }
+
+### Context note
+POST {{base}}/api/context-notes
+Content-Type: application/json
+X-Dev-User: priya.sharma@psiog.com
+X-Dev-Roles: MANAGER
+
+{ "associateId": 5, "type": "SUPPORT_DUTY", "startDate": "2026-09-14", "endDate": "2026-09-18", "note": "On-call week" }
+
+### ---------- Model ----------
+GET {{base}}/api/models/active
+X-Dev-User: sneha.iyer@psiog.com
+X-Dev-Roles: EMPLOYEE
+
+### ---------- Scoring + reports ----------
+POST {{base}}/api/scoring/runs
+Content-Type: application/json
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+{ "from": "{{from}}", "to": "{{to}}" }
+
+### Project in focus
+GET {{base}}/api/reports/projects/1?from={{from}}&to={{to}}
+X-Dev-User: priya.sharma@psiog.com
+X-Dev-Roles: MANAGER
+
+### Project trend (monthly snapshots, each with the model version it used)
+GET {{base}}/api/reports/projects/1/trend?from={{from}}&to={{to}}
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+### Associate in focus (Vikram moved PAY -> CLM on 1 Aug)
+GET {{base}}/api/reports/associates/6?from={{from}}&to={{to}}
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+### Employee: own view only
+GET {{base}}/api/reports/me?from={{from}}&to={{to}}
+X-Dev-User: sneha.iyer@psiog.com
+X-Dev-Roles: EMPLOYEE
+
+### Employee trying to see someone else -> 403
+GET {{base}}/api/reports/associates/14?from={{from}}&to={{to}}
+X-Dev-User: sneha.iyer@psiog.com
+X-Dev-Roles: EMPLOYEE
+
+### Explain a score + drill down to evidence
+GET {{base}}/api/reports/scores/1/explain
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+###
+GET {{base}}/api/reports/scores/1/evidence?measureKey=code.prs_merged
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+### ---------- AI ----------
+GET {{base}}/api/insights/anomalies?from={{from}}&to={{to}}
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+###
+POST {{base}}/api/insights/associates/14/summary?from={{from}}&to={{to}}
+X-Dev-User: priya.sharma@psiog.com
+X-Dev-Roles: MANAGER
+
+###
+POST {{base}}/api/insights/projects/1/summary?from={{from}}&to={{to}}
+X-Dev-User: head@psiog.com
+X-Dev-Roles: SERVICE_HEAD
+
+### =================== LIVE JIRA (needs JIRA_BASE_URL, JIRA_EMAIL, JIRA_API_TOKEN) ===================
+### 1. Is the token OK?
+GET {{base}}/api/jira/connection
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### 2. Which projects can the token see?
+GET {{base}}/api/jira/projects
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### 3. Who is "nithish.kumar" in project KEY?
+GET {{base}}/api/jira/users/search?name=nithish.kumar&projectKey=KEY
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### 4. Tickets, story points, time logged, commits, PRs
+GET {{base}}/api/jira/users/nithish.kumar/summary?projectKey=KEY&from=2026-06-01&to=2026-09-30
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN
+
+### 4b. Same, whole history, with his GitHub login for commit/PR author matching
+GET {{base}}/api/jira/users/nithish.kumar/summary?projectKey=KEY&gitAliases=nithish-k
+X-Dev-User: admin@psiog.com
+X-Dev-Roles: ADMIN

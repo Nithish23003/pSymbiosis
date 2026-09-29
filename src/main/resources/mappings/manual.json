@@ -1,0 +1,24 @@
+{
+  "description": "Template for projects whose tools cannot be integrated: upload a CSV with these columns.",
+  "csvColumns": ["Id", "Type", "Title", "Person Email", "Person Name", "Date", "Story Points", "Completed", "Url"],
+  "activities": [
+    {
+      "when": { "kind": "row" },
+      "type": "$['Type']",
+      "externalId": "manual-csv-{$['Id']}",
+      "title": "$['Title']",
+      "url": "$['Url']",
+      "occurredAt": "$['Date']",
+      "actor": {
+        "externalId": { "path": "$['Person Email']", "type": "email" },
+        "email": { "path": "$['Person Email']", "type": "email" },
+        "displayName": "$['Person Name']"
+      },
+      "attributes": {
+        "storyPoints": { "path": "$['Story Points']", "type": "number" },
+        "completed": { "path": "$['Completed']", "equalsAny": ["yes", "true", "done", "y"] },
+        "merged": { "path": "$['Completed']", "equalsAny": ["yes", "true", "done", "y"] }
+      }
+    }
+  ]
+}

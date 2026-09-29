@@ -1,0 +1,55 @@
+{
+  "description": "Default Jira mapping. Override per project via tool-config fieldMapping, or tweak with settings (storyPointsField, browseUrl).",
+  "activities": [
+    {
+      "when": { "kind": "issue" },
+      "type": "TICKET",
+      "externalId": "$.key",
+      "title": "$.fields.summary",
+      "url": "${settings.browseUrl|https://your-domain.atlassian.net}/browse/{$.key}",
+      "occurredAt": ["$.fields.resolutiondate", "$.fields.updated"],
+      "actor": {
+        "externalId": ["$.fields.assignee.accountId", "$.fields.assignee.name"],
+        "username": "$.fields.assignee.name",
+        "email": "$.fields.assignee.emailAddress",
+        "displayName": "$.fields.assignee.displayName"
+      },
+      "attributes": {
+        "issueType": "$.fields.issuetype.name",
+        "status": "$.fields.status.name",
+        "priority": "$.fields.priority.name",
+        "completed": { "path": "$.fields.status.statusCategory.key", "equalsAny": ["done"] },
+        "storyPoints": { "path": "$.fields.${settings.storyPointsField|customfield_10016}", "type": "number" },
+        "createdAt": { "path": "$.fields.created", "type": "date" },
+        "resolvedAt": { "path": "$.fields.resolutiondate", "type": "date" },
+        "cycleTimeHours": { "type": "hoursBetween", "from": ["$._derived.firstInProgressAt", "$.fields.created"], "to": "$.fields.resolutiondate" },
+        "reopenCount": { "path": "$._derived.reopenCount", "type": "number", "default": 0 }
+      },
+      "skipWhen": { "path": "$.fields.assignee", "isNull": true }
+    },
+    {
+      "description": "Jira CSV export (Filters > Export > CSV all fields)",
+      "when": { "kind": "row" },
+      "type": "TICKET",
+      "externalId": "$['Issue key']",
+      "title": "$['Summary']",
+      "url": "${settings.browseUrl|https://your-domain.atlassian.net}/browse/{$['Issue key']}",
+      "occurredAt": ["$['Resolved']", "$['Updated']"],
+      "actor": {
+        "externalId": ["$['Assignee Id']", "$['Assignee']"],
+        "displayName": "$['Assignee']",
+        "email": { "path": "$['Assignee Email']", "type": "email" }
+      },
+      "attributes": {
+        "issueType": "$['Issue Type']",
+        "status": "$['Status']",
+        "completed": { "path": ["$['Status Category']", "$['Status']"], "equalsAny": ["Done", "Closed", "Resolved"] },
+        "storyPoints": { "path": ["$['Custom field (Story Points)']", "$['Story Points']", "$['Custom field (Story point estimate)']"], "type": "number" },
+        "createdAt": { "path": "$['Created']", "type": "date" },
+        "resolvedAt": { "path": "$['Resolved']", "type": "date" },
+        "cycleTimeHours": { "type": "hoursBetween", "from": "$['Created']", "to": "$['Resolved']" }
+      },
+      "skipWhen": { "path": "$['Assignee']", "isNull": true }
+    }
+  ]
+}

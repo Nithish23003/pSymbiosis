@@ -2,109 +2,193 @@
 
 ## Overview
 
-Perf Insight is a **6-layer engineering performance intelligence platform** built for Psiog. It ingests raw activity data from developer toolchains (JIRA, GitHub, Azure DevOps, TestRail, SharePoint), normalises and attributes it, scores each engineer across five weighted dimensions, detects anti-gaming patterns, and generates AI-grounded narrative insights — all with a full audit trail and access controls via Azure AD.
+Perf Insight is a **6-layer engineering performance intelligence platform** built for Psiog. It ingests raw activity data from developer toolchains (JIRA, GitHub, Azure DevOps, TestRail, SharePoint), normalises and attributes it, scores each engineer across five weighted dimensions, detects anti-gaming patterns, and generates AI-grounded narrative insights — all with a full audit trail and role-based access via Azure AD.
 
 ---
 
-## High-Level Architecture
+## 6-Layer Pipeline
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│          Cross-Cutting: Azure AD Roles · Row-Level Access · Audit Log           │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  1  INGEST       Connector SPI: LIVE | MOCK | FILE                              │
-│                  Jira · Azure DevOps · GitHub · TestRail · SharePoint           │
-│                  → raw_record (append-only, hash-deduplicated)                  │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  2  NORMALISE    JSON field-mapping per project (no code)                       │
-│                  → activity (canonical)                                         │
-│                  + activity_override (manual edits — who/when/why, never lost)  │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  3  RESOLVE      tool_account → associate (email/alias/fuzzy/manual)            │
-│                  effective-dated project_assignment → activity attributed to    │
-│                  project + role on the exact event date                         │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  4  SCORE        versioned performance_model → cohort percentiles               │
-│                  → score_result + score_component (full calculation trace)      │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  5  INSIGHT      8 deterministic anomaly/gaming rules                           │
-│                  → LLM plain-English summaries (grounded in computed facts)     │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  6  REPORT       project view · associate view · monthly trends · evidence      │
-└─────────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph EXT["External Sources"]
+        J[("Jira\nCloud / Server")]
+        G[("GitHub\nREST API")]
+        A[("Azure DevOps\nBoards")]
+        T[("TestRail\nAPI")]
+        S[("SharePoint\nGraph API")]
+        F[("CSV / JSON\nFile Export")]
+    end
+
+    subgraph L1["Layer 1 · INGEST"]
+        direction LR
+        C1["JiraConnector"]
+        C2["GitHubConnector"]
+        C3["AzureDevOpsConnector"]
+        C4["TestRailConnector"]
+        C5["SharePointConnector"]
+        CI["FileImportService"]
+        RR[("raw_record\nappend-only\nhash-dedup")]
+    end
+
+    subgraph L2["Layer 2 · NORMALISE"]
+        ME["MappingEngine\nJSONPath field mapping\nper project, no code"]
+        AO["activity_override\nhuman edits · who/when/why\nnever overwrites source"]
+        ACT[("activity\ncanonical")]
+    end
+
+    subgraph L3["Layer 3 · RESOLVE"]
+        IR["IdentityResolutionService\nemail → alias → fuzzy → manual"]
+        AT["AttributionService\nevent date → ProjectAssignment\n→ project + role on that day"]
+    end
+
+    subgraph L4["Layer 4 · SCORE"]
+        SC["ScoringService\nversioned model · cohort percentiles\npro-rated · exclusions · trace"]
+        SR[("score_result\n+ score_component\nfull calc trace")]
+    end
+
+    subgraph L5["Layer 5 · INSIGHT"]
+        AN["AnomalyService\n8 deterministic rules\ngaming detection"]
+        AI["AiInsightService\nLLM summaries\ngrounded in facts"]
+    end
+
+    subgraph L6["Layer 6 · REPORT"]
+        RP["ReportController\nproject · associate · trend\nexplain · evidence"]
+        DB["DashboardController\noverview · leaderboard\ndeveloper detail"]
+    end
+
+    J & G & A & T & S --> L1
+    F --> CI
+    C1 & C2 & C3 & C4 & C5 & CI --> RR
+    RR --> ME
+    ME --> ACT
+    AO -.->|"layered at\nread-time"| ACT
+    ACT --> IR
+    IR --> AT
+    AT --> SC
+    SC --> SR
+    SR --> AN
+    SR --> AI
+    SR --> RP
+    SR --> DB
+
+    style EXT fill:#f5f5f5,stroke:#bbb
+    style L1 fill:#e8f4fd,stroke:#90caf9
+    style L2 fill:#e8f5e9,stroke:#a5d6a7
+    style L3 fill:#fff3e0,stroke:#ffcc80
+    style L4 fill:#f3e5f5,stroke:#ce93d8
+    style L5 fill:#fce4ec,stroke:#f48fb1
+    style L6 fill:#e0f2f1,stroke:#80cbc4
 ```
 
 ---
 
-## Layer Descriptions
+## Deployment Architecture
 
-### Layer 1 — Ingest
+```mermaid
+flowchart LR
+    subgraph Browser["Browser — React 18 + TypeScript"]
+        UI["Perf Insight UI\nlocalhost:5173"]
+    end
 
-| Mode | Description |
-|------|-------------|
-| **LIVE** | Direct API calls to tool providers (Jira Cloud/Server, GitHub REST, Azure DevOps REST, TestRail API, SharePoint Graph delta) |
-| **MOCK** | Pre-shaped JSON files in `resources/mock/{tool}/` — identical shape to live API responses; switching to LIVE is a tool-config change, not a code change |
-| **FILE** | CSV or JSON file import for tools accessible only via export (e.g. client-managed Jira) |
+    subgraph API["API Server — Spring Boot 3.5 · Java 17 · :8080"]
+        SEC["OAuth2 Resource Server\nAzure AD JWT validation"]
+        CTRL["Controllers\nREST endpoints"]
+        SVC["Services\nBusiness Logic"]
+        SCHED["Schedulers\nSync every 6h\nSnapshot on 1st"]
+    end
 
-All raw records are **append-only** and hash-deduplicated — re-syncing is always safe.
+    subgraph DB["Database"]
+        MYSQL[("MySQL 8\nPerfromance_Platform")]
+    end
 
-Incremental sync uses a **watermark / delta cursor** per tool config. The default schedule is every 6 hours (`app.sync.cron`). The initial lookback window is configurable (`app.sync.initial-lookback-days`, default 180).
+    subgraph TOOLS["External Tool APIs"]
+        JIRA["Jira Cloud"]
+        GH["GitHub"]
+        ADO["Azure DevOps"]
+        TR["TestRail"]
+        SP["SharePoint\n(Graph API)"]
+    end
 
-### Layer 2 — Normalise
+    subgraph AI["AI Provider (optional)"]
+        OAI["OpenAI\nor Azure OpenAI"]
+    end
 
-Field mappings are stored as **JSON files per connector type** (`resources/mappings/{tool}.json`) and can be **overridden per project** through `PUT /api/admin/tool-configs/{id}/mapping`. Using JSONPath expressions, any custom field (e.g. `customfield_10028` for story points) maps to a canonical activity field without code changes.
+    subgraph AAD["Azure AD · Entra ID"]
+        IDP["JWT Issuer\nApp Roles\nUser Identity"]
+    end
 
-Manual entries have `origin=MANUAL` and require a free-text `reason`. Overrides keep the original value, the editor's identity, the timestamp, and whether the override is still active.
+    UI -->|"HTTPS\nBearer token"| SEC
+    AAD -->|"validates"| SEC
+    SEC --> CTRL
+    CTRL --> SVC
+    SVC --> MYSQL
+    SCHED --> TOOLS
+    SVC --> OAI
 
-### Layer 3 — Resolve
-
-**Identity Resolution** maps tool accounts (GitHub handles, Jira usernames, ADO identities) to canonical associates using a priority chain:
-
+    style Browser fill:#e3f2fd,stroke:#90caf9
+    style API fill:#f3e5f5,stroke:#ce93d8
+    style DB fill:#fff3e0,stroke:#ffcc80
+    style TOOLS fill:#e8f5e9,stroke:#a5d6a7
+    style AI fill:#fce4ec,stroke:#f48fb1
+    style AAD fill:#e0f2f1,stroke:#80cbc4
 ```
-1. Exact email match
-2. Email-prefix / alias match
-3. Display-name fuzzy match (Apache Commons Text similarity)
-4. Manual link (Admin/Manager override)
+
+---
+
+## Security & Access Control
+
+```mermaid
+flowchart TD
+    JWT["Azure AD JWT Token\n'roles' claim"]
+
+    JWT --> CONV["AzureAdJwtConverter\nmaps role values → AppRole enum"]
+
+    CONV --> R1["EMPLOYEE\nSelf data only"]
+    CONV --> R2["MANAGER\nOwn team + led projects\nManual entries & notes"]
+    CONV --> R3["SERVICE_HEAD\nOrg-wide read\nScoring & anomaly triggers"]
+    CONV --> R4["ADMIN\nFull access\n/api/admin/**"]
+
+    R1 & R2 & R3 & R4 --> ASC["AccessScopeService\nRow-level enforcement\non every report & activity"]
+
+    style JWT fill:#fff3e0,stroke:#ffcc80
+    style CONV fill:#f3e5f5,stroke:#ce93d8
+    style R1 fill:#e8f5e9,stroke:#a5d6a7
+    style R2 fill:#e3f2fd,stroke:#90caf9
+    style R3 fill:#fce4ec,stroke:#f48fb1
+    style R4 fill:#ffebee,stroke:#ef9a9a
+    style ASC fill:#e0f2f1,stroke:#80cbc4
 ```
 
-**Attribution** uses effective-dated `project_assignment` records (`validFrom`, `validTo`). If an engineer moved projects mid-period, each activity is attributed to the project and role they held **on the event date** — not their current assignment.
+---
 
-### Layer 4 — Score
+## Scoring Algorithm Flow
 
-Scoring is a **single, documented, deterministic method** applied the same way to everyone:
+```mermaid
+flowchart TD
+    IN["Associate + Period + Model"]
 
-1. Measures are drawn from effective (post-override) activity data.
-2. Count-based measures are **pro-rated to 20 active working days**. Days covered by manager context notes (leave, on-call duty) are removed from the denominator first.
-3. A measure with fewer data points than its `minSamples` is **excluded, not zeroed** — it cannot drag the score down due to sparse data.
-4. Each measure becomes a **mid-rank percentile** within its cohort (same role, optionally same offering; falls back to org-wide if the cohort is too small).
-5. Model weights start from the published base, then apply overrides from least-specific (persona) to most-specific (project). They are **renormalised** over measures with data; no single measure may exceed 40%.
-6. A score is produced only when: ≥ 3 measures available, data from ≥ 2 distinct tools, ≥ `min-active-days` working days. Otherwise: `INSUFFICIENT_DATA`.
+    IN --> SEG["Tenure Segmentation\nattributionEngine\nproject × role × date segments"]
+    SEG --> CTX["Context Adjustments\nManagerContextNotes\nremove leave/on-call days\nfrom denominator"]
+    CTX --> FILT["Activity Filtering\nperiod window · identity handles\nmanual entries"]
 
-Scores are **peer-relative positions**, not absolute ratings.
+    FILT --> D1["Delivery\n30%\nstory points + merged PRs\nvs persona benchmark"]
+    FILT --> D2["Quality\n25%\nbug leak rate\nrework bounce count"]
+    FILT --> D3["Review\n20%\nsubstantive reviews\nsuperficial filtered out"]
+    FILT --> D4["Documentation\n15%\nSharePoint docs\nword count bonus"]
+    FILT --> D5["Reliability\n10%\non-call bonus\ndeployment stability"]
 
-### Layer 5 — Insight
+    D1 & D2 & D3 & D4 & D5 --> WCS["Weighted Composite Score\n0 – 100"]
 
-**Deterministic anomaly rules (8):**
-- Self-merge / self-approval detection
-- Rubber-stamp code review (≤ threshold words, no substantive comments)
-- Micro-commit bursting (commit:lines ratio anomaly)
-- PR splitting (unusually high PR count relative to story points)
-- Point inflation (suspiciously high story-point estimates)
-- Ticket churning (excessive QA bounce count)
-- Duplicate test execution runs
-- Rapid-fire force-pushes
+    WCS --> BAND["Rating Band\n≥90 Exceeding\n≥80 Strong\n≥68 Meeting\n<68 Developing"]
+    WCS --> AGD["Anti-Gaming Detection\n8 deterministic rules\nflags only — no auto-penalty"]
+    WCS --> AIN["AI Narrative\nexecutive summary\nstrengths · growth areas"]
 
-**AI Summaries:** When `app.ai.provider` is set to `openai` or `azure-openai`, the `AiInsightService` generates narrative summaries grounded only in the computed facts from the scoring trace. A template fallback is available when no AI provider is configured.
-
-### Layer 6 — Report
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/reports/projects/{id}` | Project-level performance summary |
-| `GET /api/reports/associates/{id}` | Individual engineer report |
-| `GET /api/reports/associates/{id}/trend` | Monthly trend data |
-| `GET /api/scores/{id}/explain` | Full calculation trace with raw values, percentiles, and weights |
-| `GET /api/scores/{id}/evidence` | Drill-down to source activity records |
+    style IN fill:#e3f2fd,stroke:#90caf9
+    style WCS fill:#f3e5f5,stroke:#ce93d8
+    style BAND fill:#e8f5e9,stroke:#a5d6a7
+    style AGD fill:#fce4ec,stroke:#f48fb1
+    style AIN fill:#fff3e0,stroke:#ffcc80
+```
 
 ---
 
@@ -122,52 +206,9 @@ Scores are **peer-relative positions**, not absolute ratings.
 | `scoring` | Single standard scoring method + full calculation trace, monthly snapshot scheduler |
 | `insight` | Anomaly/gaming detection rules, AI summary generation |
 | `report` | Project and associate reports, trend APIs |
+| `dashboard` | Simplified KPI overview, leaderboard, developer detail views |
 | `audit` | Append-only audit log of every configuration and manual change |
 | `seed` | Demo dataset (3 offerings, 4 projects, 14 associates) |
-
----
-
-## Deployment Architecture
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  Client (Browser)                                                │
-│  React 18 + TypeScript + Vite                                    │
-│  Authorization: Bearer <Azure AD token>                          │
-└───────────────────────────────┬──────────────────────────────────┘
-                                │ HTTPS
-                                ▼
-┌──────────────────────────────────────────────────────────────────┐
-│  API Server — Spring Boot 3.5 (Java 17)                          │
-│  Port 8080                                                       │
-│  OAuth2 Resource Server (Azure AD Entra ID JWT)                  │
-│  Swagger UI: /swagger-ui.html                                    │
-└──────┬────────────────────────────────────────┬──────────────────┘
-       │                                        │
-       ▼                                        ▼
-┌──────────────┐                   ┌────────────────────────────────┐
-│  Database    │                   │  External Tool APIs            │
-│  MySQL /     │                   │  • Jira Cloud (Basic Auth)     │
-│  PostgreSQL  │                   │  • GitHub REST (PAT)           │
-└──────────────┘                   │  • Azure DevOps (PAT)          │
-                                   │  • TestRail (API Key)          │
-                                   │  • SharePoint Graph (OAuth2)   │
-                                   │  • OpenAI / Azure OpenAI       │
-                                   └────────────────────────────────┘
-```
-
----
-
-## Security Model
-
-| Azure AD Role | Data Visibility | Write Permissions |
-|---------------|----------------|-------------------|
-| `Employee` | Own data only | None |
-| `Manager` | Own team + projects they lead | Manual entries, overrides, context notes for their team |
-| `ServiceHead` | Organisation-wide | Trigger scoring runs, anomaly detection |
-| `Admin` | Organisation-wide | All configuration (org, tool configs, mappings, identity, models) |
-
-All API calls go through `AccessScopeService`, which enforces row-level access. `/api/admin/**` is restricted to the `Admin` role.
 
 ---
 
@@ -177,13 +218,13 @@ All API calls go through `AccessScopeService`, which enforces row-level access. 
 |---------|-----------|
 | Language | Java 17 |
 | Framework | Spring Boot 3.5.6 |
-| Database | MySQL (primary) / PostgreSQL (supported) |
-| ORM | Spring Data JPA / Hibernate |
+| Database | MySQL 8 (primary) / PostgreSQL 16 (docker-compose) |
+| ORM | Spring Data JPA / Hibernate (`ddl-auto: update` → use Flyway in prod) |
 | Security | Spring Security + OAuth2 Resource Server |
 | Identity Provider | Azure AD (Entra ID) |
-| API Docs | SpringDoc / Swagger UI |
+| API Docs | SpringDoc / Swagger UI (`/swagger-ui.html`) |
 | JSON Path | Jayway JsonPath |
 | Data Processing | Apache Commons CSV, Commons Math3, Commons Text |
-| AI Provider | OpenAI / Azure OpenAI (configurable; template fallback) |
+| AI Provider | OpenAI / Azure OpenAI (configurable; template fallback when `provider=none`) |
 | Containerisation | Docker Compose |
-| Build | Maven |
+| Build | Maven 3.9+ |

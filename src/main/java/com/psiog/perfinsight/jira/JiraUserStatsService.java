@@ -268,7 +268,7 @@ public class JiraUserStatsService {
 
     // ------------------------------------------------------------------------------------------------
 
-    private List<String> storyPointFields() {
+    public List<String> storyPointFields() {
         String cfg = props.getJira().getStoryPointsFields();
         if (!blank(cfg)) return Arrays.stream(cfg.split(",")).map(String::trim).filter(s -> !s.isEmpty()).toList();
         if (detectedStoryPointFields == null) {
